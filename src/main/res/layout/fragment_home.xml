@@ -47,15 +47,16 @@
 		    <LinearLayout
 		        android:layout_width="wrap_content"
 		    	android:layout_height="wrap_content"
-		        android:layout_marginLeft="86dp"
+		        android:layout_marginLeft="26dp"
 		        android:layout_marginTop="10dp"
 		    	android:orientation="vertical"
 		    	>
 		    	
 	       	    <TextView
 			        android:id="@+id/welcomeTextView"
-			        android:layout_width="wrap_content"
-			        android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
 			        style="@style/PlayerNameFont"
 			        android:text="@string/welcome_message" />
 	       	    
@@ -63,7 +64,8 @@
 			        android:id="@+id/youScoredTextView"
 			        android:layout_width="wrap_content"
 			        android:layout_height="wrap_content"
-			        style="@style/YouScoredFont"
+					android:paddingLeft="60dp"
+					style="@style/YouScoredFont"
 			        android:text="@string/you_scored_message" />
 		        
 		    </LinearLayout>

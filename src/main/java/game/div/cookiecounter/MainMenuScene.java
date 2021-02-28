@@ -491,7 +491,7 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 						cookieRate.setText(Common.milTrilConverter(
 								application.getCoins(), false)
-								+ " corrupts/sec");
+								+ " laranjas/min");
 
 						String milkHeight = application.getBombs() + "";
 						milk.setHeight(GameActivity.CAMERA_HEIGHT
@@ -1716,7 +1716,7 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 				} else if (pSceneTouchEvent.isActionUp()) {
 
 					
-					postMessageInThread("This is my score in Corrupt Puzzle : '" + cookieCount.getText() + "'. Do you think you can beat me!");
+					postMessageInThread("This is my score in #ForaDilma! : '" + cookieCount.getText() + "'. Do you think you can beat me!");
 					
 					//
 					// if(getmGoogleApi().isConnected())

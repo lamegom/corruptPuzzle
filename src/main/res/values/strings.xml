@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">CORRUPT Puzzle</string>
+    <string name="app_name">#ForaDilma!</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="action_search">Search</string>
@@ -12,10 +12,10 @@
     <string name="facebook_app_id">1534336870138799</string>
 
     
-    <string name="title_activity_home">CORRUPT Puzzle</string>
+    <string name="title_activity_home">#ForaDilma!</string>
     <string name="parse_app_id">Fg10b9NTZWRFS5TQzhwkhoOcXlXCIzgUwV9bhvfb</string>
     <string name="parse_client_key">gbjDyLmaO5vD20Wwws2E3fvPKU7LMZh7eOaxRvZt</string>    
-    <string name="welcome_message">Welcome, Player</string>
+    <string name="welcome_message">A alegria do palhaço é ver o circo pegar fogo!</string>
     <string name="game_over">Game Over!</string>
     <string name="you_scored_message"></string>
     <string name="network_error">Please check your network connection</string>

@@ -360,6 +360,10 @@
         "source": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\src\\main\\res\\drawable-hdpi\\ic_launcher1024x1024_blackfriday.png"
     },
     {
+        "merged": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher1024x1024.png.flat",
+        "source": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\src\\main\\res\\drawable-xhdpi\\ic_launcher1024x1024.png"
+    },
+    {
         "merged": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_button_pressed.9.png.flat",
         "source": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\src\\main\\res\\drawable-xhdpi\\button_pressed.9.png"
     },
@@ -374,6 +378,10 @@
     {
         "merged": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_none.jpg.flat",
         "source": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\src\\main\\res\\drawable-hdpi\\none.jpg"
+    },
+    {
+        "merged": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher1024x1024.png.flat",
+        "source": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\src\\main\\res\\drawable-xxhdpi\\ic_launcher1024x1024.png"
     },
     {
         "merged": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_close_button.png.flat",

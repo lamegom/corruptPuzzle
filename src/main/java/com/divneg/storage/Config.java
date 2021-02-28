@@ -22,17 +22,16 @@ public class Config {
 	// The Item Names
 	public static String 	ITEM1 = "2011.Palocci consultor";
    public static String      ITEM2 = "2011.Escândalo no Trabalho";
-   public static String      ITEM3 = "2011.Escândalo no Esporte";
-   public static String      ITEM4 = "2011.Escândalo em Cidades";
-    public static String     ITEM5 = "2011.Escândalo no Turismo";
-   public static String      ITEM6 = "2011.Escândalo nos Transportes";
-   public static String      ITEM7 = "2011.Escândalo na Agricultura";
-	public static String 	ITEM8 = "2012.Operação Porto Seguro";
-    public static String     ITEM9 = "2012.Escândalo na Pesca";
-    public static String     ITEM10 = "2012.Caso Cachoeira";
-	public static String 	ITEM11 = "2013.Máfia do ISS";
-	public static String 	ITEM12 = "2014.Operação Lava Jato";
-		
+   public static String      ITEM3 = "2011.Escândalo nos Transportes";
+   public static String      ITEM4 = "2011.Escândalo na Agricultura";
+	public static String 	ITEM5 = "2012.Operação Porto Seguro";
+    public static String     ITEM6 = "2012.Escândalo na Pesca";
+    public static String     ITEM7 = "2012.Caso Cachoeira";
+	public static String 	ITEM8 = "2013.Máfia do ISS";
+	public static String 	ITEM9 = "2014.Operação Lava Jato";
+	public static String      ITEM10 = "2011.Escândalo no Esporte";
+	public static String      ITEM11 = "2011.Escândalo em Cidades";
+	public static String     ITEM12 = "2011.Escândalo no Turismo";
 	public static String ITEM13 = "Falsifying signatures";
 	public static String ITEM14 = "Create links with terrorists";
 	public static String ITEM15 = "Exit the bar without paying";

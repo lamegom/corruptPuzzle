@@ -355,7 +355,9 @@ public class ShopList extends AppCompatActivity  {
 					showToast(NOT_ENOUGH);
 				}
 				break;
-			case 9:
+
+				/*
+				case 9:
 				if(increaseCPS(mPosition)){
 				Config.fillData("Antimatter Condenser", String.valueOf(Float
 						.parseFloat(Config.getData("Antimatter Condenser")) + 1));
@@ -380,6 +382,7 @@ public class ShopList extends AppCompatActivity  {
 					showToast(NOT_ENOUGH);
 				}
 				break;
+				*/
 			}
 			// on click the buy button
 			
