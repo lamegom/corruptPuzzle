@@ -38,11 +38,11 @@ public class Common {
 //				num = num.substring(0, num.length() - 32);
 				num = (Double.valueOf(num) / 1000000000000000000000000000000000.00)+"";
 			
-				type += " Nonallion";
+				type += " Nonalhões";
 			} else if (num.length() >= 30) {
 //				num = num.substring(0, num.length() - 29);
 				num = (Double.valueOf(num) / 1000000000000000000000000000.00)+"";
-				type += " Octillion";
+				type += " Octiliões";
 			} else if (num.length() >= 27) {
 //				num = num.substring(0, num.length() - 26);
 				num = (Double.valueOf(num) / 1000000000000000000000000.00)+"";
@@ -50,36 +50,36 @@ public class Common {
 			} else if (num.length() >= 24) {
 //				num = num.substring(0, num.length() - 23);
 				num = (Double.valueOf(num) / 1000000000000000000000.00)+"";
-				type += " Sextillion";
+				type += " Sextilhões";
 			} else if (num.length() >= 21) {
 //				num = num.substring(0, num.length() - 20);
 				num = (Double.valueOf(num) / 1000000000000000000.00)+"";
-				type += " Quintillion";
+				type += " Quintilhões";
 			} else if (num.length() >= 18) {
 //				num = num.substring(0, num.length() - 17);
 				num = (Double.valueOf(num) / 1000000000000000.00)+"";
-				type += " Quadrillion";
+				type += " Quadrilhões";
 			} else if (num.length() >= 15) {
 //				num = num.substring(0, num.length() - 14);
 				num = (Double.valueOf(num) / 1000000000000.00)+"";
-				type += " Trillion";
+				type += " Trilhões";
 
 			} else if (num.length() >= 12) {
 //				num = num.substring(0, num.length() - 11);
 				num = (Double.valueOf(num) / 1000000000.00)+"";
 				
-				type += " Billion";
+				type += " Bilhões";
 			} else if (num.length() >= 9) {
 //				num = num.substring(0, num.length() - 8);
 				num = (Double.valueOf(num) / 1000000.00)+"";
 				
-				type += " Million";
+				type += " Milhões";
 			}
 		}
 		
-		out = convertNum(num, currency);
+		//out = convertNum(num, currency);
 		
-		return out + type;
+		return num + type;
 
 	}
 	

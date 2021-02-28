@@ -226,7 +226,7 @@ public class ShopList extends AppCompatActivity  {
 
 	private class OnItemClickListener implements OnClickListener {
 		private int mPosition;
-		private static final String NOT_ENOUGH = "It's better more #StopCorruption to a thing like that!";
+		private static final String NOT_ENOUGH = "Você precisa de mais pessoas mortas para ir neste local";
 
 		OnItemClickListener(int position) {
 			mPosition = position;
@@ -398,39 +398,39 @@ public class ShopList extends AppCompatActivity  {
 
 		shopData.add(new ShopItem(BitmapFactory.decodeResource(getResources(),
 				R.drawable.cursoricon), Config.ITEM1,
-				Common.milTrilConverter(Double.valueOf(Config.ITEM1COST), true), Config.ITEM1NUM));
+				Common.milTrilConverter(Double.valueOf(Config.ITEM1COST), false), Config.ITEM1NUM));
 		
 		shopData.add(new ShopItem(BitmapFactory.decodeResource(getResources(),
 				R.drawable.grandma_icon), Config.ITEM2,
-				Common.milTrilConverter(Double.valueOf(Config.ITEM2COST), true), Config.ITEM2NUM));
+				Common.milTrilConverter(Double.valueOf(Config.ITEM2COST), false), Config.ITEM2NUM));
 		
 		shopData.add(new ShopItem(BitmapFactory.decodeResource(getResources(),
 				R.drawable.farm), Config.ITEM3,
-				Common.milTrilConverter(Double.valueOf(Config.ITEM3COST), true), Config.ITEM3NUM));
+				Common.milTrilConverter(Double.valueOf(Config.ITEM3COST), false), Config.ITEM3NUM));
 		shopData.add(new ShopItem(BitmapFactory.decodeResource(getResources(),
 				R.drawable.factory_icon), Config.ITEM4,
-				Common.milTrilConverter(Double.valueOf(Config.ITEM4COST), true), Config.ITEM4NUM));
+				Common.milTrilConverter(Double.valueOf(Config.ITEM4COST), false), Config.ITEM4NUM));
 		shopData.add(new ShopItem(BitmapFactory.decodeResource(getResources(),
 				R.drawable.mine), Config.ITEM5,
-				Common.milTrilConverter(Double.valueOf(Config.ITEM5COST), true), Config.ITEM5NUM));
+				Common.milTrilConverter(Double.valueOf(Config.ITEM5COST), false), Config.ITEM5NUM));
 		shopData.add(new ShopItem(BitmapFactory.decodeResource(getResources(),
 				R.drawable.shipment_icon), Config.ITEM6,
-				Common.milTrilConverter(Double.valueOf(Config.ITEM6COST), true), Config.ITEM6NUM));
+				Common.milTrilConverter(Double.valueOf(Config.ITEM6COST), false), Config.ITEM6NUM));
 		shopData.add(new ShopItem(BitmapFactory.decodeResource(getResources(),
 				R.drawable.alchemylab), Config.ITEM7,
-				Common.milTrilConverter(Double.valueOf(Config.ITEM7COST), true), Config.ITEM7NUM));
+				Common.milTrilConverter(Double.valueOf(Config.ITEM7COST), false), Config.ITEM7NUM));
 		shopData.add(new ShopItem(BitmapFactory.decodeResource(getResources(),
 				R.drawable.portal), Config.ITEM8,
-				Common.milTrilConverter(Double.valueOf(Config.ITEM8COST), true), Config.ITEM8NUM));
+				Common.milTrilConverter(Double.valueOf(Config.ITEM8COST), false), Config.ITEM8NUM));
 		shopData.add(new ShopItem(BitmapFactory.decodeResource(getResources(),
 				R.drawable.timemachine), Config.ITEM9,
-				Common.milTrilConverter(Double.valueOf(Config.ITEM9COST), true), Config.ITEM9NUM));
-		shopData.add(new ShopItem(BitmapFactory.decodeResource(getResources(),
+				Common.milTrilConverter(Double.valueOf(Config.ITEM9COST), false), Config.ITEM9NUM));
+/*		shopData.add(new ShopItem(BitmapFactory.decodeResource(getResources(),
 				R.drawable.antimattercondenser), Config.ITEM10,
-				Common.milTrilConverter(Double.valueOf(Config.ITEM10COST), true), Config.ITEM10NUM));
+				Common.milTrilConverter(Double.valueOf(Config.ITEM10COST), false), Config.ITEM10NUM));
 		shopData.add(new ShopItem(BitmapFactory.decodeResource(getResources(),
 				R.drawable.prism), Config.ITEM11,
-				Common.milTrilConverter(Double.valueOf(Config.ITEM11COST), true), Config.ITEM11NUM));
+				Common.milTrilConverter(Double.valueOf(Config.ITEM11COST), false), Config.ITEM11NUM));*/
 	}
 
 

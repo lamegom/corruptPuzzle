@@ -5,7 +5,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:padding="10dp"
-    android:background="#DAAA" >
+    android:background="#F0F0F0" >
 
     <ImageView android:id="@+id/image"
         android:layout_width="wrap_content"
@@ -15,6 +15,6 @@
     <TextView android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
-        android:textColor="#FFF" />
+        android:textColor="#000000" />
 
 </LinearLayout>

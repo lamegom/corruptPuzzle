@@ -1,71 +1,70 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="game.div.cookiecounter"
-4    android:versionCode="1"
-5    android:versionName="1.0" >
+3    package="game.div.foradilma"
+4    android:versionCode="17"
+5    android:versionName="17.0" >
 6
 7    <uses-sdk
-7-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:7:5-10:11
 8        android:minSdkVersion="16"
-8-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:8:9-34
+8-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:9:9-38
+9-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.WAKE_LOCK" />
-11-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:12:5-68
-11-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:12:22-65
+11-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:7:5-68
+11-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:7:22-65
 12    <uses-permission android:name="android.permission.VIBRATE" />
-12-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:13:5-66
-12-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:13:22-63
+12-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:8:5-66
+12-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:8:22-63
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:14:5-67
-13-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:14:22-64
+13-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:9:5-67
+13-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:9:22-64
 14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-14-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:15:5-79
-14-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:15:22-76
+14-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:10:5-79
+14-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:10:22-76
 15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-15-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:16:5-75
-15-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:16:22-72
+15-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:11:5-75
+15-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:11:22-72
 16    <uses-permission android:name="com.android.vending.BILLING" />
-16-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:17:6-68
-16-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:17:23-65
+16-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:12:6-68
+16-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:12:23-65
 17    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-17-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:20:9-75
-17-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:20:26-72
+17-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:15:9-75
+17-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:15:26-72
 18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-18-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:21:5-82
-18-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:21:22-79
+18-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:16:5-82
+18-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:16:22-79
 19
 20    <application
-20-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:25:5-114:19
+20-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:20:5-109:19
 21        android:name="com.facebook.android.friendsmash.FriendSmashApplication"
-21-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:30:9-79
+21-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:25:9-79
 22        android:allowBackup="true"
-22-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:26:9-35
+22-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:21:9-35
 23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 23-->[androidx.core:core:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\c1e491d6a408ac46fb5e05c7f93c615d\transformed\core-1.0.0\AndroidManifest.xml:22:18-86
 24        android:debuggable="true"
 25        android:icon="@drawable/ic_launcher"
-25-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:27:9-45
+25-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:22:9-45
 26        android:label="@string/app_name"
-26-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:28:9-41
+26-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:23:9-41
 27        android:theme="@style/AppTheme" >
-27-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:29:9-40
+27-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:24:9-40
 28        <activity
-28-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:34:8-42:20
+28-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:29:8-37:20
 29            android:name="game.div.cookiecounter.MainActivity"
-29-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:35:13-63
+29-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:30:13-63
 30            android:label="@string/app_name" >
-30-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:36:13-45
+30-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:31:13-45
 31            <intent-filter>
-31-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:37:13-41:29
+31-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:32:13-36:29
 32                <action android:name="android.intent.action.MAIN" />
-32-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:38:17-69
-32-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:38:25-66
+32-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:33:17-69
+32-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:33:25-66
 33
 34                <category android:name="android.intent.category.DEFAULT" />
-34-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:40:17-76
-34-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:40:27-73
+34-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:35:17-76
+34-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:35:27-73
 35            </intent-filter>
 36        </activity>
 37        <!--
@@ -80,24 +79,24 @@
 46        </activity>
 47        -->
 48        <activity
-48-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:52:9-61:20
+48-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:47:9-56:20
 49            android:name="game.div.cookiecounter.GameActivity"
-49-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:53:13-63
+49-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:48:13-63
 50            android:configChanges="keyboard|keyboardHidden|orientation"
-50-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:54:13-72
+50-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:49:13-72
 51            android:label="@string/app_name"
-51-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:55:13-45
+51-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:50:13-45
 52            android:screenOrientation="portrait" >
-52-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:56:13-49
+52-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:51:13-49
 53            <intent-filter>
-53-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:57:13-60:29
+53-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:52:13-55:29
 54                <action android:name="android.intent.action.MAIN" />
-54-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:38:17-69
-54-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:38:25-66
+54-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:33:17-69
+54-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:33:25-66
 55
 56                <category android:name="android.intent.category.LAUNCHER" />
-56-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:59:18-78
-56-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:59:28-75
+56-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:54:18-78
+56-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:54:28-75
 57            </intent-filter>
 58        </activity>
 59        <!--
@@ -122,72 +121,72 @@
 78        </activity>
 79        -->
 80        <activity
-80-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:81:9-89:20
+80-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:76:9-84:20
 81            android:name="game.div.cookiecounter.Pp"
-81-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:82:13-53
+81-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:77:13-53
 82            android:label="@string/app_name" >
-82-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:83:13-45
+82-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:78:13-45
 83            <intent-filter>
-83-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:37:13-41:29
+83-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:32:13-36:29
 84                <action android:name="android.intent.action.MAIN" />
-84-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:38:17-69
-84-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:38:25-66
+84-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:33:17-69
+84-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:33:25-66
 85
 86                <category android:name="android.intent.category.DEFAULT" />
-86-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:40:17-76
-86-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:40:27-73
+86-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:35:17-76
+86-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:35:27-73
 87            </intent-filter>
 88        </activity>
 89        <activity
-89-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:90:9-98:20
+89-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:85:9-93:20
 90            android:name="game.div.cookiecounter.TouchDragExample"
-90-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:91:13-67
+90-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:86:13-67
 91            android:label="@string/app_name" >
-91-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:92:13-45
+91-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:87:13-45
 92            <intent-filter>
-92-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:37:13-41:29
+92-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:32:13-36:29
 93                <action android:name="android.intent.action.MAIN" />
-93-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:38:17-69
-93-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:38:25-66
+93-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:33:17-69
+93-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:33:25-66
 94
 95                <category android:name="android.intent.category.DEFAULT" />
-95-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:40:17-76
-95-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:40:27-73
+95-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:35:17-76
+95-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:35:27-73
 96            </intent-filter>
 97        </activity>
 98        <activity
-98-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:99:10-111:20
+98-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:94:10-106:20
 99            android:name="game.div.cookiecounter.ShopList"
-99-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:100:13-59
+99-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:95:13-59
 100            android:label="@string/app_name"
-100-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:101:13-45
+100-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:96:13-45
 101            android:theme="@style/Theme.AppCompat.Light" >
-101-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:102:13-57
+101-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:97:13-57
 102            <meta-data
-102-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:103:13-105:67
+102-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:98:13-100:67
 103                android:name="android.support.PARENT_ACTIVITY"
-103-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:104:13-59
+103-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:99:13-59
 104                android:value="game.div.cookiecounter.MainActivity" />
-104-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:105:13-64
+104-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:100:13-64
 105
 106            <intent-filter>
-106-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:37:13-41:29
+106-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:32:13-36:29
 107                <action android:name="android.intent.action.MAIN" />
-107-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:38:17-69
-107-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:38:25-66
+107-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:33:17-69
+107-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:33:25-66
 108
 109                <category android:name="android.intent.category.DEFAULT" />
-109-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:40:17-76
-109-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:40:27-73
+109-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:35:17-76
+109-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:35:27-73
 110            </intent-filter>
 111        </activity>
 112
 113        <meta-data
-113-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:113:9-107
+113-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:108:9-107
 114            android:name="com.facebook.sdk.ApplicationId"
-114-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:113:60-105
+114-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:108:60-105
 115            android:value="@string/facebook_app_id" />
-115-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:113:20-59
+115-->C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:108:20-59
 116    </application>
 117
 118</manifest>

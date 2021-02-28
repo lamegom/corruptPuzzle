@@ -20,31 +20,31 @@ public class Config {
 //	public static double COOKIES = Double.MIN_VALUE;
 	
 	// The Item Names
-	public static String 	ITEM1 = "2011.Palocci consultor";
-   public static String      ITEM2 = "2011.Escândalo no Trabalho";
-   public static String      ITEM3 = "2011.Escândalo nos Transportes";
-   public static String      ITEM4 = "2011.Escândalo na Agricultura";
-	public static String 	ITEM5 = "2012.Operação Porto Seguro";
-    public static String     ITEM6 = "2012.Escândalo na Pesca";
-    public static String     ITEM7 = "2012.Caso Cachoeira";
-	public static String 	ITEM8 = "2013.Máfia do ISS";
-	public static String 	ITEM9 = "2014.Operação Lava Jato";
-	public static String      ITEM10 = "2011.Escândalo no Esporte";
-	public static String      ITEM11 = "2011.Escândalo em Cidades";
-	public static String     ITEM12 = "2011.Escândalo no Turismo";
-	public static String ITEM13 = "Falsifying signatures";
-	public static String ITEM14 = "Create links with terrorists";
-	public static String ITEM15 = "Exit the bar without paying";
-	public static String ITEM16 = "Finance churches for financial use";
-	public static String ITEM17 = "Borrowing and not return";
-	public static String ITEM18 = "Take advantage of the weakest";
-	public static String ITEM19 = "Blaming someone else for what he did";
-	public static String ITEM20 = "Conspiracy";
-	public static String ITEM21 = "Simulate a disease";
-	public static String ITEM22 = "Overcoming red light";
-	public static String ITEM23 = "Install a money laundering scheme";
-	public static String ITEM24 = "Install a forgery scheme";
-	public static String ITEM25 = "Authorities of Blackmail";
+	public static String 	ITEM1 = "CASA";
+   public static String      ITEM2 = "VIA PÚBLICA";
+   public static String      ITEM3 = "DROGARIA";
+   public static String      ITEM4 = "ACADEMIA";
+	public static String 	ITEM5 = "CINEMA";
+    public static String     ITEM6 = "ELEVADOR";
+    public static String     ITEM7 = "BANCO";
+	public static String 	ITEM8 = "TRASPORTE PÚBLICO";
+	public static String 	ITEM9 = "HOSPITAL";
+//	public static String      ITEM10 = "2011.Escândalo no Esporte";
+//	public static String      ITEM11 = "2011.Escândalo em Cidades";
+//	public static String     ITEM12 = "2011.Escândalo no Turismo";
+//	public static String ITEM13 = "Falsifying signatures";
+//	public static String ITEM14 = "Create links with terrorists";
+//	public static String ITEM15 = "Exit the bar without paying";
+//	public static String ITEM16 = "Finance churches for financial use";
+//	public static String ITEM17 = "Borrowing and not return";
+//	public static String ITEM18 = "Take advantage of the weakest";
+//	public static String ITEM19 = "Blaming someone else for what he did";
+//	public static String ITEM20 = "Conspiracy";
+//	public static String ITEM21 = "Simulate a disease";
+//	public static String ITEM22 = "Overcoming red light";
+//	public static String ITEM23 = "Install a money laundering scheme";
+//	public static String ITEM24 = "Install a forgery scheme";
+//	public static String ITEM25 = "Authorities of Blackmail";
 
 
 	// The Item Numbers

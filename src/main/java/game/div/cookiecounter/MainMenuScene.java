@@ -486,12 +486,12 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 //						if(application.getCurrentFBUser()!=null){
 						
 						cookieCount.setText(Common.milTrilConverter(
-								application.getBombs(), true)
+								application.getBombs(), false)
 								+ " ");
 
 						cookieRate.setText(Common.milTrilConverter(
 								application.getCoins(), false)
-								+ " laranjas/min");
+								+ " mortes/min");
 
 						String milkHeight = application.getBombs() + "";
 						milk.setHeight(GameActivity.CAMERA_HEIGHT
@@ -599,6 +599,8 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 		createBackground();
 
+		createMilk();
+
 		createFloor();
 
 		createRoof();
@@ -608,8 +610,6 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 		createRays();
 
 		createCookie();
-
-		createMilk();
 
 		createShop();
 
@@ -1716,7 +1716,7 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 				} else if (pSceneTouchEvent.isActionUp()) {
 
 					
-					postMessageInThread("This is my score in #ForaDilma! : '" + cookieCount.getText() + "'. Do you think you can beat me!");
+					postMessageInThread("This is my score in SUPER Covid-19 : '" + cookieCount.getText() + "'. Do you think you can beat me!");
 					
 					//
 					// if(getmGoogleApi().isConnected())

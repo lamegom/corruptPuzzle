@@ -8,16 +8,16 @@
         "source": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\src\\main\\res\\drawable-xxhdpi\\frontscreen_background_land.png"
     },
     {
-        "merged": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_mfs_clicker_invite.png.flat",
-        "source": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\src\\main\\res\\drawable-xxhdpi\\mfs_clicker_invite.png"
+        "merged": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_title_banner.png.flat",
+        "source": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\src\\main\\res\\drawable-xxhdpi\\title_banner.png"
     },
     {
         "merged": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_store_tile.png.flat",
         "source": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\src\\main\\res\\drawable-hdpi\\store_tile.png"
     },
     {
-        "merged": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_title_banner.png.flat",
-        "source": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\src\\main\\res\\drawable-xxhdpi\\title_banner.png"
+        "merged": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_mfs_clicker_invite.png.flat",
+        "source": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\src\\main\\res\\drawable-xxhdpi\\mfs_clicker_invite.png"
     },
     {
         "merged": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bomb.png.flat",
@@ -86,6 +86,10 @@
     {
         "merged": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_search.png.flat",
         "source": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\src\\main\\res\\drawable-xhdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_shop.jpg.flat",
+        "source": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\src\\main\\res\\drawable-xxhdpi\\shop.jpg"
     },
     {
         "merged": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
@@ -164,12 +168,12 @@
         "source": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\src\\main\\res\\drawable-xxhdpi\\nonfriend_4.png"
     },
     {
-        "merged": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home_fb_logged_out.xml.flat",
-        "source": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\src\\main\\res\\layout\\fragment_home_fb_logged_out.xml"
-    },
-    {
         "merged": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_profile_holder_invert.png.flat",
         "source": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\src\\main\\res\\drawable-xxhdpi\\profile_holder_invert.png"
+    },
+    {
+        "merged": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home_fb_logged_out.xml.flat",
+        "source": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\src\\main\\res\\layout\\fragment_home_fb_logged_out.xml"
     },
     {
         "merged": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_shop.jpg.flat",

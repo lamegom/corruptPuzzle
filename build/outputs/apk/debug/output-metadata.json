@@ -4,14 +4,14 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "game.div.cookiecounter",
+  "applicationId": "game.div.foradilma",
   "variantName": "processDebugResources",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
-      "versionCode": 1,
-      "versionName": "1.0",
+      "versionCode": 17,
+      "versionName": "17.0",
       "outputFile": "corruptPuzzle-debug.apk"
     }
   ]
