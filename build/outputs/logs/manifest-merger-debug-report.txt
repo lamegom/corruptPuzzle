@@ -1,0 +1,232 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:2:1-116:12
+INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:2:1-116:12
+INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:2:1-116:12
+INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:2:1-116:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\5dde252716430babe1b803f986958487\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\32969f43f8bf603df4672a037d81cdb6\transformed\appcompat-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\2745aedd3da27d4100ffcda250759c36\transformed\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\f4f9bee3bcfb8b7e1e325a1219be0bae\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\222f89b29cab78a1bdc3fca7eafcfa6a\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\6b170813866bb374cd6fc827c89c0f4e\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\60735ee20109b4479f0174606a021a7d\transformed\vectordrawable-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\bccd57863cd7b64386c3cf730f478689\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\e70ed47ade4b6f0741a411a7922d5815\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\e78d732d550d417d5fcb71e89042c508\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\a7858f0ae3ea69ddd702591e1acd72c4\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\6084735734db5a0c5c16490269311710\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\a0e89d35bffe7b1291bb23ee78e80fdd\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\27631a27020079a06616d31a4433e65c\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\59a61d06bd91b932bccd7a8c5fdbe8ee\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\c1e491d6a408ac46fb5e05c7f93c615d\transformed\core-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\fff1a0faab4883c80a59c9bc44aa6afa\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\d171f092ddcbf6ddaa004cf467d71175\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\e5acd647cbd829c0b7f699c7abe505e7\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\7f9a8761e06717cfcfe7857cc3892468\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\a64f108c21b4ff029630e1659a9fb4bc\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\c8c0fba0820c6f196b9a90d647f26005\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\998cf1f2cdd275949302523022388d95\transformed\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\1544ce18c2d5899e97eaff06a7c8664b\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\9b38c073917de38e0d15a9c1071eb4a9\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\ba8b56e8de6f21de1d959fb02b28a17a\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\0fa43a0115bd756eb55b010dab500396\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:2:1-116:12
+INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:2:1-116:12
+INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:2:1-116:12
+	package
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:5:5-31
+		INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:4:5-29
+		INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:7:5-10:11
+INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:7:5-10:11
+INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:7:5-10:11
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\5dde252716430babe1b803f986958487\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\5dde252716430babe1b803f986958487\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\32969f43f8bf603df4672a037d81cdb6\transformed\appcompat-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\32969f43f8bf603df4672a037d81cdb6\transformed\appcompat-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\2745aedd3da27d4100ffcda250759c36\transformed\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\2745aedd3da27d4100ffcda250759c36\transformed\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\f4f9bee3bcfb8b7e1e325a1219be0bae\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\f4f9bee3bcfb8b7e1e325a1219be0bae\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\222f89b29cab78a1bdc3fca7eafcfa6a\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\222f89b29cab78a1bdc3fca7eafcfa6a\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\6b170813866bb374cd6fc827c89c0f4e\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\6b170813866bb374cd6fc827c89c0f4e\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\60735ee20109b4479f0174606a021a7d\transformed\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\60735ee20109b4479f0174606a021a7d\transformed\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\bccd57863cd7b64386c3cf730f478689\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\bccd57863cd7b64386c3cf730f478689\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\e70ed47ade4b6f0741a411a7922d5815\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\e70ed47ade4b6f0741a411a7922d5815\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\e78d732d550d417d5fcb71e89042c508\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\e78d732d550d417d5fcb71e89042c508\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\a7858f0ae3ea69ddd702591e1acd72c4\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\a7858f0ae3ea69ddd702591e1acd72c4\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\6084735734db5a0c5c16490269311710\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\6084735734db5a0c5c16490269311710\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\a0e89d35bffe7b1291bb23ee78e80fdd\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\a0e89d35bffe7b1291bb23ee78e80fdd\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\27631a27020079a06616d31a4433e65c\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\27631a27020079a06616d31a4433e65c\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\59a61d06bd91b932bccd7a8c5fdbe8ee\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\59a61d06bd91b932bccd7a8c5fdbe8ee\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\c1e491d6a408ac46fb5e05c7f93c615d\transformed\core-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\c1e491d6a408ac46fb5e05c7f93c615d\transformed\core-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\fff1a0faab4883c80a59c9bc44aa6afa\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\fff1a0faab4883c80a59c9bc44aa6afa\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\d171f092ddcbf6ddaa004cf467d71175\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\d171f092ddcbf6ddaa004cf467d71175\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\e5acd647cbd829c0b7f699c7abe505e7\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\e5acd647cbd829c0b7f699c7abe505e7\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\7f9a8761e06717cfcfe7857cc3892468\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\7f9a8761e06717cfcfe7857cc3892468\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\a64f108c21b4ff029630e1659a9fb4bc\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\a64f108c21b4ff029630e1659a9fb4bc\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\c8c0fba0820c6f196b9a90d647f26005\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\c8c0fba0820c6f196b9a90d647f26005\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\998cf1f2cdd275949302523022388d95\transformed\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\998cf1f2cdd275949302523022388d95\transformed\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\1544ce18c2d5899e97eaff06a7c8664b\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\1544ce18c2d5899e97eaff06a7c8664b\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\9b38c073917de38e0d15a9c1071eb4a9\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\9b38c073917de38e0d15a9c1071eb4a9\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\ba8b56e8de6f21de1d959fb02b28a17a\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\ba8b56e8de6f21de1d959fb02b28a17a\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\0fa43a0115bd756eb55b010dab500396\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\0fa43a0115bd756eb55b010dab500396\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:7:5-10:11
+INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:7:5-10:11
+	android:targetSdkVersion
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:12:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:13:5-66
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:13:22-63
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:14:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:16:22-72
+uses-permission#com.android.vending.BILLING
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:17:6-68
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:17:23-65
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:20:9-75
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:20:26-72
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:21:5-82
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:21:22-79
+application
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:25:5-114:19
+MERGED from [androidx.core:core:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\c1e491d6a408ac46fb5e05c7f93c615d\transformed\core-1.0.0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\c1e491d6a408ac46fb5e05c7f93c615d\transformed\core-1.0.0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\fff1a0faab4883c80a59c9bc44aa6afa\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\fff1a0faab4883c80a59c9bc44aa6afa\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\c1e491d6a408ac46fb5e05c7f93c615d\transformed\core-1.0.0\AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:28:9-41
+	android:icon
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:27:9-45
+	android:allowBackup
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:26:9-35
+	android:theme
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:29:9-40
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:30:9-79
+activity#game.div.cookiecounter.MainActivity
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:34:8-42:20
+	android:label
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:36:13-45
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:35:13-63
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:37:13-41:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:38:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:40:17-76
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:40:27-73
+activity#game.div.cookiecounter.GameActivity
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:52:9-61:20
+	android:screenOrientation
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:56:13-49
+	android:label
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:55:13-45
+	android:configChanges
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:54:13-72
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:53:13-63
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:57:13-60:29
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:59:18-78
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:59:28-75
+activity#game.div.cookiecounter.Pp
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:81:9-89:20
+	android:label
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:83:13-45
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:82:13-53
+activity#game.div.cookiecounter.TouchDragExample
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:90:9-98:20
+	android:label
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:92:13-45
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:91:13-67
+activity#game.div.cookiecounter.ShopList
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:99:10-111:20
+	android:label
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:101:13-45
+	android:theme
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:102:13-57
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:100:13-59
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:103:13-105:67
+	android:value
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:105:13-64
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:104:13-59
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:113:9-107
+	android:value
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:113:20-59
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:113:60-105
