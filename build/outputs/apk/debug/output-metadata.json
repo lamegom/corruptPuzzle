@@ -4,14 +4,14 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "game.div.foradilma",
+  "applicationId": "game.div.superpeste",
   "variantName": "processDebugResources",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
-      "versionCode": 17,
-      "versionName": "17.0",
+      "versionCode": 1,
+      "versionName": "1.0",
       "outputFile": "corruptPuzzle-debug.apk"
     }
   ]

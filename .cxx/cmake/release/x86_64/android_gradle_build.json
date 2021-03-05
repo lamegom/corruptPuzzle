@@ -1,0 +1,45 @@
+{
+  "stringTable": {
+    "0": "C:/Users/dell 5450/Documents/Projects/corruptPuzzle/.cxx/cmake/release/x86_64",
+    "1": "--target=x86_64-none-linux-android21 --gcc-toolchain=\"C:/Users/dell 5450/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64\" --sysroot=\"C:/Users/dell 5450/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot\" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIE"
+  },
+  "buildFiles": [
+    "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\dell 5450\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\dell 5450\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android-legacy.toolchain.cmake",
+    "C:\\Users\\dell 5450\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\dell 5450\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\compiler_id.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\dell 5450\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\.cxx\\cmake\\release\\x86_64\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\dell 5450\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\.cxx\\cmake\\release\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "hello-Release-x86_64": {
+      "buildCommand": "C:\\Users\\dell 5450\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\.cxx\\cmake\\release\\x86_64\" hello",
+      "buildType": "release",
+      "toolchain": "3048552702",
+      "abi": "x86_64",
+      "artifactName": "hello",
+      "files": [
+        {
+          "src": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\src\\main\\cpp\\helloworld.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\.cxx\\cmake\\release\\x86_64\\hello",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "3048552702": {
+      "cppCompilerExecutable": "C:\\Users\\DELL54~1\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

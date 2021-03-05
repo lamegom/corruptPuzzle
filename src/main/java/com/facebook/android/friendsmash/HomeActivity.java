@@ -16,7 +16,7 @@
  */
 
 package com.facebook.android.friendsmash;
-import com.parse.ParseUser;
+//import com.parse.ParseUser;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -584,10 +584,10 @@ public class HomeActivity extends FragmentActivity {
 	
     private void logout() {
     	Log.d(TAG, "Logging user out.");
-    	
-    	// log user out of Parse
-    	if (ParseUser.getCurrentUser() != null)
-    		ParseUser.logOut();
+//
+//    	// log user out of Parse
+//    	if (ParseUser.getCurrentUser() != null)
+//    		ParseUser.logOut();
     	
     	// Close the session, which will cause a callback to show the logout screen
 //		Session.getActiveSession().closeAndClearTokenInformation();

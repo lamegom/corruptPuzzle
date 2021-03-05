@@ -1,0 +1,22 @@
+{
+  "buildFiles": [
+    "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\dell 5450\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\dell 5450\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android-legacy.toolchain.cmake",
+    "C:\\Users\\dell 5450\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\dell 5450\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\compiler_id.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\dell 5450\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\.cxx\\cmake\\release\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\dell 5450\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\.cxx\\cmake\\release\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "hello-Release-arm64-v8a": {
+      "artifactName": "hello",
+      "buildCommand": "C:\\Users\\dell 5450\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\.cxx\\cmake\\release\\arm64-v8a\" hello",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\.cxx\\cmake\\release\\arm64-v8a\\hello",
+      "runtimeFiles": []
+    }
+  }
+}

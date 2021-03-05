@@ -111,7 +111,8 @@ public class ShopList extends AppCompatActivity  {
 
 
 		 ImageView image = (ImageView) layout.findViewById(R.id.image);
-		 image.setImageResource(R.drawable.ic_launcher);
+		 image.setImageResource(R.drawable.toast_icon);
+
 		 TextView text = (TextView) layout.findViewById(R.id.text);
 		 text.setText(msg);
 
@@ -240,7 +241,10 @@ public class ShopList extends AppCompatActivity  {
 				if(increaseCPS(mPosition)){
 				Config.fillData("Cursor", String.valueOf(Float
 						.parseFloat(Config.getData("Cursor")) + 1));
-				increaseCPS(mPosition);
+					Config.updateQtd();
+
+				Config.updateQtd();
+
 				fillArray(new Config());
 
 				adapter.notifyDataSetChanged();
@@ -255,8 +259,10 @@ public class ShopList extends AppCompatActivity  {
 				if(increaseCPS(mPosition)){
 				Config.fillData("Grandma", String.valueOf(Float
 						.parseFloat(Config.getData("Grandma")) + 1));
+				Config.updateQtd();
+
 				fillArray(new Config());
-				increaseCPS(mPosition);
+
 				adapter.notifyDataSetChanged();
 				}else
 				{
@@ -268,8 +274,10 @@ public class ShopList extends AppCompatActivity  {
 				if(increaseCPS(mPosition)){
 				Config.fillData("Farm", String.valueOf(Float
 						.parseFloat(Config.getData("Farm")) + 1));
+				Config.updateQtd();
+
 				fillArray(new Config());
-				increaseCPS(mPosition);
+
 				adapter.notifyDataSetChanged();
 				}else
 				{
@@ -281,8 +289,10 @@ public class ShopList extends AppCompatActivity  {
 				if(increaseCPS(mPosition)){
 				Config.fillData("Factory", String.valueOf(Float
 						.parseFloat(Config.getData("Factory")) + 1));
+				Config.updateQtd();
+
 				fillArray(new Config());
-				increaseCPS(mPosition);
+
 				adapter.notifyDataSetChanged();
 				}else
 				{
@@ -294,8 +304,10 @@ public class ShopList extends AppCompatActivity  {
 				if(increaseCPS(mPosition)){
 				Config.fillData("Mine", String.valueOf(Float
 						.parseFloat(Config.getData("Mine")) + 1));
+				Config.updateQtd();
+
 				fillArray(new Config());
-				increaseCPS(mPosition);
+
 				adapter.notifyDataSetChanged();
 				}else
 				{
@@ -307,8 +319,10 @@ public class ShopList extends AppCompatActivity  {
 				if(increaseCPS(mPosition)){
 				Config.fillData("ShipMent", String.valueOf(Float
 						.parseFloat(Config.getData("ShipMent")) + 1));
+				Config.updateQtd();
+
 				fillArray(new Config());
-				increaseCPS(mPosition);
+
 				adapter.notifyDataSetChanged();
 				}else
 				{
@@ -320,8 +334,10 @@ public class ShopList extends AppCompatActivity  {
 				if(increaseCPS(mPosition)){
 				Config.fillData("Alchemy Lab", String.valueOf(Float
 						.parseFloat(Config.getData("Alchemy Lab")) + 1));
+				Config.updateQtd();
+
 				fillArray(new Config());
-				increaseCPS(mPosition);
+
 				adapter.notifyDataSetChanged();
 				}else
 				{
@@ -333,8 +349,10 @@ public class ShopList extends AppCompatActivity  {
 				if(increaseCPS(mPosition)){
 				Config.fillData("Portal", String.valueOf(Float
 						.parseFloat(Config.getData("Portal")) + 1));
+				Config.updateQtd();
+
 				fillArray(new Config());
-				increaseCPS(mPosition);
+
 				adapter.notifyDataSetChanged();
 				}else
 				{
@@ -346,8 +364,10 @@ public class ShopList extends AppCompatActivity  {
 				if(increaseCPS(mPosition)){
 				Config.fillData("Time Machine", String.valueOf(Float
 						.parseFloat(Config.getData("Time Machine")) + 1));
+				Config.updateQtd();
+
 				fillArray(new Config());
-				increaseCPS(mPosition);
+
 				adapter.notifyDataSetChanged();
 				}else
 				{
@@ -361,6 +381,8 @@ public class ShopList extends AppCompatActivity  {
 				if(increaseCPS(mPosition)){
 				Config.fillData("Antimatter Condenser", String.valueOf(Float
 						.parseFloat(Config.getData("Antimatter Condenser")) + 1));
+				Config.updateQtd();
+
 				fillArray(new Config());
 				increaseCPS(mPosition);
 				adapter.notifyDataSetChanged();
@@ -374,6 +396,8 @@ public class ShopList extends AppCompatActivity  {
 				if(increaseCPS(mPosition)){
 				Config.fillData("Prism", String.valueOf(Float
 						.parseFloat(Config.getData("Prism")) + 1));
+				Config.updateQtd();
+
 				fillArray(new Config());
 				adapter.notifyDataSetChanged();
 				}else
@@ -398,33 +422,33 @@ public class ShopList extends AppCompatActivity  {
 
 		shopData.add(new ShopItem(BitmapFactory.decodeResource(getResources(),
 				R.drawable.cursoricon), Config.ITEM1,
-				Common.milTrilConverter(Double.valueOf(Config.ITEM1COST), false), Config.ITEM1NUM));
+				Common.milTrilConverter(Config.getCost("ITEM1COST"), false), Config.ITEM1NUM));
 		
 		shopData.add(new ShopItem(BitmapFactory.decodeResource(getResources(),
 				R.drawable.grandma_icon), Config.ITEM2,
-				Common.milTrilConverter(Double.valueOf(Config.ITEM2COST), false), Config.ITEM2NUM));
+				Common.milTrilConverter(Config.getCost("ITEM2COST"), false), Config.ITEM2NUM));
 		
 		shopData.add(new ShopItem(BitmapFactory.decodeResource(getResources(),
 				R.drawable.farm), Config.ITEM3,
-				Common.milTrilConverter(Double.valueOf(Config.ITEM3COST), false), Config.ITEM3NUM));
+				Common.milTrilConverter(Config.getCost("ITEM3COST"), false), Config.ITEM3NUM));
 		shopData.add(new ShopItem(BitmapFactory.decodeResource(getResources(),
 				R.drawable.factory_icon), Config.ITEM4,
-				Common.milTrilConverter(Double.valueOf(Config.ITEM4COST), false), Config.ITEM4NUM));
+				Common.milTrilConverter(Config.getCost("ITEM4COST"), false), Config.ITEM4NUM));
 		shopData.add(new ShopItem(BitmapFactory.decodeResource(getResources(),
 				R.drawable.mine), Config.ITEM5,
-				Common.milTrilConverter(Double.valueOf(Config.ITEM5COST), false), Config.ITEM5NUM));
+				Common.milTrilConverter(Config.getCost("ITEM5COST"), false), Config.ITEM5NUM));
 		shopData.add(new ShopItem(BitmapFactory.decodeResource(getResources(),
 				R.drawable.shipment_icon), Config.ITEM6,
-				Common.milTrilConverter(Double.valueOf(Config.ITEM6COST), false), Config.ITEM6NUM));
+				Common.milTrilConverter(Config.getCost("ITEM6COST"), false), Config.ITEM6NUM));
 		shopData.add(new ShopItem(BitmapFactory.decodeResource(getResources(),
 				R.drawable.alchemylab), Config.ITEM7,
-				Common.milTrilConverter(Double.valueOf(Config.ITEM7COST), false), Config.ITEM7NUM));
+				Common.milTrilConverter(Config.getCost("ITEM7COST"), false), Config.ITEM7NUM));
 		shopData.add(new ShopItem(BitmapFactory.decodeResource(getResources(),
 				R.drawable.portal), Config.ITEM8,
-				Common.milTrilConverter(Double.valueOf(Config.ITEM8COST), false), Config.ITEM8NUM));
+				Common.milTrilConverter(Config.getCost("ITEM8COST"), false), Config.ITEM8NUM));
 		shopData.add(new ShopItem(BitmapFactory.decodeResource(getResources(),
 				R.drawable.timemachine), Config.ITEM9,
-				Common.milTrilConverter(Double.valueOf(Config.ITEM9COST), false), Config.ITEM9NUM));
+				Common.milTrilConverter(Config.getCost("ITEM9COST"), false), Config.ITEM9NUM));
 /*		shopData.add(new ShopItem(BitmapFactory.decodeResource(getResources(),
 				R.drawable.antimattercondenser), Config.ITEM10,
 				Common.milTrilConverter(Double.valueOf(Config.ITEM10COST), false), Config.ITEM10NUM));
@@ -437,49 +461,49 @@ public class ShopList extends AppCompatActivity  {
 	FriendSmashApplication application = (FriendSmashApplication) GameActivity.getInstance().getApplication();
 	
 	public boolean increaseCPS(int pos){
+
 		switch (pos){
 		case 0:
 			
-			if(application.getBombs() >= Double.parseDouble(Config.ITEM1COST)){
-			double cookie = application.getBombs();
-			double cost = Double.parseDouble(Config.ITEM1COST);
-			application.setBombs(cookie-cost);
-			// \text {CpS} = \text {amount of Cursors} \times 0.3+0.1 
-			double Newrate = application.getCoins() + 2;//1000.1;
-			application.setCoins(Newrate);
+			if(application.getBombs() >= Config.getCost("ITEM1COST")){
+
+				application.setBombs(application.getBombs() - Config.getCost("ITEM1COST")) ;
+				//Config.ITEM1COST = String.valueOf(Config.cumulativeCost(Config.ITEM1COST, Config.ITEM1NUM));
+
+				double Newrate = application.getCoins() + 0.1;
+				application.setCoins(Newrate);
 
 				return true;
-				
+
 			}else
 			{
 				return false;
 			}
 		case 1:
-			
-			if(application.getBombs() >= Double.parseDouble(Config.ITEM2COST)){
-				double cookie = application.getBombs();
-				double cost = Double.parseDouble(Config.ITEM2COST);
-				application.setBombs(cookie-cost);
-				//(0.8 + amount of grandmas / 25 + amount of portals / 20) x 262144
-//				double Newrate = application.getCoins() + ((0.8 + cost) / 25) + (cookie / 20);// + 1000;// * 262144;
-				double Newrate = application.getCoins() + 2.5;
+
+			if(application.getBombs() >= Config.getCost("ITEM2COST")){
+
+				application.setBombs(application.getBombs() - Config.getCost("ITEM2COST"));
+				//Config.ITEM2COST = String.valueOf(Config.cumulativeCost(Config.ITEM2COST, Config.ITEM2NUM));
+
+				double Newrate = application.getCoins() + 1;
 				application.setCoins(Newrate);
-				
+
 					return true;
 				}else
 				{
 					return false;
 				}
-			
+
 		case 2:
 
-			if(application.getBombs() >= Double.parseDouble(Config.ITEM3COST)){
-				double cookie = application.getBombs();
-				double cost = Double.parseDouble(Config.ITEM3COST);
-				application.setBombs(cookie-cost);
-				double Newrate = application.getCoins()+160;// + 1000;
+			if(application.getBombs() >= Config.getCost("ITEM3COST")){
+				application.setBombs(application.getBombs() - Config.getCost("ITEM3COST"));
+				//Config.ITEM3COST = String.valueOf(Config.cumulativeCost(Config.ITEM3COST, Config.ITEM3NUM));
+
+				double Newrate = application.getCoins() + 8;
 				application.setCoins(Newrate);
-				
+
 					return true;
 				}else
 				{
@@ -487,44 +511,47 @@ public class ShopList extends AppCompatActivity  {
 				}
 
 		case 3:
-			
-			if(application.getBombs() >= Double.parseDouble(Config.ITEM4COST)){
-				double cookie = application.getBombs();
-				double cost = Double.parseDouble(Config.ITEM4COST);
-				application.setBombs(cookie-cost);
-				double Newrate =application.getCoins()+448;// + 1000;
+
+			if(application.getBombs() >= Config.getCost("ITEM4COST")){
+
+				application.setBombs(application.getBombs() - Config.getCost("ITEM4COST"));
+				//Config.ITEM4COST = String.valueOf(Config.cumulativeCost(Config.ITEM4COST, Config.ITEM4NUM));
+
+				double Newrate = application.getCoins() + 47;
 				application.setCoins(Newrate);
-				
+
 					return true;
 				}else
 				{
 					return false;
 				}
-			
+
 		case 4:
-			
-			if(application.getBombs() >= Double.parseDouble(Config.ITEM5COST)){
-				double cookie = application.getBombs();
-				double cost = Double.parseDouble(Config.ITEM5COST);
-				application.setBombs(cookie-cost);
-				double Newrate = application.getCoins()+1600;// + 1000;
+
+			if(application.getBombs() >= Config.getCost("ITEM5COST")){
+
+				application.setBombs(application.getBombs() - Config.getCost("ITEM5COST"));
+				//Config.ITEM5COST = String.valueOf(Config.cumulativeCost(Config.ITEM5COST, Config.ITEM5NUM));
+
+				double Newrate = application.getCoins() + 260;
 				application.setCoins(Newrate);
-				
+
 					return true;
 				}else
 				{
 					return false;
 				}
-			
+
 		case 5:
 
-			if(application.getBombs() >= Double.parseDouble(Config.ITEM6COST)){
-				double cookie = application.getBombs();
-				double cost = Double.parseDouble(Config.ITEM6COST);
-				application.setBombs(cookie-cost);
-				double Newrate = application.getCoins()+4160;// + 1000;
+			if(application.getBombs() >= Config.getCost("ITEM6COST")){
+
+				application.setBombs(application.getBombs() - Config.getCost("ITEM6COST"));
+				//Config.ITEM6COST = String.valueOf(Config.cumulativeCost(Config.ITEM6COST, Config.ITEM6NUM));
+
+				double Newrate = application.getCoins() + 1400;
 				application.setCoins(Newrate);
-				
+
 					return true;
 				}else
 				{
@@ -532,73 +559,78 @@ public class ShopList extends AppCompatActivity  {
 				}
 
 		case 6:
-			
-			if(application.getBombs() >= Double.parseDouble(Config.ITEM7COST)){
-				double cookie = application.getBombs();
-				double cost = Double.parseDouble(Config.ITEM7COST);
-				application.setBombs(cookie-cost);
-				double Newrate = application.getCoins()+16000 ;//+ 1000;
+
+			if(application.getBombs() >= Config.getCost("ITEM7COST")){
+
+				application.setBombs(application.getBombs() - Config.getCost("ITEM7COST"));
+				//Config.ITEM7COST = String.valueOf(Config.cumulativeCost(Config.ITEM7COST, Config.ITEM7NUM));
+
+				double Newrate = application.getCoins() + 7800;
 				application.setCoins(Newrate);
-				
+
 					return true;
 				}else
 				{
 					return false;
 				}
-			
+
 		case 7:
-			
-			
-			if(application.getBombs() >= Double.parseDouble(Config.ITEM8COST)){
-				double cookie = application.getBombs();
-				double cost = Double.parseDouble(Config.ITEM8COST);
-				application.setBombs(cookie-cost);
-				double Newrate = application.getCoins()+266624;// + 1000;
+
+
+			if(application.getBombs() >= Config.getCost("ITEM8COST")){
+
+				application.setBombs(application.getBombs() - Config.getCost("ITEM8COST"));
+				//Config.ITEM8COST = String.valueOf(Config.cumulativeCost(Config.ITEM8COST, Config.ITEM8NUM));
+
+				double Newrate = application.getCoins() + 44000;
 				application.setCoins(Newrate);
-				
+
 					return true;
 				}else
 				{
 					return false;
 				}
-			
+
 		case 8:
-			
-			if(application.getBombs() >= Double.parseDouble(Config.ITEM9COST)){
-				double cookie = application.getBombs();
-				double cost = Double.parseDouble(Config.ITEM9COST);
-				application.setBombs(cookie-cost);
-				double Newrate = application.getCoins()+3476512;// + 1000;
+
+			if(application.getBombs() >= Config.getCost("ITEM9COST")){
+
+				application.setBombs(application.getBombs() - Config.getCost("ITEM9COST"));
+				//Config.ITEM9COST = String.valueOf(Config.cumulativeCost(Config.ITEM9COST, Config.ITEM9NUM));
+
+				double Newrate = application.getCoins() + 260000;
 				application.setCoins(Newrate);
-				
+
 					return true;
 				}else
 				{
 					return false;
 				}
-			
+
 		case 9:
-			
-			if(application.getBombs() >= Double.parseDouble(Config.ITEM10COST)){
-				double cookie = application.getBombs();
-				double cost = Double.parseDouble(Config.ITEM10COST);
-				application.setBombs(cookie-cost);
-				double Newrate = application.getCoins()+35199936;// + 1000;
+
+			if(application.getBombs() >= Config.getCost("ITEM10COST")){
+
+				application.setBombs(application.getBombs() - Config.getCost("ITEM10COST"));
+				//Config.ITEM10COST = String.valueOf(Config.cumulativeCost(Config.ITEM10COST, Config.ITEM10NUM));
+
+				double Newrate = application.getCoins() + 1600000;
 				application.setCoins(Newrate);
-				
+
 					return true;
 				}else
 				{
 					return false;
 				}
-			
+
 		case 10:
-			
-			if(application.getBombs() >= Double.parseDouble(Config.ITEM11COST)){
-				double cookie = application.getBombs();
-				double cost = Double.parseDouble(Config.ITEM11COST);
-				application.setBombs(cookie-cost);
-				double Newrate = application.getCoins()+352000000;// + 1000;
+
+			if(application.getBombs() >= Config.getCost("ITEM11COST")){
+
+				application.setBombs(application.getBombs() - Config.getCost("ITEM11COST"));
+				//Config.ITEM11COST = String.valueOf(Config.cumulativeCost(Config.ITEM11COST, Config.ITEM11NUM));
+
+				double Newrate = application.getCoins() + 10000000;
 				application.setCoins(Newrate);
 				
 					return true;
@@ -608,7 +640,9 @@ public class ShopList extends AppCompatActivity  {
 				}
 			
 		}
-		
+
+
+
 		return true;	
 	}
 }

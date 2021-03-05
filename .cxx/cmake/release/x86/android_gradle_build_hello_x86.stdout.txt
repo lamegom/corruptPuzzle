@@ -1,0 +1,3 @@
+ninja: Entering directory `C:\Users\dell 5450\Documents\Projects\corruptPuzzle\.cxx\cmake\release\x86'
+[1/2] Building CXX object CMakeFiles/hello.dir/helloworld.cpp.o
+[2/2] Linking CXX executable hello

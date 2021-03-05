@@ -1,10 +1,7 @@
-#Sun Feb 28 20:37:17 BRT 2021
-path.2=classes3.dex
-path.1=classes2.dex
-path.0=classes.dex
-renamed.2=classes3.dex
+#Fri Mar 05 00:20:34 BRT 2021
+base.0=C\:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+path.1=classes.dex
 renamed.1=classes2.dex
+path.0=classes.dex
 renamed.0=classes.dex
-base.2=C\:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes3.dex
-base.1=C\:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
-base.0=C\:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+base.1=C\:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex

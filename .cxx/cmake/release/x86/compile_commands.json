@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/dell 5450/Documents/Projects/corruptPuzzle/.cxx/cmake/release/x86",
+  "command": "C:\\Users\\DELL54~1\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android16 --gcc-toolchain=\"C:/Users/dell 5450/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64\" --sysroot=\"C:/Users/dell 5450/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot\"    -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIE   -o CMakeFiles\\hello.dir\\helloworld.cpp.o -c \"C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\src\\main\\cpp\\helloworld.cpp\"",
+  "file": "C:\\Users\\dell 5450\\Documents\\Projects\\corruptPuzzle\\src\\main\\cpp\\helloworld.cpp"
+}
+]

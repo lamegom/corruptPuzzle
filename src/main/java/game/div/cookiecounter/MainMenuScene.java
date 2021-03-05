@@ -1,9 +1,12 @@
 package game.div.cookiecounter;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.Random;
 
 /* ... */
+import org.andengine.audio.music.Music;
 import org.andengine.engine.handler.IUpdateHandler;
 import org.andengine.entity.primitive.Rectangle;
 import org.andengine.entity.scene.IOnSceneTouchListener;
@@ -68,6 +71,7 @@ import com.badlogic.gdx.physics.box2d.Fixture;
 import com.badlogic.gdx.physics.box2d.FixtureDef;
 import com.badlogic.gdx.physics.box2d.Manifold;
 import com.divneg.base.BaseScene;
+import com.divneg.manager.ResourcesManager;
 import com.divneg.manager.SceneManager;
 import com.divneg.manager.SceneManager.SceneType;
 import com.divneg.storage.Config;
@@ -75,6 +79,7 @@ import com.facebook.android.friendsmash.FriendSmashApplication;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -83,6 +88,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.hardware.SensorManager;
 import android.os.Handler;
+import android.os.Vibrator;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
@@ -92,6 +98,14 @@ import game.div.foradilma.util.IabHelper;
 import game.div.foradilma.util.IabResult;
 import game.div.foradilma.util.Inventory;
 import game.div.foradilma.util.Purchase;
+
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.games.Games;
+import com.google.android.gms.tasks.OnSuccessListener;
+
+
 
 //import com.infinario.android.infinariosdk.Infinario;
 
@@ -167,6 +181,8 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 	private Text cookieCount;
 
+	private Music burgerSound;
+
 	private Sprite milk;
 
 	private Sprite raysSprite;
@@ -209,6 +225,14 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 	private Text text;
 
+	   protected static final String LEADERBOARD_ID = "CgkIzdSliMYeEAIQEw";
+
+	protected static final Integer REQUEST_LEADERBOARD = 123;
+
+	private GoogleSignInClient mGoogleSignInClient;
+	private static final int RC_SIGN_IN = 9001;
+
+
 	public static MainMenuScene getInstance() {
 
 		return mms;
@@ -216,6 +240,8 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 	}
 
 	private void createPhysics() {
+
+
 
 		physicsWorld = new FixedStepPhysicsWorld(60, new Vector2(0,
 
@@ -243,7 +269,7 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 		resourcesManager.bigFont,
 
-		"Score : 999999999999999999999999999999999999999999999999999999999 ",
+		"0000000000000000000000000000000000000000000000000000000000000000000000000000",
 
 		autowrap,
 
@@ -252,6 +278,10 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 		attachChild(cookieCount);
 
 		write = true;
+
+
+
+
 
 	}
 
@@ -263,7 +293,7 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 		cookieRate = new Text(0, 0, resourcesManager.smallFont,
 
-		"Distance : 999999999999999999999999999999999999999999999999",
+		"0000000000000000000000000000000000000000000000000000000000000000000000000000",
 
 		autowrap,
 
@@ -281,8 +311,15 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 	FriendSmashApplication application = (FriendSmashApplication) GameActivity
 			.getInstance().getApplication();
 
+
+	Context context = GameActivity.getInstance().getApplication().getApplicationContext();
+
+
+
 	@Override
 	public void createScene() {
+
+		mms = this;
 
 		mms = this;
 
@@ -295,8 +332,6 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 		delMoveText = new ArrayList<MoveText>();
 
 		delSpritesRestart = new ArrayList<delSprites>();
-
-		cookiCount = Config.COOKIES;
 
 		setOnSceneTouchListener(this);
 
@@ -348,19 +383,33 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 				}
 
-				if (Config.COOKIERATE != 0 && loop % 30 == 0) {
+				if (application.getCoins() != 0 && loop % 30 == 0) {
 
+					cookiCount = application.getBombs();
+
+
+					Log.i("cookiecount", cookiCount + "");
+					Log.i("cookierate", application.getCoins() + "");
+
+
+					BigDecimal ratio = BigDecimal.ZERO;
 					try {
 
-						cookiCount = application.getBombs();
+						ratio = new BigDecimal(60).divide(new BigDecimal(application.getCoins()), 8, RoundingMode.DOWN);
+						Log.i("ratio", ratio + "");
+					}catch (Exception e){
 
-					} catch (Exception e) {
-						cookiCount = Double.MIN_VALUE;
 					}
 
-					cookiCount += application.getCoins();
+
+					cookiCount += ratio.doubleValue();
+
+
+					Log.i("total", cookiCount + "");
 
 					application.setBombs(cookiCount);
+
+
 
 				}
 
@@ -429,13 +478,13 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 					- cookieCount.getWidth() / 2);
 
-					cookieCount.setY(GameActivity.CAMERA_HEIGHT * 5 / 100);
+					cookieCount.setY(GameActivity.CAMERA_HEIGHT * 2 / 100);
 
 					cookieRate.setX(GameActivity.CAMERA_WIDTH / 2
 
 					- cookieRate.getWidth() / 2);
 
-					cookieRate.setY(GameActivity.CAMERA_HEIGHT * 5 / 100
+					cookieRate.setY(GameActivity.CAMERA_HEIGHT * 2 / 100
 
 					+ cookieCount.getHeight());
 
@@ -443,9 +492,6 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 					// Toast.makeText(GameActivity.getInstance(),"Ad Interstitial calling...."
 					// , Toast.LENGTH_LONG).show();
-
-					// Games.Leaderboards.submitScore(getmGoogleApi(),
-					// LEADERBOARD_ID, (long) round(cookiCount,0));
 
 					// if(round(cookiCount,0)==0D){
 
@@ -484,7 +530,9 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 					try {
 
 //						if(application.getCurrentFBUser()!=null){
-						
+
+
+
 						cookieCount.setText(Common.milTrilConverter(
 								application.getBombs(), false)
 								+ " ");
@@ -524,6 +572,7 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 					cookieRate.setText("Distance : " + heliDis + "m");
 
+
 				}
 
 				if (fly && heli_body != null && startGame) {
@@ -542,7 +591,19 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 				}
 
+
+
+
 			}
+			
+			public int round(double value, int places) {
+				if (places < 0) {
+					throw new IllegalArgumentException();
+				}
+				long factor = (long) Math.pow(10.0d, (double) places);
+				return (int)(((double) Math.round(value * ((double) factor))) / ((double) factor));
+			}
+
 
 			private void initUserAnalytics() {
 				// if(getmGoogleApi().isConnected()){
@@ -623,8 +684,15 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 		writeCookieRate();
 
+		writeCookieMusic();
+
 		// ends cookie clcker
 
+	}
+
+	private void writeCookieMusic() {
+
+		burgerSound = ResourcesManager.getInstance().blade;
 	}
 
 	// SKUs for our products: the premium upgrade (non-consumable) and gas
@@ -1560,6 +1628,16 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 	// modules are here -->
 
 	public void createBackground() {
+		
+//		AndroidLauncher android = AndroidLauncher.getInstance();
+//
+//		Intent intent = new Intent(GameActivity.getInstance(),
+//
+//				AndroidLauncher.class);
+//
+//
+//		GameActivity.getInstance().startService(intent);
+
 
 		Sprite background = new Sprite(0, 0, GameActivity.CAMERA_WIDTH,
 
@@ -1716,27 +1794,10 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 				} else if (pSceneTouchEvent.isActionUp()) {
 
 					
-					postMessageInThread("This is my score in SUPER Covid-19 : '" + cookieCount.getText() + "'. Do you think you can beat me!");
+					postMessageInThread("This is my score in SUPEPR Peste : '" + cookieCount.getText() + "'. Do you think you can beat me!");
 					
-					//
-					// if(getmGoogleApi().isConnected())
-					// GameActivity.getInstance().startActivityForResult(Games.Leaderboards.getLeaderboardIntent(getmGoogleApi(),
-					//
-					// LEADERBOARD_ID), REQUEST_LEADERBOARD );
-
-					// if(mSubscribedToInfiniteGas){
-
-					// GameActivity.getInstance().startActivity(
-					//
-					// new Intent(GameActivity.getInstance(),
-					//
-					// ShopList.class));
-
-					// }else{
-
-					// onInfiniteGasButtonClicked();
-
-					// }
+					
+					 showLeaderboard();
 
 					this.setScale(1.0f);
 
@@ -1770,6 +1831,14 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 		boolean large = ((context.getResources().getConfiguration().screenLayout & Configuration.SCREENLAYOUT_SIZE_MASK) == Configuration.SCREENLAYOUT_SIZE_LARGE);
 		return (xlarge || large);
 	}
+	
+private static final int RC_LEADERBOARD_UI = 9004;
+
+private void showLeaderboard() {
+	//TODO: beg from google
+	GameActivity.getInstance().showLeaderBoard();
+	
+}
 
 	public void createSavedGames() {
 
@@ -1778,47 +1847,19 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 		GameActivity.CAMERA_WIDTH * 16 / 100,
 
 		resourcesManager.savedGameIcon, vbom) {
+			
+			
 
-			@Override
-			public boolean onAreaTouched(TouchEvent pSceneTouchEvent,
-
-			float pTouchAreaLocalX, float pTouchAreaLocalY) {
-
-				// TODO Auto-generated method stub
-
-				if (pSceneTouchEvent.isActionDown()) {
-
-					this.setScale(1.25f);
-
-				} else if (pSceneTouchEvent.isActionUp()) {
-
-					//
-					// if(getmGoogleApi().isConnected())
-					// GameActivity.getInstance().startActivityForResult(Games.Leaderboards.getLeaderboardIntent(getmGoogleApi(),
-					//
-					// LEADERBOARD_ID), REQUEST_LEADERBOARD );
-
-					// if(mSubscribedToInfiniteGas){
-
-					// GameActivity.getInstance().startActivity(
-					//
-					// new Intent(GameActivity.getInstance(),
-					//
-					// ShopList.class));
-
-					// }else{
-
-					// onInfiniteGasButtonClicked();
-
-					// }
-
-					this.setScale(1.0f);
-
-				}
-
-				return true;
-
-			}
+			@Override		
+			public boolean onAreaTouched(TouchEvent pSceneTouchEvent, float pTouchAreaLocalX, float pTouchAreaLocalY) {
+            if (pSceneTouchEvent.isActionDown()) {
+                setScale(1.25f);
+            } else if (pSceneTouchEvent.isActionUp()) {
+                showLeaderboard();
+                setScale(1.0f);
+            }
+            return true;
+        }
 
 		};
 
@@ -1929,7 +1970,7 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 				if (pSceneTouchEvent.isActionDown()) {
 
-//					heli_body.setGravityScale(4);
+					heli_body.setGravityScale(4);
 
 					startGame = true;
 
@@ -2310,9 +2351,9 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 		0.5f, 0.5f);
 
-		cookie = new Sprite(0, 0, GameActivity.CAMERA_WIDTH * 80 / 100,
+		cookie = new Sprite(0, 0, GameActivity.CAMERA_WIDTH * 97 / 100,
 
-		GameActivity.CAMERA_WIDTH * 80 / 100, resourcesManager.cookie,
+		GameActivity.CAMERA_WIDTH * 97 / 100, resourcesManager.cookie,
 
 		vbom) {
 
@@ -2325,9 +2366,11 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 				if (pSceneTouchEvent.isActionDown()) {
 
+					burgerSound.play();
+
 					this.setScale(0.95f);
 
-					cookiCount = application.getBombs();
+					cookiCount = (int) application.getBombs();
 					;
 
 					// if(application.isLoggedIn()){
@@ -2337,11 +2380,17 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 					application.setBombs(cookiCount);
 
+
 					moveText(pSceneTouchEvent.getX(), pSceneTouchEvent.getY());
 
 				} else if (pSceneTouchEvent.isActionUp()) {
 
 					this.setScale(1.0f);
+					
+					Vibrator vibe = (Vibrator) application.getApplicationContext().getSystemService(Context.VIBRATOR_SERVICE);
+					vibe.vibrate(300);
+
+
 
 				}
 
@@ -2529,6 +2578,8 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 					"Resume Game First", Toast.LENGTH_SHORT).show();
 
+                    GameActivity.getInstance().startSignInIntent();
+
 				}
 
 			});
@@ -2599,7 +2650,7 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 				// unregisterTouchArea(this);
 
-//				heli_body.setGravityScale(4);
+				heli_body.setGravityScale(4);
 
 				createClouds();
 
@@ -2930,7 +2981,6 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 	}
 
-	private static int RC_SIGN_IN = 9001;
 
 	public void submitEvent(String eventId) {
 		// eventId is taken from the developer console

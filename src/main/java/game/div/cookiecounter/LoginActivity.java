@@ -1,7 +1,7 @@
 package game.div.cookiecounter;
 
 import com.facebook.android.friendsmash.FriendSmashApplication;
-import com.parse.ParseUser;
+//import com.parse.ParseUser;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -141,7 +141,7 @@ public class LoginActivity extends Activity {
 //
 	   }
 	
- 	public void addProfile(final ParseUser parseuser){
+// 	public void addProfile(final ParseUser parseuser){
 // 		Log.d("MyApp", ParseFacebookUtils.isLinked(parseuser)+"");
 //	    if (!ParseFacebookUtils.isLinked(parseuser)) {
 //	    	  ParseFacebookUtils.linkWithReadPermissionsInBackground(parseuser, this, Arrays.asList("basic_info","email"), new SaveCallback() {
@@ -167,7 +167,7 @@ public class LoginActivity extends Activity {
     	
     	
 //    	personalizeHomeFragment();
- 	}
+// 	}
 
  	
 	// userImage ProfilePictureView to display the user's profile pic
@@ -227,7 +227,7 @@ public class LoginActivity extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.id.login, menu);
+//		getMenuInflater().inflate(R.id.login, menu);
 		return true;
 	}
 

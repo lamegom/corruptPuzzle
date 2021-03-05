@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "1049600027213",
-    "project_id": "api-project-1049600027213",
-    "storage_bucket": "api-project-1049600027213.appspot.com"
+    "project_number": "822308880119",
+    "project_id": "super-peste-37463790",
+    "storage_bucket": "super-peste-37463790.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1049600027213:android:82c0f0ffe654f5d1a5ca04",
+        "mobilesdk_app_id": "1:822308880119:android:a9ca20eb1666344c8d9df2",
         "android_client_info": {
-          "package_name": "game.div.supercovid19"
+          "package_name": "game.div.superpeste"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1049600027213-9v8psd4j7on5d60tqsqh6kbuq0bbdd2o.apps.googleusercontent.com",
+          "client_id": "822308880119-tcsna4nm9ik8nb4kol4pbad86lmjnj5r.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA5QbLikBJhrI6tbX8jTffabs1Dz2IjnNo"
+          "current_key": "AIzaSyAUZOkmbHVTOHyDRY1HJ8Pxm3mPsKhWPKU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1049600027213-9v8psd4j7on5d60tqsqh6kbuq0bbdd2o.apps.googleusercontent.com",
+              "client_id": "822308880119-tcsna4nm9ik8nb4kol4pbad86lmjnj5r.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

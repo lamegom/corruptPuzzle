@@ -279,11 +279,11 @@ public class ResourcesManager {
 
 		if(!isTablet(GameActivity.getInstance())){
 		bigFont = FontFactory.createFromAsset(engine.getFontManager(),
-				fontTexture, activity.getAssets(), "kavoon.otf", 70, true,
+				fontTexture, activity.getAssets(), "kavoon.otf", 100, true,
 				Color.WHITE);
 
 		smallFont = FontFactory.createFromAsset(engine.getFontManager(),
-				fontTexture2, activity.getAssets(), "kavoon.otf", 50, true,
+				fontTexture2, activity.getAssets(), "kavoon.otf", 70, true,
 				Color.YELLOW);
 		}else{
 			bigFont = FontFactory.createFromAsset(engine.getFontManager(),

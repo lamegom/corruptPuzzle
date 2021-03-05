@@ -32,13 +32,20 @@ import org.andengine.util.debug.Debug;
 
 import android.content.Intent;
 import android.hardware.SensorManager;
+import android.util.Log;
 import android.view.Display;
+
+import androidx.annotation.NonNull;
 
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.Body;
 import com.badlogic.gdx.physics.box2d.BodyDef.BodyType;
 import com.badlogic.gdx.physics.box2d.FixtureDef;
 import com.badlogic.gdx.physics.box2d.PolygonShape;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 
 /**
  * (c) 2014 Divyanshu Negi
@@ -67,8 +74,11 @@ public class MainActivity extends SimpleBaseGameActivity implements IAcceleratio
 	private PhysicsWorld mPhysicsWorld;
 	private int mFaceCount = 0;
 
+
+
 	@Override
 	public EngineOptions onCreateEngineOptions() {
+
 		final Display defaultDisplay = getWindow().getWindowManager().getDefaultDisplay();
 	     CAMERA_WIDTH = defaultDisplay.getWidth();
 	     CAMERA_HEIGHT = defaultDisplay.getHeight();
@@ -103,6 +113,7 @@ public class MainActivity extends SimpleBaseGameActivity implements IAcceleratio
 
 	@Override
 	public Scene onCreateScene() {
+
 		this.mEngine.registerUpdateHandler(new FPSLogger());
 		this.mScene = new Scene();
 		mScene.setScale(1);
@@ -174,7 +185,6 @@ public class MainActivity extends SimpleBaseGameActivity implements IAcceleratio
 	@Override
 	public void onResumeGame() {
 		super.onResumeGame();
-
 		this.enableAccelerationSensor(this);
 	}
 

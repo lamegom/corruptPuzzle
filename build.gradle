@@ -29,28 +29,28 @@ apply plugin: 'idea'
 
 
 android {
-    compileOptions {
-        sourceCompatibility 1.7
-        targetCompatibility 1.7
-    }
+
     compileSdkVersion 30
     buildToolsVersion "30.0.0"
+	ndkVersion "23.0.7123448"
 
     defaultConfig {
-        applicationId "game.div.supercovid19"
+        applicationId "game.div.superpeste"
         minSdkVersion 16
         targetSdkVersion 30
-        versionCode 3
-        versionName "3.0"
+        versionCode 1
+        versionName "1.0"
         multiDexEnabled true
+		
 
 
         ndk {
-            abiFilters 'armeabi-v7a','arm64-v8a','x86','x86_64'
+            abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+			
         }
-        packagingOptions {
-            exclude "/lib/arm64-v8a/librealm-jni.so"
-        }
+       /* packagingOptions {
+            exclude "/lib/arm64-v8a/libandenginephysicsbox2dextension.so"
+        }*/
     }
 
     dexOptions {
@@ -76,8 +76,8 @@ android {
 
 
     signingConfigs {
-        //"%JAVA_HOME%\bin\keytool" -genkey -v -keystore supercovid19.keystore -alias coronavirus -keyalg RSA -keysize 2048 -validity 10000
-        //gradle assembleRelease
+        //"%JAVA_HOME%\bin\keytool" -genkey -v -keystore superpeste.keystore -alias coronavirus -keyalg RSA -keysize 2048 -validity 10000
+        // gradle assembleRelease
 
         release {
             storeFile file(RELEASE_STORE_FILE)
@@ -107,17 +107,25 @@ android {
         }
     }
 
-
+	/*externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+            version "3.10.2"
+        }
+    }*/
+	
+	
 
 }
 
 dependencies {
     //implementation project(':andengine')
 	//implementation project(':AndEnginePhysicsBox2DExtension')
+	//implementation project('andEngine-master')
     //implementation 'androidx.fragment:fragment:1.2.4'
     implementation fileTree(dir: 'lib', include: ['*.jar'])
 	implementation 'androidx.appcompat:appcompat:1.0.0'
-    implementation 'com.parse:parse-android:1.13.1'
+   // implementation 'com.parse:parse-android:1.13.1'
 	//implementation 'com.google.android.gms:play-services:12.0.1'
     //implementation 'com.android.support:appcompat-v7:26.0.1'
     //implementation 'com.android.support.constraint:constraint-layout:1.0.2'
@@ -129,6 +137,11 @@ dependencies {
    // implementation 'com.android.support:support-v4:26.0.1'
     implementation "androidx.multidex:multidex:2.0.1"
 	//implementation 'com.facebook.android:facebook-login:8.1.0'
+	implementation 'com.google.android.gms:play-services-auth:12.0.1'
+	implementation 'com.google.android.gms:play-services-ads:12.0.1'
+	implementation 'com.google.android.gms:play-services-games:12.0.1'
+	implementation 'com.google.android.gms:play-services-tasks:12.0.1'
+    implementation 'org.jetbrains:annotations-java5:15.0'
 
 }
 

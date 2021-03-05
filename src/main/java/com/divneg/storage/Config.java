@@ -1,14 +1,14 @@
 package com.divneg.storage;
 
 import game.div.cookiecounter.GameActivity;
-import game.div.cookiecounter.MainMenuScene;
-
-import java.math.BigDecimal;
 
 import com.facebook.android.friendsmash.FriendSmashApplication;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 public class Config {
 
@@ -46,9 +46,6 @@ public class Config {
 //	public static String ITEM24 = "Install a forgery scheme";
 //	public static String ITEM25 = "Authorities of Blackmail";
 
-
-	// The Item Numbers
-
 	public static int ITEM1NUM = (int) Double.parseDouble(getData("Cursor"));
 	public static int ITEM2NUM = (int) Double.parseDouble(getData("Grandma"));
 	public static int ITEM3NUM = (int) Double.parseDouble(getData("Farm"));
@@ -61,33 +58,98 @@ public class Config {
 	public static int ITEM10NUM = (int) Double.parseDouble(getData("Antimatter Condenser"));
 	public static int ITEM11NUM = (int) Double.parseDouble(getData("Prism"));
 
-	// The Item Cost
-	static BigDecimal bd1 = new BigDecimal(Math.round((double) (15d * Math.pow(
-			1.15, ITEM1NUM))));
 
-	public static String ITEM1COST = String.valueOf(bd1);
-	public static String ITEM2COST = String.valueOf(new BigDecimal(Math
-			.round((double) (100d * Math.pow(1.15, ITEM2NUM)))));
-	public static String ITEM3COST = String.valueOf(new BigDecimal(Math
-			.round((double) (500d * Math.pow(1.15, ITEM3NUM)))));
-	public static String ITEM4COST = String.valueOf(new BigDecimal(Math
-			.round((double) (3000d * Math.pow(1.15, ITEM4NUM)))));
-	public static String ITEM5COST = String.valueOf(new BigDecimal(Math
-			.round((double) (10000d * Math.pow(1.15, ITEM5NUM)))));
-	public static String ITEM6COST = String.valueOf(new BigDecimal(Math
-			.round((double) (40000d * Math.pow(1.15, ITEM6NUM)))));
-	public static String ITEM7COST = String.valueOf(new BigDecimal(Math
-			.round((double) (200000d * Math.pow(1.15, ITEM7NUM)))));
-	public static String ITEM8COST = String.valueOf(new BigDecimal(Math
-			.round((double) (1666666d * Math.pow(1.15, ITEM8NUM)))));
-	public static String ITEM9COST = String.valueOf(new BigDecimal(Math
-			.round((double) (123456789d * Math.pow(1.15, ITEM9NUM)))));
-	public static String ITEM10COST = String.valueOf(new BigDecimal(Math
-			.round((double) (3999999999d * Math.pow(1.15, ITEM10NUM)))));
-	public static String ITEM11COST = String.valueOf(new BigDecimal(Math
-			.round((double) (75000000000000d * Math.pow(1.15, ITEM10NUM)))));
+	public static final double ITEM1COSTINITIAL = 15.0;
+	public static final double ITEM2COSTINITIAL = 100;
+	public static final double ITEM3COSTINITIAL = 1100;
+	public static final double ITEM4COSTINITIAL = 120000;
+	public static final double ITEM5COSTINITIAL = 1300000;
+	public static final double ITEM6COSTINITIAL = 140000000;
+	public static final double ITEM7COSTINITIAL = 200000000000d;
+	public static final double ITEM8COSTINITIAL = 3300000000000d;
+	public static final double ITEM9COSTINITIAL = 51000000000000d;
+	public static final double ITEM10COSTINITIAL = 75000000000000d;
+	public static final double ITEM11COSTINITIAL = 1000000000000000d;
 
-	public static void update() {
+	public static double cumulativeCost(double baseCost, int qtd){
+
+		double result = ( baseCost * Math.pow(1.15, qtd))/ 0.15;
+		return result;
+
+	}
+
+	public static double  getCost(String item){
+
+		double baseCost = 0;
+		int qtd = 0;
+
+		if(item.equals("ITEM1COST")){
+			baseCost = ITEM1COSTINITIAL;
+			qtd = ITEM1NUM;
+		}
+
+		if(item.equals("ITEM2COST")){
+			baseCost = ITEM2COSTINITIAL;
+			qtd = ITEM2NUM;
+		}
+
+		if(item.equals("ITEM3COST")){
+			baseCost = ITEM3COSTINITIAL;
+			qtd = ITEM3NUM;
+		}
+
+		if(item.equals("ITEM4COST")){
+			baseCost = ITEM4COSTINITIAL;
+			qtd = ITEM4NUM;
+		}
+
+		if(item.equals("ITEM5COST")){
+			baseCost = ITEM5COSTINITIAL;
+			qtd = ITEM5NUM;
+		}
+
+		if(item.equals("ITEM6COST")){
+			baseCost = ITEM6COSTINITIAL;
+			qtd = ITEM6NUM;
+		}
+
+		if(item.equals("ITEM7COST")){
+			baseCost = ITEM7COSTINITIAL;
+			qtd = ITEM7NUM;
+		}
+
+		if(item.equals("ITEM8COST")){
+			baseCost = ITEM8COSTINITIAL;
+			qtd = ITEM8NUM;
+		}
+
+		if(item.equals("ITEM9COST")){
+			baseCost = ITEM9COSTINITIAL;
+			qtd = ITEM9NUM;
+		}
+
+		if(item.equals("ITEM10COST")){
+			baseCost = ITEM10COSTINITIAL;
+			qtd = ITEM10NUM;
+		}
+
+		if(item.equals("ITEM11COST")){
+			baseCost = ITEM11COSTINITIAL;
+			qtd = ITEM11NUM;
+		}
+
+		double result = baseCost;
+
+		if(qtd > 0) {
+			result = cumulativeCost(baseCost, qtd);
+		}
+
+		BigDecimal finalCost = new BigDecimal(result);
+		return finalCost.setScale(2, RoundingMode.DOWN).doubleValue();
+
+	}
+
+	public static void  updateQtd(){
 
 		ITEM1NUM = (int) Double.parseDouble(getData("Cursor"));
 		ITEM2NUM = (int) Double.parseDouble(getData("Grandma"));
@@ -101,34 +163,9 @@ public class Config {
 		ITEM10NUM = (int) Double.parseDouble(getData("Antimatter Condenser"));
 		ITEM11NUM = (int) Double.parseDouble(getData("Prism"));
 
-		bd1 = new BigDecimal(Math.round((double) (15d * Math
-				.pow(1.15, ITEM1NUM))));
-
-		ITEM1COST = String.valueOf(bd1);
-		ITEM2COST = String.valueOf(new BigDecimal(Math
-				.round((double) (100d * Math.pow(1.15, ITEM2NUM)))));
-		ITEM3COST = String.valueOf(new BigDecimal(Math
-				.round((double) (500d * Math.pow(1.15, ITEM3NUM)))));
-		ITEM4COST = String.valueOf(new BigDecimal(Math
-				.round((double) (3000d * Math.pow(1.15, ITEM4NUM)))));
-		ITEM5COST = String.valueOf(new BigDecimal(Math
-				.round((double) (10000d * Math.pow(1.15, ITEM5NUM)))));
-		ITEM6COST = String.valueOf(new BigDecimal(Math
-				.round((double) (40000d * Math.pow(1.15, ITEM6NUM)))));
-		ITEM7COST = String.valueOf(new BigDecimal(Math
-				.round((double) (200000d * Math.pow(1.15, ITEM7NUM)))));
-		ITEM8COST = String.valueOf(new BigDecimal(Math
-				.round((double) (1666666d * Math.pow(1.15, ITEM8NUM)))));
-		ITEM9COST = String.valueOf(new BigDecimal(Math
-				.round((double) (123456789d * Math.pow(1.15, ITEM9NUM)))));
-		ITEM10COST = String.valueOf(new BigDecimal(Math
-				.round((double) (3999999999d * Math.pow(1.15, ITEM10NUM)))));
-		ITEM11COST = String.valueOf(new BigDecimal(Math
-				.round((double) (74999999999999d * Math.pow(1.15, ITEM10NUM)))));
-
-		COOKIERATE = application.getCoins();
 
 	}
+
 
 	public static void fillData(String id, String value) {
 
@@ -138,7 +175,7 @@ public class Config {
 									.getPackageName(), Context.MODE_PRIVATE);
 			prefs.edit().putString(id, value).apply();
 
-		update();
+
 
 	}
 	
@@ -154,12 +191,32 @@ public class Config {
 						GameActivity.getInstance().getApplicationContext()
 								.getPackageName(), Context.MODE_PRIVATE);
 
+
 				return prefs.getString(id, "0");
 
 
 	}
+
+	public static String getCookieCount() {
+
+
+		SharedPreferences prefs = GameActivity.getInstance()
+
+				.getSharedPreferences(
+						GameActivity.getInstance().getApplicationContext()
+								.getPackageName(), Context.MODE_PRIVATE);
+
+//				SharedPreferences.Editor editor = prefs.edit();
+//				editor.clear();
+//				editor.commit(); // commit changes
+
+
+		return prefs.getString("cookiecount", "0.0");
+
+
+	}
 	
-	public static String getCookieRate(String id) {
+	public static String getCookieRate() {
 
 
 				SharedPreferences prefs = GameActivity.getInstance()
@@ -168,9 +225,10 @@ public class Config {
 						GameActivity.getInstance().getApplicationContext()
 								.getPackageName(), Context.MODE_PRIVATE);
 
-		return prefs.getString(id, "0");
+		return prefs.getString("cookierate", "0.0");
 
 
 	}
+
 
 }

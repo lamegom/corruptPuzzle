@@ -21,17 +21,36 @@ import org.andengine.ui.activity.LayoutGameActivity;
 import com.divneg.manager.ResourcesManager;
 import com.divneg.manager.SceneManager;
 import com.facebook.android.friendsmash.FriendSmashApplication;
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.drive.Drive;
+import com.google.android.gms.games.Games;
+import com.google.android.gms.games.LeaderboardsClient;
+import com.google.android.gms.games.Player;
+import com.google.android.gms.games.PlayersClient;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 import android.view.Display;
+import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+
 import game.div.corruptpuzzle.R;
 
 
@@ -96,9 +115,10 @@ public class GameActivity extends LayoutGameActivity {//implements AdColonyAdAva
 
 
 
-	// private GameActivity(){}
+	protected static final String LEADERBOARD_ID = "CgkIzdSliMYeEAIQEw";
 
-
+	private GoogleSignInClient mGoogleSignInClient;
+	private static final int RC_SIGN_IN = 9001;
 
 	@Override
 
@@ -273,7 +293,9 @@ public class GameActivity extends LayoutGameActivity {//implements AdColonyAdAva
 ////            Toast.makeText(this,"Welcome, " + application.getCurrentFBUser().getName(),3000).show();
             Toast.makeText(this,"getBombs, " + application.getBombs(),Toast.LENGTH_LONG).show();
             Toast.makeText(this,"getCoins, " + application.getCoins(),Toast.LENGTH_LONG).show();
-////            
+////
+//
+//
 ////            loginButton.setVisibility(View.INVISIBLE);
 ////            
 ////		}     
@@ -671,7 +693,8 @@ public class GameActivity extends LayoutGameActivity {//implements AdColonyAdAva
 
 
 		super.onSetContentView();
-		
+		startSignInIntent();
+
 //		 FriendSmashApplication application = (FriendSmashApplication) getApplication().getApplicationContext();
 //		if(application.getCurrentFBUser()!=null){
 //			
@@ -727,6 +750,9 @@ public class GameActivity extends LayoutGameActivity {//implements AdColonyAdAva
 
 		super.onResume();
 
+//
+//		AndroidLauncher launcher = AndroidLauncher.getInstance();
+//		launcher.submitScore(1234);
 		  // Logs 'install' and 'app activate' App Events.
 
 //		  AppEventsLogger.activateApp(this);
@@ -739,7 +765,8 @@ public class GameActivity extends LayoutGameActivity {//implements AdColonyAdAva
 		  if (MainMenuScene.mms != null) {
              
               MainMenuScene.mms.createScene();;
-      }
+
+		  }
 		  
 
 		  System.gc();
@@ -785,6 +812,10 @@ public class GameActivity extends LayoutGameActivity {//implements AdColonyAdAva
 	public void onGameCreated() {
 
 		super.onGameCreated();
+
+		mGoogleSignInClient = GoogleSignIn.getClient(this,
+				new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_GAMES_SIGN_IN).build());
+
 
 	}
 
@@ -848,9 +879,127 @@ public class GameActivity extends LayoutGameActivity {//implements AdColonyAdAva
 //
 //		}
 
-		
 
-		
+
+	 public double round(double value, int places) {
+
+	 if (places < 0) throw new IllegalArgumentException();
+
+
+
+	 long factor = (long) Math.pow(10, places);
+
+	 value = value * factor;
+
+	 long tmp = Math.round(value);
+
+	 return (double) tmp / factor;
+
+	 }
+
+
+
+	public void submitScore(int score){
+		if(isSignedIn()) {
+			mLeaderboardsClient.submitScore(getString(R.string.leaderboard_id), score);
+		}
+	}
+
+
+	public boolean isSignedIn() {
+		return GoogleSignIn.getLastSignedInAccount(this) != null;
+	}
+
+	private void signInSilently() {
+
+		mGoogleSignInClient = GoogleSignIn.getClient(this,
+				new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_GAMES_SIGN_IN).build());
+
+		mGoogleSignInClient.silentSignIn().addOnCompleteListener(GameActivity.getInstance(),
+				new OnCompleteListener<GoogleSignInAccount>() {
+					@Override
+					public void onComplete(@NonNull Task<GoogleSignInAccount> task) {
+						if (task.isSuccessful()) {
+							greetingMsg="Welcome back, ";
+							onConnected(task.getResult());
+						} else {
+							onDisconnected();
+						}
+					}
+				});
+	}
+
+	private void onConnected(GoogleSignInAccount googleSignInAccount) {
+
+		mLeaderboardsClient = Games.getLeaderboardsClient(this, googleSignInAccount);
+		mPlayersClient = Games.getPlayersClient(this, googleSignInAccount);
+
+		mPlayersClient.getCurrentPlayer()
+				.addOnCompleteListener(new OnCompleteListener<Player>() {
+					@Override
+					public void onComplete(@NonNull Task<Player> task) {
+						String displayName;
+						if (task.isSuccessful()) {
+							displayName = task.getResult().getDisplayName();
+						} else {
+							Exception e = task.getException();
+							//handleException(e, getString(R.string.players_exception));
+							displayName = "???";
+						}
+
+						if(!greetingDisplayed)
+							welcomeMessage(displayName);
+					}
+				});
+	}
+
+	private void welcomeMessage(String name){
+
+		Toast toast = Toast.makeText(this, greetingMsg + name, Toast.LENGTH_LONG);
+		toast.setGravity(Gravity.TOP, 0, 0);
+		View view = toast.getView();
+		TextView text = (TextView) view.findViewById(android.R.id.message);
+		toast.show();
+		greetingDisplayed=true;
+	}
+
+
+
+	public void showLeaderBoard() {
+		if(isSignedIn()) {
+			mLeaderboardsClient.getLeaderboardIntent(getString(R.string.leaderboard_id))
+					.addOnSuccessListener(new OnSuccessListener<Intent>() {
+						@Override
+						public void onSuccess(Intent intent) {
+							startActivityForResult(intent, RC_LEADERBOARD_UI);
+						}
+					});
+		}
+	}
+
+	private void onDisconnected() {
+
+		mLeaderboardsClient = null;
+		mPlayersClient = null;
+	}
+
+	public void startSignInIntent() {
+
+		mGoogleSignInClient = GoogleSignIn.getClient(this,
+				new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_GAMES_SIGN_IN).build());
+
+
+		startActivityForResult(mGoogleSignInClient.getSignInIntent(), RC_SIGN_IN);
+	}
+
+	private static final int RC_UNUSED = 5001;
+	private static final int RC_LEADERBOARD_UI = 9004;
+
+	private String greetingMsg="Welcome, ";
+	private boolean greetingDisplayed;
+
+	private LeaderboardsClient mLeaderboardsClient;
+	private PlayersClient mPlayersClient;
 
 }
 

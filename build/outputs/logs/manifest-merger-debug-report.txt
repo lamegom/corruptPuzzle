@@ -1,11 +1,23 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:2:1-111:12
-INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:2:1-111:12
-INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:2:1-111:12
-INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:2:1-111:12
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:2:1-128:12
+INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:2:1-128:12
+INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:2:1-128:12
+INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:2:1-128:12
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\5dde252716430babe1b803f986958487\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\32969f43f8bf603df4672a037d81cdb6\transformed\appcompat-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\dc4bab24cc5bd4b3a4bea256c609ef42\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-ads:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\edd42d06a6dbea4511099d94f6479c76\transformed\jetified-play-services-ads-12.0.1\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-games:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\fc9a971edc6764e17ac6ad9d83945d0a\transformed\jetified-play-services-games-12.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\a2a620224861249508901240539ce8a3\transformed\jetified-play-services-auth-api-phone-12.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\fab09c8ab0a8aedb231037384027d5f2\transformed\jetified-play-services-auth-base-12.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-drive:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\357396f5c10c174792a17a7b0d52e903\transformed\jetified-play-services-drive-12.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\2f290ffbce5fb64ba131058e53beb308\transformed\jetified-play-services-base-12.0.1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\d7f1d4e73cbdbc340fa757586174dce5\transformed\jetified-play-services-tasks-12.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\4e611de9f177c5944c6fc62abba1c8a8\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\7afe33b72e84847a29647a2d0dc59000\transformed\jetified-play-services-gass-12.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\1db825a9040f368653d79b6174a2b015\transformed\jetified-play-services-basement-12.0.1\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\2c72c815f3986b6a31e335acd730d41a\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\2745aedd3da27d4100ffcda250759c36\transformed\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\f4f9bee3bcfb8b7e1e325a1219be0bae\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\222f89b29cab78a1bdc3fca7eafcfa6a\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -19,6 +31,7 @@ MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\dell 5
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\a0e89d35bffe7b1291bb23ee78e80fdd\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\27631a27020079a06616d31a4433e65c\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\59a61d06bd91b932bccd7a8c5fdbe8ee\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\5ca83970173862736643a65a12e12542\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\c1e491d6a408ac46fb5e05c7f93c615d\transformed\core-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\fff1a0faab4883c80a59c9bc44aa6afa\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\d171f092ddcbf6ddaa004cf467d71175\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -31,137 +44,197 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\dell 5450\.gr
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\9b38c073917de38e0d15a9c1071eb4a9\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\ba8b56e8de6f21de1d959fb02b28a17a\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\0fa43a0115bd756eb55b010dab500396\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:2:1-111:12
-INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:2:1-111:12
-INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:2:1-111:12
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\f0d84eef7d99b707fae1fa72d0f13cf3\transformed\jetified-play-services-ads-license-12.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-games-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\c4d12cea6aaa380013f424f93292a48c\transformed\jetified-play-services-games-license-12.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\e384ea120e82e86554855ce9342c7196\transformed\jetified-play-services-tasks-license-12.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\2132fdfc0d4483451b7799327f9aa204\transformed\jetified-play-services-auth-api-phone-license-12.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\7ce6bb9e6130ae36152f98ff9877cafb\transformed\jetified-play-services-auth-base-license-12.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\3d06b25fb6d0a25367904ad68e737a0e\transformed\jetified-play-services-base-license-12.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\47e22e7c53cfa5be040ed8952f8db6ad\transformed\jetified-play-services-basement-license-12.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\5357876f4729d3e32e41a83e6f554234\transformed\jetified-play-services-ads-lite-license-12.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\ba36a9586ca779ae7b19877f189ed387\transformed\jetified-play-services-gass-license-12.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-drive-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\d096148480ff661f520149ce771e3cac\transformed\jetified-play-services-drive-license-12.0.1\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:2:1-128:12
+INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:2:1-128:12
+INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:2:1-128:12
 	package
 		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:3:5-37
 		INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:5:5-31
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:5:5-30
 		INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:4:5-29
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:4:5-28
 		INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
+uses-feature#android.hardware.nfc.hce
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:7:5-85
+	android:required
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:7:59-82
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:7:19-58
+uses-permission#android.permission.NFC
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:8:5-62
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:8:22-59
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:7:5-68
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:9:5-68
 	android:name
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:7:22-65
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:9:22-65
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:8:5-66
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:10:5-66
 	android:name
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:8:22-63
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:10:22-63
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:9:5-67
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\4e611de9f177c5944c6fc62abba1c8a8\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\4e611de9f177c5944c6fc62abba1c8a8\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:9:22-64
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:10:5-79
-	android:name
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:10:22-76
-uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:11:5-75
-	android:name
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:11:22-72
-uses-permission#com.android.vending.BILLING
-ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:12:6-68
-	android:name
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:12:23-65
-uses-permission#android.permission.GET_ACCOUNTS
-ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:15:9-75
-	android:name
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:15:26-72
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:16:5-82
-	android:name
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:16:22-79
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:11:22-64
 application
-ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:20:5-109:19
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:15:5-126:19
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\dc4bab24cc5bd4b3a4bea256c609ef42\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\dc4bab24cc5bd4b3a4bea256c609ef42\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-games:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\fc9a971edc6764e17ac6ad9d83945d0a\transformed\jetified-play-services-games-12.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\fc9a971edc6764e17ac6ad9d83945d0a\transformed\jetified-play-services-games-12.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\357396f5c10c174792a17a7b0d52e903\transformed\jetified-play-services-drive-12.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\357396f5c10c174792a17a7b0d52e903\transformed\jetified-play-services-drive-12.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\2f290ffbce5fb64ba131058e53beb308\transformed\jetified-play-services-base-12.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\2f290ffbce5fb64ba131058e53beb308\transformed\jetified-play-services-base-12.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\d7f1d4e73cbdbc340fa757586174dce5\transformed\jetified-play-services-tasks-12.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\d7f1d4e73cbdbc340fa757586174dce5\transformed\jetified-play-services-tasks-12.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\4e611de9f177c5944c6fc62abba1c8a8\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\4e611de9f177c5944c6fc62abba1c8a8\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\7afe33b72e84847a29647a2d0dc59000\transformed\jetified-play-services-gass-12.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\7afe33b72e84847a29647a2d0dc59000\transformed\jetified-play-services-gass-12.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\1db825a9040f368653d79b6174a2b015\transformed\jetified-play-services-basement-12.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\1db825a9040f368653d79b6174a2b015\transformed\jetified-play-services-basement-12.0.1\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\c1e491d6a408ac46fb5e05c7f93c615d\transformed\core-1.0.0\AndroidManifest.xml:22:5-89
 MERGED from [androidx.core:core:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\c1e491d6a408ac46fb5e05c7f93c615d\transformed\core-1.0.0\AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\fff1a0faab4883c80a59c9bc44aa6afa\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\fff1a0faab4883c80a59c9bc44aa6afa\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\f0d84eef7d99b707fae1fa72d0f13cf3\transformed\jetified-play-services-ads-license-12.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\f0d84eef7d99b707fae1fa72d0f13cf3\transformed\jetified-play-services-ads-license-12.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\c4d12cea6aaa380013f424f93292a48c\transformed\jetified-play-services-games-license-12.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\c4d12cea6aaa380013f424f93292a48c\transformed\jetified-play-services-games-license-12.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\e384ea120e82e86554855ce9342c7196\transformed\jetified-play-services-tasks-license-12.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\e384ea120e82e86554855ce9342c7196\transformed\jetified-play-services-tasks-license-12.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\2132fdfc0d4483451b7799327f9aa204\transformed\jetified-play-services-auth-api-phone-license-12.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\2132fdfc0d4483451b7799327f9aa204\transformed\jetified-play-services-auth-api-phone-license-12.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\7ce6bb9e6130ae36152f98ff9877cafb\transformed\jetified-play-services-auth-base-license-12.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\7ce6bb9e6130ae36152f98ff9877cafb\transformed\jetified-play-services-auth-base-license-12.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\3d06b25fb6d0a25367904ad68e737a0e\transformed\jetified-play-services-base-license-12.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\3d06b25fb6d0a25367904ad68e737a0e\transformed\jetified-play-services-base-license-12.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\47e22e7c53cfa5be040ed8952f8db6ad\transformed\jetified-play-services-basement-license-12.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\47e22e7c53cfa5be040ed8952f8db6ad\transformed\jetified-play-services-basement-license-12.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\5357876f4729d3e32e41a83e6f554234\transformed\jetified-play-services-ads-lite-license-12.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\5357876f4729d3e32e41a83e6f554234\transformed\jetified-play-services-ads-lite-license-12.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\ba36a9586ca779ae7b19877f189ed387\transformed\jetified-play-services-gass-license-12.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\ba36a9586ca779ae7b19877f189ed387\transformed\jetified-play-services-gass-license-12.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\d096148480ff661f520149ce771e3cac\transformed\jetified-play-services-drive-license-12.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\d096148480ff661f520149ce771e3cac\transformed\jetified-play-services-drive-license-12.0.1\AndroidManifest.xml:22:5-20
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\c1e491d6a408ac46fb5e05c7f93c615d\transformed\core-1.0.0\AndroidManifest.xml:22:18-86
 	android:label
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:23:9-41
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:18:9-41
 	android:icon
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:22:9-45
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:17:9-45
 	android:allowBackup
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:21:9-35
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:16:9-35
 	android:theme
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:24:9-40
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:19:9-40
 	android:name
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:25:9-79
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:20:9-79
 activity#game.div.cookiecounter.MainActivity
-ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:29:8-37:20
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:24:8-32:20
 	android:label
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:31:13-45
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:26:13-45
 	android:name
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:30:13-63
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:25:13-63
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT
-ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:32:13-36:29
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:33:17-69
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:33:25-66
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:35:17-76
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:30:17-76
 	android:name
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:35:27-73
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:30:27-73
 activity#game.div.cookiecounter.GameActivity
-ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:47:9-56:20
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:42:9-51:20
 	android:screenOrientation
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:51:13-49
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:46:13-49
 	android:label
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:50:13-45
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:45:13-45
 	android:configChanges
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:49:13-72
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:44:13-72
 	android:name
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:48:13-63
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:43:13-63
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:52:13-55:29
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:47:13-50:29
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:54:18-78
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:49:18-78
 	android:name
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:54:28-75
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:49:28-75
 activity#game.div.cookiecounter.Pp
-ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:76:9-84:20
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:71:9-79:20
 	android:label
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:78:13-45
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:73:13-45
 	android:name
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:77:13-53
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:72:13-53
 activity#game.div.cookiecounter.TouchDragExample
-ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:85:9-93:20
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:80:9-88:20
 	android:label
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:87:13-45
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:82:13-45
 	android:name
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:86:13-67
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:81:13-67
 activity#game.div.cookiecounter.ShopList
-ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:94:10-106:20
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:89:10-101:20
 	android:label
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:96:13-45
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:91:13-45
 	android:theme
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:97:13-57
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:92:13-57
 	android:name
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:95:13-59
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:90:13-59
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:98:13-100:67
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:93:13-95:67
 	android:value
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:100:13-64
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:95:13-64
 	android:name
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:99:13-59
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:94:13-59
+activity#game.div.cookiecounter.AndroidLauncher
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:104:9-116:20
+	android:label
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:106:13-45
+	android:theme
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:107:13-57
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:105:13-66
+meta-data#com.google.android.gms.games.APP_ID
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:119:9-120:46
+	android:value
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:120:13-43
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:119:20-70
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:122:9-123:68
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\1db825a9040f368653d79b6174a2b015\transformed\jetified-play-services-basement-12.0.1\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\1db825a9040f368653d79b6174a2b015\transformed\jetified-play-services-basement-12.0.1\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:123:13-66
+	android:name
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:122:20-65
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:108:9-107
+ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:125:9-107
 	android:value
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:108:20-59
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:125:20-59
 	android:name
-		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:108:60-105
+		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml:125:60-105
 uses-sdk
 INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
@@ -170,6 +243,30 @@ MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\dell 5450\.gradle\caches
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\5dde252716430babe1b803f986958487\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\32969f43f8bf603df4672a037d81cdb6\transformed\appcompat-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\32969f43f8bf603df4672a037d81cdb6\transformed\appcompat-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\dc4bab24cc5bd4b3a4bea256c609ef42\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\dc4bab24cc5bd4b3a4bea256c609ef42\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\edd42d06a6dbea4511099d94f6479c76\transformed\jetified-play-services-ads-12.0.1\AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\edd42d06a6dbea4511099d94f6479c76\transformed\jetified-play-services-ads-12.0.1\AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-games:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\fc9a971edc6764e17ac6ad9d83945d0a\transformed\jetified-play-services-games-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-games:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\fc9a971edc6764e17ac6ad9d83945d0a\transformed\jetified-play-services-games-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\a2a620224861249508901240539ce8a3\transformed\jetified-play-services-auth-api-phone-12.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\a2a620224861249508901240539ce8a3\transformed\jetified-play-services-auth-api-phone-12.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\fab09c8ab0a8aedb231037384027d5f2\transformed\jetified-play-services-auth-base-12.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\fab09c8ab0a8aedb231037384027d5f2\transformed\jetified-play-services-auth-base-12.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-drive:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\357396f5c10c174792a17a7b0d52e903\transformed\jetified-play-services-drive-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\357396f5c10c174792a17a7b0d52e903\transformed\jetified-play-services-drive-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\2f290ffbce5fb64ba131058e53beb308\transformed\jetified-play-services-base-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\2f290ffbce5fb64ba131058e53beb308\transformed\jetified-play-services-base-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\d7f1d4e73cbdbc340fa757586174dce5\transformed\jetified-play-services-tasks-12.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\d7f1d4e73cbdbc340fa757586174dce5\transformed\jetified-play-services-tasks-12.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\4e611de9f177c5944c6fc62abba1c8a8\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\4e611de9f177c5944c6fc62abba1c8a8\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\7afe33b72e84847a29647a2d0dc59000\transformed\jetified-play-services-gass-12.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\7afe33b72e84847a29647a2d0dc59000\transformed\jetified-play-services-gass-12.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\1db825a9040f368653d79b6174a2b015\transformed\jetified-play-services-basement-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\1db825a9040f368653d79b6174a2b015\transformed\jetified-play-services-basement-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\2c72c815f3986b6a31e335acd730d41a\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\2c72c815f3986b6a31e335acd730d41a\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\2745aedd3da27d4100ffcda250759c36\transformed\fragment-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\2745aedd3da27d4100ffcda250759c36\transformed\fragment-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\f4f9bee3bcfb8b7e1e325a1219be0bae\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
@@ -196,6 +293,8 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\dell
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\27631a27020079a06616d31a4433e65c\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\59a61d06bd91b932bccd7a8c5fdbe8ee\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\59a61d06bd91b932bccd7a8c5fdbe8ee\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\5ca83970173862736643a65a12e12542\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\5ca83970173862736643a65a12e12542\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\c1e491d6a408ac46fb5e05c7f93c615d\transformed\core-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\c1e491d6a408ac46fb5e05c7f93c615d\transformed\core-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\fff1a0faab4883c80a59c9bc44aa6afa\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
@@ -220,8 +319,30 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\dell 5450\.gradle\c
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\ba8b56e8de6f21de1d959fb02b28a17a\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\0fa43a0115bd756eb55b010dab500396\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dell 5450\.gradle\caches\transforms-3\0fa43a0115bd756eb55b010dab500396\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\f0d84eef7d99b707fae1fa72d0f13cf3\transformed\jetified-play-services-ads-license-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\f0d84eef7d99b707fae1fa72d0f13cf3\transformed\jetified-play-services-ads-license-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-games-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\c4d12cea6aaa380013f424f93292a48c\transformed\jetified-play-services-games-license-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-games-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\c4d12cea6aaa380013f424f93292a48c\transformed\jetified-play-services-games-license-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\e384ea120e82e86554855ce9342c7196\transformed\jetified-play-services-tasks-license-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\e384ea120e82e86554855ce9342c7196\transformed\jetified-play-services-tasks-license-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\2132fdfc0d4483451b7799327f9aa204\transformed\jetified-play-services-auth-api-phone-license-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\2132fdfc0d4483451b7799327f9aa204\transformed\jetified-play-services-auth-api-phone-license-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\7ce6bb9e6130ae36152f98ff9877cafb\transformed\jetified-play-services-auth-base-license-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\7ce6bb9e6130ae36152f98ff9877cafb\transformed\jetified-play-services-auth-base-license-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\3d06b25fb6d0a25367904ad68e737a0e\transformed\jetified-play-services-base-license-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\3d06b25fb6d0a25367904ad68e737a0e\transformed\jetified-play-services-base-license-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\47e22e7c53cfa5be040ed8952f8db6ad\transformed\jetified-play-services-basement-license-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\47e22e7c53cfa5be040ed8952f8db6ad\transformed\jetified-play-services-basement-license-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\5357876f4729d3e32e41a83e6f554234\transformed\jetified-play-services-ads-lite-license-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\5357876f4729d3e32e41a83e6f554234\transformed\jetified-play-services-ads-lite-license-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\ba36a9586ca779ae7b19877f189ed387\transformed\jetified-play-services-gass-license-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\ba36a9586ca779ae7b19877f189ed387\transformed\jetified-play-services-gass-license-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\d096148480ff661f520149ce771e3cac\transformed\jetified-play-services-drive-license-12.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive-license:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\d096148480ff661f520149ce771e3cac\transformed\jetified-play-services-drive-license-12.0.1\AndroidManifest.xml:20:5-44
 INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
 INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\edd42d06a6dbea4511099d94f6479c76\transformed\jetified-play-services-ads-12.0.1\AndroidManifest.xml:23:9-49
 	android:targetSdkVersion
 		INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
 		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
@@ -230,3 +351,43 @@ INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\Andro
 		INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
 		ADDED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\dell 5450\Documents\Projects\corruptPuzzle\src\main\AndroidManifest.xml
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\dc4bab24cc5bd4b3a4bea256c609ef42\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\dc4bab24cc5bd4b3a4bea256c609ef42\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\dc4bab24cc5bd4b3a4bea256c609ef42\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\dc4bab24cc5bd4b3a4bea256c609ef42\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\dc4bab24cc5bd4b3a4bea256c609ef42\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\dc4bab24cc5bd4b3a4bea256c609ef42\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\dc4bab24cc5bd4b3a4bea256c609ef42\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\dc4bab24cc5bd4b3a4bea256c609ef42\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\dc4bab24cc5bd4b3a4bea256c609ef42\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\2f290ffbce5fb64ba131058e53beb308\transformed\jetified-play-services-base-12.0.1\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\2f290ffbce5fb64ba131058e53beb308\transformed\jetified-play-services-base-12.0.1\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\2f290ffbce5fb64ba131058e53beb308\transformed\jetified-play-services-base-12.0.1\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\2f290ffbce5fb64ba131058e53beb308\transformed\jetified-play-services-base-12.0.1\AndroidManifest.xml:24:13-79
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\4e611de9f177c5944c6fc62abba1c8a8\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\4e611de9f177c5944c6fc62abba1c8a8\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:24:22-76
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\4e611de9f177c5944c6fc62abba1c8a8\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\4e611de9f177c5944c6fc62abba1c8a8\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\4e611de9f177c5944c6fc62abba1c8a8\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\4e611de9f177c5944c6fc62abba1c8a8\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\dell 5450\.gradle\caches\transforms-3\4e611de9f177c5944c6fc62abba1c8a8\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:30:13-65

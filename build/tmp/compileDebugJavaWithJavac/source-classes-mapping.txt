@@ -4,9 +4,39 @@ game/div/cookiecounter/LoginActivity.java
  game.div.cookiecounter.LoginActivity
 game/div/foradilma/util/Security.java
  game.div.foradilma.util.Security
-game/div/foradilma/Manifest.java
- game.div.foradilma.Manifest
- game.div.foradilma.Manifest$permission
+game/div/cookiecounter/MainMenuScene.java
+ game.div.cookiecounter.MainMenuScene
+ game.div.cookiecounter.MainMenuScene$1
+ game.div.cookiecounter.MainMenuScene$1$1
+ game.div.cookiecounter.MainMenuScene$1$2
+ game.div.cookiecounter.MainMenuScene$10
+ game.div.cookiecounter.MainMenuScene$11
+ game.div.cookiecounter.MainMenuScene$12
+ game.div.cookiecounter.MainMenuScene$13
+ game.div.cookiecounter.MainMenuScene$14
+ game.div.cookiecounter.MainMenuScene$15
+ game.div.cookiecounter.MainMenuScene$16
+ game.div.cookiecounter.MainMenuScene$16$1
+ game.div.cookiecounter.MainMenuScene$17
+ game.div.cookiecounter.MainMenuScene$17$1
+ game.div.cookiecounter.MainMenuScene$18
+ game.div.cookiecounter.MainMenuScene$19
+ game.div.cookiecounter.MainMenuScene$19$1
+ game.div.cookiecounter.MainMenuScene$2
+ game.div.cookiecounter.MainMenuScene$2$1
+ game.div.cookiecounter.MainMenuScene$20
+ game.div.cookiecounter.MainMenuScene$21
+ game.div.cookiecounter.MainMenuScene$21$1
+ game.div.cookiecounter.MainMenuScene$22
+ game.div.cookiecounter.MainMenuScene$23
+ game.div.cookiecounter.MainMenuScene$24
+ game.div.cookiecounter.MainMenuScene$3
+ game.div.cookiecounter.MainMenuScene$4
+ game.div.cookiecounter.MainMenuScene$5
+ game.div.cookiecounter.MainMenuScene$6
+ game.div.cookiecounter.MainMenuScene$7
+ game.div.cookiecounter.MainMenuScene$8
+ game.div.cookiecounter.MainMenuScene$9
 com/divneg/manager/SceneManager.java
  com.divneg.manager.SceneManager
  com.divneg.manager.SceneManager$1
@@ -35,6 +65,12 @@ game/div/cookiecounter/removeBurger.java
  game.div.cookiecounter.removeBurger
 game/div/foradilma/util/Base64DecoderException.java
  game.div.foradilma.util.Base64DecoderException
+game/div/cookiecounter/AndroidLauncher.java
+ game.div.cookiecounter.AndroidLauncher
+ game.div.cookiecounter.AndroidLauncher$1
+ game.div.cookiecounter.AndroidLauncher$2
+ game.div.cookiecounter.AndroidLauncher$3
+ game.div.cookiecounter.AndroidLauncher$4
 game/div/cookiecounter/HelicopterStuff.java
  game.div.cookiecounter.HelicopterStuff
 game/div/cookiecounter/DelClouds.java
@@ -49,12 +85,17 @@ game/div/cookiecounter/GameActivity.java
  game.div.cookiecounter.GameActivity
  game.div.cookiecounter.GameActivity$1
  game.div.cookiecounter.GameActivity$2
+ game.div.cookiecounter.GameActivity$3
+ game.div.cookiecounter.GameActivity$4
+ game.div.cookiecounter.GameActivity$5
 com/divneg/base/BaseScene.java
  com.divneg.base.BaseScene
+game/div/cookiecounter/MyServices.java
+ game.div.cookiecounter.MyServices
 com/facebook/android/friendsmash/FriendSmashApplication.java
  com.facebook.android.friendsmash.FriendSmashApplication
- com.facebook.android.friendsmash.FriendSmashApplication$1
- com.facebook.android.friendsmash.FriendSmashApplication$2
+com/divneg/storage/NumberNames.java
+ com.divneg.storage.NumberNames
 com/facebook/android/friendsmash/FriendSmashCustomAppEvent.java
  com.facebook.android.friendsmash.FriendSmashCustomAppEvent
 game/div/foradilma/util/Inventory.java
@@ -93,8 +134,8 @@ game/div/cookiecounter/delSprites.java
  game.div.cookiecounter.delSprites
  game.div.cookiecounter.delSprites$1
  game.div.cookiecounter.delSprites$2
-game/div/cookiecounter/CloudsStuff.java
- game.div.cookiecounter.CloudsStuff
+game/div/foradilma/util/Common.java
+ game.div.foradilma.util.Common
 game/div/cookiecounter/Box2dDebugRenderer.java
  game.div.cookiecounter.Box2dDebugRenderer
 game/div/foradilma/util/SkuDetails.java
@@ -103,43 +144,6 @@ game/div/cookiecounter/Pp.java
  game.div.cookiecounter.Pp
 game/div/cookiecounter/ShopItem.java
  game.div.cookiecounter.ShopItem
-com/divneg/manager/ResourcesManager.java
- com.divneg.manager.ResourcesManager
-game/div/cookiecounter/MainMenuScene.java
- game.div.cookiecounter.MainMenuScene
- game.div.cookiecounter.MainMenuScene$1
- game.div.cookiecounter.MainMenuScene$1$1
- game.div.cookiecounter.MainMenuScene$1$2
- game.div.cookiecounter.MainMenuScene$10
- game.div.cookiecounter.MainMenuScene$11
- game.div.cookiecounter.MainMenuScene$12
- game.div.cookiecounter.MainMenuScene$13
- game.div.cookiecounter.MainMenuScene$14
- game.div.cookiecounter.MainMenuScene$15
- game.div.cookiecounter.MainMenuScene$16
- game.div.cookiecounter.MainMenuScene$16$1
- game.div.cookiecounter.MainMenuScene$17
- game.div.cookiecounter.MainMenuScene$17$1
- game.div.cookiecounter.MainMenuScene$18
- game.div.cookiecounter.MainMenuScene$19
- game.div.cookiecounter.MainMenuScene$19$1
- game.div.cookiecounter.MainMenuScene$2
- game.div.cookiecounter.MainMenuScene$2$1
- game.div.cookiecounter.MainMenuScene$20
- game.div.cookiecounter.MainMenuScene$21
- game.div.cookiecounter.MainMenuScene$21$1
- game.div.cookiecounter.MainMenuScene$22
- game.div.cookiecounter.MainMenuScene$23
- game.div.cookiecounter.MainMenuScene$24
- game.div.cookiecounter.MainMenuScene$3
- game.div.cookiecounter.MainMenuScene$4
- game.div.cookiecounter.MainMenuScene$5
- game.div.cookiecounter.MainMenuScene$6
- game.div.cookiecounter.MainMenuScene$7
- game.div.cookiecounter.MainMenuScene$8
- game.div.cookiecounter.MainMenuScene$9
-game/div/foradilma/util/Common.java
- game.div.foradilma.util.Common
 game/div/cookiecounter/ShopList.java
  game.div.cookiecounter.ShopList
  game.div.cookiecounter.ShopList$1
@@ -147,3 +151,10 @@ game/div/cookiecounter/ShopList.java
  game.div.cookiecounter.ShopList$OnItemClickListener
  game.div.cookiecounter.ShopList$OnItemTouchListener
  game.div.cookiecounter.ShopList$ViewHolder
+com/divneg/manager/ResourcesManager.java
+ com.divneg.manager.ResourcesManager
+game/div/cookiecounter/CloudsStuff.java
+ game.div.cookiecounter.CloudsStuff
+game/div/foradilma/Manifest.java
+ game.div.foradilma.Manifest
+ game.div.foradilma.Manifest$permission

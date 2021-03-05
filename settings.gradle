@@ -1,0 +1,8 @@
+include ':andengine'
+project(':andengine').projectDir = new File( 'C:\\Users\\dell 5450\\Downloads\\extracts\\AndEngine')
+
+include ':AndEnginePhysicsBox2DExtension'
+project(':AndEnginePhysicsBox2DExtension').projectDir = new File( 'C:\\Users\\dell 5450\\Downloads\\extracts\\AndEnginePhysicsBox2DExtension')
+
+/*include 'andEngine-master'
+project(':andEngine-master').projectDir = new File( 'C:\\Users\\dell 5450\\Downloads\\extracts\\andEngine-master')*/
