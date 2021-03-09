@@ -29,8 +29,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ef2fe7c-c130-4687-940f-c77463570e8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/-1439664299/corruptPuzzle.andengine.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/271350068/corruptPuzzle.AndEnginePhysicsBox2DExtension.iml" afterDir="false" />
       <change afterPath="$USER_HOME$/Downloads/extracts/AndEngine/.idea/.gitignore" afterDir="false" />
       <change afterPath="$USER_HOME$/Downloads/extracts/AndEngine/.idea/gradle.xml" afterDir="false" />
       <change afterPath="$USER_HOME$/Downloads/extracts/AndEngine/.idea/libraries/ant_contrib_1_0b3.xml" afterDir="false" />
@@ -57,73 +55,21 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/res/google-services/debug/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/res/google-services/debug/values/values.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/source/buildConfig/debug/game/div/corruptpuzzle/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/source/buildConfig/debug/game/div/corruptpuzzle/BuildConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/compatible_screen_manifest/debug/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/compatible_screen_manifest/debug/output-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/compressed_assets/debug/out/assets/gfx/menu/rankIcon.png.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/compressed_assets/debug/out/assets/gfx/menu/rankIcon.png.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/compressed_assets/debug/out/assets/gfx/menu/cookie.png.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/compressed_assets/debug/out/assets/gfx/menu/cookie.png.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/compressed_assets/debug/out/assets/gfx/menu/shopIcon.png.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/compressed_assets/debug/out/assets/gfx/menu/shopIcon.png.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/compressed_assets/debug/out/assets/sound/blades.ogg.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/compressed_assets/debug/out/assets/sound/blades.ogg.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/dex/debug/mergeDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex/debug/mergeDexDebug/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/dex/debug/mergeDexDebug/classes2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex/debug/mergeDexDebug/classes2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/dex/debug/mergeDexDebug/classes3.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+oqubLY_FpswOQSWPUqfCm3q1oY=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+oqubLY_FpswOQSWPUqfCm3q1oY=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/68uNT9GvnoPd8+XEi0L_spldjxA=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/68uNT9GvnoPd8+XEi0L_spldjxA=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/71DKoXt3_zprsu4HXapFfz68xlo=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/71DKoXt3_zprsu4HXapFfz68xlo=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/AWRd8S1A72aZSB0WIfNC9chpGbM=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/AWRd8S1A72aZSB0WIfNC9chpGbM=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/F0CE+gPebgiSmwSvvw+hFmNZjFE=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/F0CE+gPebgiSmwSvvw+hFmNZjFE=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Fbc2htAATHZqozBmmbUtgE9_7xo=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Fbc2htAATHZqozBmmbUtgE9_7xo=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/FkEjYOu2ERDiGL3sXtW_bCBESLo=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/FkEjYOu2ERDiGL3sXtW_bCBESLo=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/L3TBC9GuCTUVkT9qkIF57DzKFA0=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/L3TBC9GuCTUVkT9qkIF57DzKFA0=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/RtMfHmKHVzZp6_mDmTrNYZP2gxs=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/RtMfHmKHVzZp6_mDmTrNYZP2gxs=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_QvUMxc9OJHv2VFATKw1P7069DM=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_QvUMxc9OJHv2VFATKw1P7069DM=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/bFvFQaRMly0dg7p_iO9xU7Jklbw=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/bFvFQaRMly0dg7p_iO9xU7Jklbw=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/dpfZobfg5KHUcJ9F+dxiWnHHaYg=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/dpfZobfg5KHUcJ9F+dxiWnHHaYg=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/gm6ZzWT5kS8v+zSX7qXRKj4kAsw=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/gm6ZzWT5kS8v+zSX7qXRKj4kAsw=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/iKfb6kVag5qLHmvjN9m5P_GrJxc=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/iKfb6kVag5qLHmvjN9m5P_GrJxc=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/jM9eQTmM_mWnP3VFnUZIGne3Omw=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/jM9eQTmM_mWnP3VFnUZIGne3Omw=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/oR8urndjHx51I+9oX2_Jn39e2_A=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/oR8urndjHx51I+9oX2_Jn39e2_A=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/tZluKtbEWO_Q8s6NCS2V6OpQma0=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/tZluKtbEWO_Q8s6NCS2V6OpQma0=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vQqoSrK2pr_EtjuYuHu9ZmLk_cc=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vQqoSrK2pr_EtjuYuHu9ZmLk_cc=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vZdp7it5ciru9mFX99Pn7QfumUU=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vZdp7it5ciru9mFX99Pn7QfumUU=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vugOS+3Ux4Bnv8zEXD1Kh0Ioc9s=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vugOS+3Ux4Bnv8zEXD1Kh0Ioc9s=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/+oqubLY_FpswOQSWPUqfCm3q1oY=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/+oqubLY_FpswOQSWPUqfCm3q1oY=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/68uNT9GvnoPd8+XEi0L_spldjxA=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/68uNT9GvnoPd8+XEi0L_spldjxA=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/71DKoXt3_zprsu4HXapFfz68xlo=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/71DKoXt3_zprsu4HXapFfz68xlo=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/AWRd8S1A72aZSB0WIfNC9chpGbM=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/AWRd8S1A72aZSB0WIfNC9chpGbM=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/F0CE+gPebgiSmwSvvw+hFmNZjFE=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/F0CE+gPebgiSmwSvvw+hFmNZjFE=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Fbc2htAATHZqozBmmbUtgE9_7xo=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Fbc2htAATHZqozBmmbUtgE9_7xo=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/FkEjYOu2ERDiGL3sXtW_bCBESLo=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/FkEjYOu2ERDiGL3sXtW_bCBESLo=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/L3TBC9GuCTUVkT9qkIF57DzKFA0=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/L3TBC9GuCTUVkT9qkIF57DzKFA0=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/RtMfHmKHVzZp6_mDmTrNYZP2gxs=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/RtMfHmKHVzZp6_mDmTrNYZP2gxs=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/_QvUMxc9OJHv2VFATKw1P7069DM=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/_QvUMxc9OJHv2VFATKw1P7069DM=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/bFvFQaRMly0dg7p_iO9xU7Jklbw=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/bFvFQaRMly0dg7p_iO9xU7Jklbw=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/dpfZobfg5KHUcJ9F+dxiWnHHaYg=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/dpfZobfg5KHUcJ9F+dxiWnHHaYg=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/gm6ZzWT5kS8v+zSX7qXRKj4kAsw=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/gm6ZzWT5kS8v+zSX7qXRKj4kAsw=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/iKfb6kVag5qLHmvjN9m5P_GrJxc=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/iKfb6kVag5qLHmvjN9m5P_GrJxc=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/jM9eQTmM_mWnP3VFnUZIGne3Omw=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/jM9eQTmM_mWnP3VFnUZIGne3Omw=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/oR8urndjHx51I+9oX2_Jn39e2_A=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/oR8urndjHx51I+9oX2_Jn39e2_A=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/tZluKtbEWO_Q8s6NCS2V6OpQma0=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/tZluKtbEWO_Q8s6NCS2V6OpQma0=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/vQqoSrK2pr_EtjuYuHu9ZmLk_cc=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/vQqoSrK2pr_EtjuYuHu9ZmLk_cc=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/vZdp7it5ciru9mFX99Pn7QfumUU=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/vZdp7it5ciru9mFX99Pn7QfumUU=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/vugOS+3Ux4Bnv8zEXD1Kh0Ioc9s=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/vugOS+3Ux4Bnv8zEXD1Kh0Ioc9s=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/divneg/manager/ResourcesManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/divneg/manager/ResourcesManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/divneg/storage/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/divneg/storage/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/divneg/storage/GameScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/divneg/storage/GameScore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/facebook/android/friendsmash/FriendSmashApplication$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/facebook/android/friendsmash/FriendSmashApplication$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/facebook/android/friendsmash/FriendSmashApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/facebook/android/friendsmash/FriendSmashApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/facebook/android/friendsmash/HomeActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/facebook/android/friendsmash/HomeActivity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/GameActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/GameActivity$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/GameActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/GameActivity$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/GameActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/GameActivity.class" afterDir="false" />
@@ -152,7 +98,7 @@
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/MainMenuScene$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/MainMenuScene$21.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/MainMenuScene$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/MainMenuScene$22.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/MainMenuScene$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/MainMenuScene$23.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/MainMenuScene$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/MainMenuScene$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/MainMenuScene$24.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/MainMenuScene$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/MainMenuScene$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/MainMenuScene$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/MainMenuScene$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/MainMenuScene$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/MainMenuScene$5.class" afterDir="false" />
@@ -166,132 +112,29 @@
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/ShopList$OnItemTouchListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/ShopList$OnItemTouchListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/ShopList$ViewHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/ShopList$ViewHolder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/ShopList.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/ShopList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/SplashScene$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/SplashScene$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/SplashScene.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/cookiecounter/SplashScene.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/corruptpuzzle/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/corruptpuzzle/BuildConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/foradilma/util/Common.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/game/div/foradilma/util/Common.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/legacy_multidex_main_dex_list/debug/mainDexList.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/legacy_multidex_main_dex_list/debug/mainDexList.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_assets/debug/out/gfx/menu/rankIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_assets/debug/out/gfx/menu/rankIcon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_assets/debug/out/gfx/menu/cookie.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_assets/debug/out/gfx/menu/cookie.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/merged_assets/debug/out/gfx/menu/shopIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_assets/debug/out/gfx/menu/shopIcon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_assets/debug/out/sound/blades.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_assets/debug/out/sound/blades.ogg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/merged_manifest/debug/out/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_manifest/debug/out/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/merged_manifests/debug/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_manifests/debug/output-metadata.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-af.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-af.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-am.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-am.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-az.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-az.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-b+sr+Latn.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-b+sr+Latn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-be.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-be.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bg.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bg.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bn.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bs.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ca.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-cs.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-cs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-da.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-da.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-de.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-de.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-el.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-el.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rGB.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rGB.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es-rUS.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es-rUS.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-et.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-et.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-eu.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-eu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fa.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fi.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr-rCA.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr-rCA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gl.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gu.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hi.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hr.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hy.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-in.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-in.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-is.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-is.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-it.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-it.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-iw.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-iw.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ja.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ka.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ka.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kk.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-km.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-km.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kn.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ko.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ky.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ky.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lo.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lt.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lv.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lv.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mk.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ml.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ml.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mn.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mr.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ms.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ms.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-my.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-my.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nb.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nb.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ne.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ne.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nl.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pa.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rBR.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rBR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rPT.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rPT.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ro.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ro.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ru.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-si.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-si.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sk.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sl.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sq.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sq.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sr.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sv.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sv.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sw.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sw.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ta.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-te.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-te.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-th.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-th.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tl.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tr.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uk.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ur.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ur.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uz.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uz.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v24.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v24.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-vi.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-vi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-watch-v20.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-watch-v20.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rCN.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rCN.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rHK.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rHK.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rTW.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rTW.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zu.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zu.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/packaged_manifests/debug/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/packaged_manifests/debug/output-metadata.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/processed_res/debug/out/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/processed_res/debug/out/output-metadata.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/1446405985203248eadb3210bd8d2aab320cab9928f020027ae0ceee15db775d_0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/1446405985203248eadb3210bd8d2aab320cab9928f020027ae0ceee15db775d_1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/android/fontlibrary/CookieFont.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/android/fontlibrary/CookieFont.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/divneg/base/BaseScene.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/divneg/base/BaseScene.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/divneg/manager/ResourcesManager.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/divneg/manager/ResourcesManager.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/divneg/manager/SceneManager$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/divneg/manager/SceneManager$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/divneg/manager/SceneManager$SceneType.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/divneg/manager/SceneManager$SceneType.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/divneg/manager/SceneManager.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/divneg/manager/SceneManager.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/divneg/storage/Config.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/divneg/storage/Config.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/divneg/storage/GameScore.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/divneg/storage/GameScore.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/facebook/android/friendsmash/FBLoggedOutHomeFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/facebook/android/friendsmash/FBLoggedOutHomeFragment.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/facebook/android/friendsmash/FriendSmashApplication$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/facebook/android/friendsmash/FriendSmashApplication$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/facebook/android/friendsmash/FriendSmashApplication.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/facebook/android/friendsmash/FriendSmashApplication.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/facebook/android/friendsmash/FriendSmashCustomAppEvent.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/facebook/android/friendsmash/FriendSmashCustomAppEvent.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/facebook/android/friendsmash/FriendSmashEventsLogger.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/facebook/android/friendsmash/FriendSmashEventsLogger.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/facebook/android/friendsmash/HomeActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/facebook/android/friendsmash/HomeActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/facebook/android/friendsmash/ScoreboardEntry.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/facebook/android/friendsmash/ScoreboardEntry.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/Box2dDebugRenderer.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/Box2dDebugRenderer.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/CloudsStuff.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/CloudsStuff.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/DelClouds$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/DelClouds$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/DelClouds.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/DelClouds.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/GameActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/GameActivity$1.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/GameActivity$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/GameActivity$2.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/GameActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/GameActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/HelicopterStuff.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/HelicopterStuff.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/LoadTextureExample$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/LoadTextureExample$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/LoadTextureExample.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/LoadTextureExample.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/LoginActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/LoginActivity.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainActivity.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainMenuScene$1$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainMenuScene$1$1.dex" afterDir="false" />
@@ -317,7 +160,7 @@
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainMenuScene$21.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainMenuScene$21.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainMenuScene$22.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainMenuScene$22.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainMenuScene$23.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainMenuScene$23.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainMenuScene$24.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainMenuScene$24.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainMenuScene$24.dex" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainMenuScene$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainMenuScene$3.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainMenuScene$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainMenuScene$4.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainMenuScene$5.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainMenuScene$5.dex" afterDir="false" />
@@ -326,12 +169,6 @@
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainMenuScene$8.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainMenuScene$8.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainMenuScene$9.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainMenuScene$9.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainMenuScene.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MainMenuScene.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MoveText$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MoveText$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MoveText.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MoveText.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MyApplication.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/MyApplication.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/Pp.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/Pp.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/ShopItem.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/ShopItem.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/ShopList$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/ShopList$1.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/ShopList$ItemAdapter.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/ShopList$ItemAdapter.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/ShopList$OnItemClickListener.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/ShopList$OnItemClickListener.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/ShopList$OnItemTouchListener.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/ShopList$OnItemTouchListener.dex" afterDir="false" />
@@ -339,158 +176,40 @@
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/ShopList.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/ShopList.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/SplashScene$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/SplashScene$1.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/SplashScene.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/SplashScene.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/TextureCache.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/TextureCache.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/ToastAdListener.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/ToastAdListener.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/TouchDragExample$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/TouchDragExample$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/TouchDragExample.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/TouchDragExample.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/delSprites$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/delSprites$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/delSprites$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/delSprites$2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/delSprites.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/delSprites.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/removeBurger.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/cookiecounter/removeBurger.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/corruptpuzzle/BuildConfig.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/corruptpuzzle/BuildConfig.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/Manifest$permission.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/Manifest$permission.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/Manifest.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/Manifest.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/Base64.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/Base64.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/Base64DecoderException.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/Base64DecoderException.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/Common.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/Common.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabException.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabException.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper$2$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper$2$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper$2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper$3$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper$3$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper$3$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper$3$2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper$3.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper$OnConsumeFinishedListener.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper$OnConsumeFinishedListener.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper$OnConsumeMultiFinishedListener.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper$OnConsumeMultiFinishedListener.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper$OnIabPurchaseFinishedListener.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper$OnIabPurchaseFinishedListener.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper$OnIabSetupFinishedListener.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper$OnIabSetupFinishedListener.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper$QueryInventoryFinishedListener.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper$QueryInventoryFinishedListener.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabHelper.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabResult.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/IabResult.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/Inventory.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/Inventory.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/Purchase.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/Purchase.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/Security.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/Security.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/SkuDetails.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/game/div/foradilma/util/SkuDetails.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-af_values-af.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-af_values-af.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-am_values-am.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-am_values-am.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ar_values-ar.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ar_values-ar.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-az_values-az.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-az_values-az.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-b+sr+Latn_values-b+sr+Latn.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-b+sr+Latn_values-b+sr+Latn.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-be_values-be.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-be_values-be.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-bg_values-bg.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-bg_values-bg.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-bn_values-bn.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-bn_values-bn.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-bs_values-bs.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-bs_values-bs.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ca_values-ca.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ca_values-ca.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-cs_values-cs.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-cs_values-cs.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-da_values-da.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-da_values-da.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-de_values-de.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-de_values-de.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-el_values-el.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-el_values-el.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-en-rGB_values-en-rGB.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-en-rGB_values-en-rGB.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-es-rUS_values-es-rUS.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-es-rUS_values-es-rUS.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-es_values-es.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-es_values-es.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-et_values-et.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-et_values-et.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-eu_values-eu.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-eu_values-eu.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-fa_values-fa.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-fa_values-fa.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-fi_values-fi.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-fi_values-fi.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-fr-rCA_values-fr-rCA.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-fr-rCA_values-fr-rCA.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-fr_values-fr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-fr_values-fr.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-gl_values-gl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-gl_values-gl.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-gu_values-gu.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-gu_values-gu.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-hi_values-hi.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-hi_values-hi.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-hr_values-hr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-hr_values-hr.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-hu_values-hu.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-hu_values-hu.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-hy_values-hy.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-hy_values-hy.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-in_values-in.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-in_values-in.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-is_values-is.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-is_values-is.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-it_values-it.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-it_values-it.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-iw_values-iw.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-iw_values-iw.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ja_values-ja.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ja_values-ja.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ka_values-ka.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ka_values-ka.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-kk_values-kk.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-kk_values-kk.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-km_values-km.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-km_values-km.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-kn_values-kn.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-kn_values-kn.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ko_values-ko.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ko_values-ko.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ky_values-ky.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ky_values-ky.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-lo_values-lo.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-lo_values-lo.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-lt_values-lt.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-lt_values-lt.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-lv_values-lv.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-lv_values-lv.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-mk_values-mk.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-mk_values-mk.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ml_values-ml.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ml_values-ml.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-mn_values-mn.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-mn_values-mn.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-mr_values-mr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-mr_values-mr.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ms_values-ms.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ms_values-ms.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-my_values-my.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-my_values-my.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-nb_values-nb.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-nb_values-nb.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ne_values-ne.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ne_values-ne.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-nl_values-nl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-nl_values-nl.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-pa_values-pa.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-pa_values-pa.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-pl_values-pl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-pl_values-pl.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-pt-rBR_values-pt-rBR.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-pt-rBR_values-pt-rBR.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-pt-rPT_values-pt-rPT.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-pt-rPT_values-pt-rPT.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ro_values-ro.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ro_values-ro.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ru_values-ru.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ru_values-ru.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-si_values-si.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-si_values-si.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-sk_values-sk.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-sk_values-sk.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-sl_values-sl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-sl_values-sl.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-sq_values-sq.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-sq_values-sq.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-sr_values-sr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-sr_values-sr.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-sv_values-sv.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-sv_values-sv.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-sw_values-sw.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-sw_values-sw.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ta_values-ta.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ta_values-ta.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-te_values-te.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-te_values-te.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-th_values-th.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-th_values-th.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-tl_values-tl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-tl_values-tl.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-tr_values-tr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-tr_values-tr.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-uk_values-uk.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-uk_values-uk.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ur_values-ur.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-ur_values-ur.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-uz_values-uz.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-uz_values-uz.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-v21_values-v21.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-v21_values-v21.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-v24_values-v24.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-v24_values-v24.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-vi_values-vi.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-vi_values-vi.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-watch-v20_values-watch-v20.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-watch-v20_values-watch-v20.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-zh-rCN_values-zh-rCN.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-zh-rCN_values-zh-rCN.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-zh-rHK_values-zh-rHK.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-zh-rHK_values-zh-rHK.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-zh-rTW_values-zh-rTW.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-zh-rTW_values-zh-rTW.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-zu_values-zu.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-zu_values-zu.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_shop.jpg.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_shop.jpg.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libandengine.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libandengine.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libandenginephysicsbox2dextension.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libandenginephysicsbox2dextension.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/stripped_native_libs/debug/out/lib/x86/libandengine.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/stripped_native_libs/debug/out/lib/x86/libandengine.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/stripped_native_libs/debug/out/lib/x86/libandenginephysicsbox2dextension.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/stripped_native_libs/debug/out/lib/x86/libandenginephysicsbox2dextension.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/outputs/apk/debug/corruptPuzzle-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/outputs/apk/debug/corruptPuzzle-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/outputs/apk/debug/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/outputs/apk/debug/output-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corruptPuzzle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/corruptPuzzle.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corruptPuzzle.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/corruptPuzzle.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/corruptPuzzle.iws" beforeDir="false" afterPath="$PROJECT_DIR$/corruptPuzzle.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/google-services.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/classes-dex2jar.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/classes-dex2jar.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/supercovid19.keystore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/gfx/menu/rankIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/gfx/menu/rankIcon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/superpeste.keystore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/gfx/menu/cookie.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/gfx/menu/cookie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/gfx/menu/shop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/gfx/menu/shop.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/assets/gfx/menu/shopIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/gfx/menu/shopIcon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/sound/blades.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/sound/blades.ogg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/divneg/manager/ResourcesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/divneg/manager/ResourcesManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/divneg/storage/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/divneg/storage/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/divneg/storage/GameScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/divneg/storage/GameScore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/android/friendsmash/FriendSmashApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/android/friendsmash/FriendSmashApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/android/friendsmash/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/android/friendsmash/HomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/divneg/storage/NumberNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/divneg/storage/NumberNames.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/game/div/cookiecounter/GameActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/div/cookiecounter/GameActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/game/div/cookiecounter/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/div/cookiecounter/LoginActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/game/div/cookiecounter/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/div/cookiecounter/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/game/div/cookiecounter/MainMenuScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/div/cookiecounter/MainMenuScene.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/game/div/cookiecounter/ShopList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/div/cookiecounter/ShopList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/div/cookiecounter/SplashScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/div/cookiecounter/SplashScene.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/game/div/foradilma/util/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/div/foradilma/util/Common.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jniLibs/arm64-v8a/libandengine.so" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jniLibs/arm64-v8a/libandengine.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jniLibs/arm64-v8a/libandenginephysicsbox2dextension.so" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jniLibs/arm64-v8a/libandenginephysicsbox2dextension.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jniLibs/x86_64/libandengine.so" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jniLibs/x86_64/libandengine.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jniLibs/x86_64/libandenginephysicsbox2dextension.so" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jniLibs/x86_64/libandenginephysicsbox2dextension.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/values/games-ids.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/games-ids.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/shop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/shop.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/toast_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/toast_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/shop.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/Downloads/extracts/AndEngine/AndroidManifest.xml" beforeDir="false" />
       <change beforePath="$USER_HOME$/Downloads/extracts/AndEngine/res/.gitignore" beforeDir="false" />
@@ -1343,7 +1062,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="2312013b30037ece" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-03-02T22:24:07.385Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-03-05T08:44:25.467Z" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -1362,6 +1081,9 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="game.div.cookiecounter" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="game.div.cookiecounter" />
     </key>
@@ -1618,10 +1340,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="190" y="109" key="#PSD/0.0.1366.728@0.0.1366.728" timestamp="1614566848955" />
-    <state x="478" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1614643612557">
+    <state x="492" y="231" key="#Updates" timestamp="1614977421230">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="478" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1614643612557" />
+    <state x="492" y="231" key="#Updates/0.0.1366.728@0.0.1366.728" timestamp="1614977421230" />
+    <state x="478" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1615222347935">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="478" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1615222347935" />
     <state x="438" y="67" key="#xdebugger.evaluate" timestamp="1614639804533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -1634,218 +1360,375 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="153" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1614643723327" />
-    <state width="1322" height="177" key="GridCell.Tab.0.bottom" timestamp="1614915478385">
+    <state width="1322" height="177" key="GridCell.Tab.-1.bottom" timestamp="1615102761557">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614915478385" />
-    <state width="1322" height="177" key="GridCell.Tab.0.center" timestamp="1614915478384">
+    <state width="1322" height="177" key="GridCell.Tab.-1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615102761557" />
+    <state width="1322" height="177" key="GridCell.Tab.-1.center" timestamp="1615102761557">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1614915478384" />
-    <state width="1322" height="177" key="GridCell.Tab.0.left" timestamp="1614915478384">
+    <state width="1322" height="177" key="GridCell.Tab.-1.center/0.0.1366.728@0.0.1366.728" timestamp="1615102761557" />
+    <state width="1322" height="177" key="GridCell.Tab.-1.left" timestamp="1615102761557">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1614915478384" />
-    <state width="1322" height="177" key="GridCell.Tab.0.right" timestamp="1614915478384">
+    <state width="1322" height="177" key="GridCell.Tab.-1.left/0.0.1366.728@0.0.1366.728" timestamp="1615102761557" />
+    <state width="1322" height="177" key="GridCell.Tab.-1.right" timestamp="1615102761557">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1614915478384" />
-    <state width="1322" height="177" key="GridCell.Tab.1.bottom" timestamp="1614915478386">
+    <state width="1322" height="177" key="GridCell.Tab.-1.right/0.0.1366.728@0.0.1366.728" timestamp="1615102761557" />
+    <state width="1236" height="177" key="GridCell.Tab.0.bottom" timestamp="1615228320832">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="1236" height="177" key="GridCell.Tab.0.bottom/0.0.1280.728@0.0.1280.728" timestamp="1615228320832" />
+    <state width="1322" height="177" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615225356807" />
+    <state width="1236" height="177" key="GridCell.Tab.0.center" timestamp="1615228320832">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="1236" height="177" key="GridCell.Tab.0.center/0.0.1280.728@0.0.1280.728" timestamp="1615228320832" />
+    <state width="1322" height="177" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1615225356807" />
+    <state width="1236" height="177" key="GridCell.Tab.0.left" timestamp="1615228320831">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="1236" height="177" key="GridCell.Tab.0.left/0.0.1280.728@0.0.1280.728" timestamp="1615228320831" />
+    <state width="1322" height="177" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1615225356807" />
+    <state width="1236" height="177" key="GridCell.Tab.0.right" timestamp="1615228320832">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="1236" height="177" key="GridCell.Tab.0.right/0.0.1280.728@0.0.1280.728" timestamp="1615228320832" />
+    <state width="1322" height="177" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1615225356807" />
+    <state x="73" y="294" width="232" height="107" key="GridCell.Tab.1.bottom" timestamp="1615228306886">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="73" y="294" width="232" height="107" key="GridCell.Tab.1.bottom/0.0.1280.728@0.0.1280.728" timestamp="1615228306886" />
+    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615225356804" />
+    <state x="73" y="294" width="232" height="107" key="GridCell.Tab.1.center" timestamp="1615228306886">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="73" y="294" width="232" height="107" key="GridCell.Tab.1.center/0.0.1280.728@0.0.1280.728" timestamp="1615228306886" />
+    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1615225356804" />
+    <state x="73" y="294" width="232" height="107" key="GridCell.Tab.1.left" timestamp="1615228320832">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="73" y="294" width="232" height="107" key="GridCell.Tab.1.left/0.0.1280.728@0.0.1280.728" timestamp="1615228320832" />
+    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1615225356807" />
+    <state x="73" y="294" width="232" height="107" key="GridCell.Tab.1.right" timestamp="1615228306886">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="73" y="294" width="232" height="107" key="GridCell.Tab.1.right/0.0.1280.728@0.0.1280.728" timestamp="1615228306886" />
+    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1615225356804" />
+    <state x="73" y="294" width="232" height="107" key="GridCell.Tab.2.bottom" timestamp="1615228306867">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="73" y="294" width="232" height="107" key="GridCell.Tab.2.bottom/0.0.1280.728@0.0.1280.728" timestamp="1615228306867" />
+    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615225009212" />
+    <state x="73" y="294" width="232" height="107" key="GridCell.Tab.2.center" timestamp="1615228306867">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="73" y="294" width="232" height="107" key="GridCell.Tab.2.center/0.0.1280.728@0.0.1280.728" timestamp="1615228306867" />
+    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1615225009211" />
+    <state x="73" y="294" width="232" height="107" key="GridCell.Tab.2.left" timestamp="1615228306867">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="73" y="294" width="232" height="107" key="GridCell.Tab.2.left/0.0.1280.728@0.0.1280.728" timestamp="1615228306867" />
+    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1615225009211" />
+    <state x="73" y="294" width="232" height="107" key="GridCell.Tab.2.right" timestamp="1615228306867">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="73" y="294" width="232" height="107" key="GridCell.Tab.2.right/0.0.1280.728@0.0.1280.728" timestamp="1615228306867" />
+    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1615225009212" />
+    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.3.bottom" timestamp="1615102489330">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614915478386" />
-    <state width="1322" height="177" key="GridCell.Tab.1.center" timestamp="1614915478385">
+    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615102489330" />
+    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.3.center" timestamp="1615102489330">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1614915478385" />
-    <state width="1322" height="177" key="GridCell.Tab.1.left" timestamp="1614915478385">
+    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1615102489330" />
+    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.3.left" timestamp="1615102489330">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1614915478385" />
-    <state width="1322" height="177" key="GridCell.Tab.1.right" timestamp="1614915478386">
+    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1615102489330" />
+    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.3.right" timestamp="1615102489330">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1614915478386" />
-    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.2.bottom" timestamp="1614915478377">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614915478377" />
-    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.2.center" timestamp="1614915478376">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1614915478376" />
-    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.2.left" timestamp="1614915478386">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1614915478386" />
-    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.2.right" timestamp="1614915478376">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1614915478376" />
-    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.3.bottom" timestamp="1614914313216">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614914313216" />
-    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.3.center" timestamp="1614914313216">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1614914313216" />
-    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.3.left" timestamp="1614914313216">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1614914313216" />
-    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.3.right" timestamp="1614914313216">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1614914313216" />
+    <state x="78" y="294" width="247" height="107" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1615102489330" />
     <state x="174" y="8" key="SettingsEditor" timestamp="1614565825994">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="174" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1614565825994" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-1" timestamp="1614907226824">
+    <state x="73" y="294" width="248" height="174" key="dock-window-1" timestamp="1615228322405">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="73" y="294" width="248" height="174" key="dock-window-1/0.0.1280.728@0.0.1280.728" timestamp="1615228322405" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1615220417132" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-10" timestamp="1615221836884">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1614907226824" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-10" timestamp="1614898909626">
+    <state x="78" y="294" width="263" height="174" key="dock-window-10/0.0.1366.728@0.0.1366.728" timestamp="1615221836884" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-11" timestamp="1615221905536">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-10/0.0.1366.728@0.0.1366.728" timestamp="1614898909626" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-11" timestamp="1614898909626">
+    <state x="78" y="294" width="263" height="174" key="dock-window-11/0.0.1366.728@0.0.1366.728" timestamp="1615221905536" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-12" timestamp="1615223571847">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-11/0.0.1366.728@0.0.1366.728" timestamp="1614898909626" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-12" timestamp="1614898909626">
+    <state x="78" y="294" width="263" height="174" key="dock-window-12/0.0.1366.728@0.0.1366.728" timestamp="1615223571847" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-13" timestamp="1615223571847">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-12/0.0.1366.728@0.0.1366.728" timestamp="1614898909626" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-13" timestamp="1614903681510">
+    <state x="78" y="294" width="263" height="174" key="dock-window-13/0.0.1366.728@0.0.1366.728" timestamp="1615223571847" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-14" timestamp="1615223571847">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-13/0.0.1366.728@0.0.1366.728" timestamp="1614903681510" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-14" timestamp="1614903681510">
+    <state x="78" y="294" width="263" height="174" key="dock-window-14/0.0.1366.728@0.0.1366.728" timestamp="1615223571847" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-15" timestamp="1615223571847">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-14/0.0.1366.728@0.0.1366.728" timestamp="1614903681510" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-15" timestamp="1614903681510">
+    <state x="78" y="294" width="263" height="174" key="dock-window-15/0.0.1366.728@0.0.1366.728" timestamp="1615223571847" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-16" timestamp="1615223571847">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-15/0.0.1366.728@0.0.1366.728" timestamp="1614903681510" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-16" timestamp="1614903681510">
+    <state x="78" y="294" width="263" height="174" key="dock-window-16/0.0.1366.728@0.0.1366.728" timestamp="1615223571847" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-17" timestamp="1615223571847">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-16/0.0.1366.728@0.0.1366.728" timestamp="1614903681510" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-17" timestamp="1614903681510">
+    <state x="78" y="294" width="263" height="174" key="dock-window-17/0.0.1366.728@0.0.1366.728" timestamp="1615223571847" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-18" timestamp="1615223571847">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-17/0.0.1366.728@0.0.1366.728" timestamp="1614903681510" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-18" timestamp="1614903681511">
+    <state x="78" y="294" width="263" height="174" key="dock-window-18/0.0.1366.728@0.0.1366.728" timestamp="1615223571847" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-19" timestamp="1615223571848">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-18/0.0.1366.728@0.0.1366.728" timestamp="1614903681511" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-19" timestamp="1614903681511">
+    <state x="78" y="294" width="263" height="174" key="dock-window-19/0.0.1366.728@0.0.1366.728" timestamp="1615223571848" />
+    <state x="73" y="294" width="248" height="174" key="dock-window-2" timestamp="1615228322405">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="73" y="294" width="248" height="174" key="dock-window-2/0.0.1280.728@0.0.1280.728" timestamp="1615228322405" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-2/0.0.1366.728@0.0.1366.728" timestamp="1615220834745" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-20" timestamp="1615223571848">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-19/0.0.1366.728@0.0.1366.728" timestamp="1614903681511" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-2" timestamp="1614907226824">
+    <state x="78" y="294" width="263" height="174" key="dock-window-20/0.0.1366.728@0.0.1366.728" timestamp="1615223571848" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-21" timestamp="1615223725796">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-2/0.0.1366.728@0.0.1366.728" timestamp="1614907226824" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-20" timestamp="1614903681511">
+    <state x="78" y="294" width="263" height="174" key="dock-window-21/0.0.1366.728@0.0.1366.728" timestamp="1615223725796" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-22" timestamp="1615223725796">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-20/0.0.1366.728@0.0.1366.728" timestamp="1614903681511" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-21" timestamp="1614903681511">
+    <state x="78" y="294" width="263" height="174" key="dock-window-22/0.0.1366.728@0.0.1366.728" timestamp="1615223725796" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-23" timestamp="1615225382877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-21/0.0.1366.728@0.0.1366.728" timestamp="1614903681511" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-22" timestamp="1614903681511">
+    <state x="78" y="294" width="263" height="174" key="dock-window-23/0.0.1366.728@0.0.1366.728" timestamp="1615225382877" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-24" timestamp="1615225382877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-22/0.0.1366.728@0.0.1366.728" timestamp="1614903681511" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-23" timestamp="1614903681511">
+    <state x="78" y="294" width="263" height="174" key="dock-window-24/0.0.1366.728@0.0.1366.728" timestamp="1615225382877" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-25" timestamp="1615225382877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-23/0.0.1366.728@0.0.1366.728" timestamp="1614903681511" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-24" timestamp="1614903681511">
+    <state x="78" y="294" width="263" height="174" key="dock-window-25/0.0.1366.728@0.0.1366.728" timestamp="1615225382877" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-26" timestamp="1615225382877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-24/0.0.1366.728@0.0.1366.728" timestamp="1614903681511" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-25" timestamp="1614903681511">
+    <state x="78" y="294" width="263" height="174" key="dock-window-26/0.0.1366.728@0.0.1366.728" timestamp="1615225382877" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-27" timestamp="1615225382877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-25/0.0.1366.728@0.0.1366.728" timestamp="1614903681511" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-26" timestamp="1614904471704">
+    <state x="78" y="294" width="263" height="174" key="dock-window-27/0.0.1366.728@0.0.1366.728" timestamp="1615225382877" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-28" timestamp="1615225382877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-26/0.0.1366.728@0.0.1366.728" timestamp="1614904471704" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-27" timestamp="1614904471704">
+    <state x="78" y="294" width="263" height="174" key="dock-window-28/0.0.1366.728@0.0.1366.728" timestamp="1615225382877" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-29" timestamp="1615225382877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-27/0.0.1366.728@0.0.1366.728" timestamp="1614904471704" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-28" timestamp="1614904471704">
+    <state x="78" y="294" width="263" height="174" key="dock-window-29/0.0.1366.728@0.0.1366.728" timestamp="1615225382877" />
+    <state x="73" y="294" width="248" height="174" key="dock-window-3" timestamp="1615228322405">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="73" y="294" width="248" height="174" key="dock-window-3/0.0.1280.728@0.0.1280.728" timestamp="1615228322405" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-3/0.0.1366.728@0.0.1366.728" timestamp="1615220834745" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-30" timestamp="1615225382877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-28/0.0.1366.728@0.0.1366.728" timestamp="1614904471704" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-29" timestamp="1614904471704">
+    <state x="78" y="294" width="263" height="174" key="dock-window-30/0.0.1366.728@0.0.1366.728" timestamp="1615225382877" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-31" timestamp="1615225382877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-29/0.0.1366.728@0.0.1366.728" timestamp="1614904471704" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-3" timestamp="1614907226824">
+    <state x="78" y="294" width="263" height="174" key="dock-window-31/0.0.1366.728@0.0.1366.728" timestamp="1615225382877" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-32" timestamp="1615225382877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-3/0.0.1366.728@0.0.1366.728" timestamp="1614907226824" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-30" timestamp="1614905172920">
+    <state x="78" y="294" width="263" height="174" key="dock-window-32/0.0.1366.728@0.0.1366.728" timestamp="1615225382877" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-33" timestamp="1615225382877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-30/0.0.1366.728@0.0.1366.728" timestamp="1614905172920" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-31" timestamp="1614905172920">
+    <state x="78" y="294" width="263" height="174" key="dock-window-33/0.0.1366.728@0.0.1366.728" timestamp="1615225382877" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-34" timestamp="1615225382877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-31/0.0.1366.728@0.0.1366.728" timestamp="1614905172920" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-32" timestamp="1614905172920">
+    <state x="78" y="294" width="263" height="174" key="dock-window-34/0.0.1366.728@0.0.1366.728" timestamp="1615225382877" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-35" timestamp="1615225382877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-32/0.0.1366.728@0.0.1366.728" timestamp="1614905172920" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-33" timestamp="1614905172920">
+    <state x="78" y="294" width="263" height="174" key="dock-window-35/0.0.1366.728@0.0.1366.728" timestamp="1615225382877" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-36" timestamp="1615225382877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-33/0.0.1366.728@0.0.1366.728" timestamp="1614905172920" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-34" timestamp="1614905172920">
+    <state x="78" y="294" width="263" height="174" key="dock-window-36/0.0.1366.728@0.0.1366.728" timestamp="1615225382877" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-37" timestamp="1615225382877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-34/0.0.1366.728@0.0.1366.728" timestamp="1614905172920" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-35" timestamp="1614905300234">
+    <state x="78" y="294" width="263" height="174" key="dock-window-37/0.0.1366.728@0.0.1366.728" timestamp="1615225382877" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-38" timestamp="1615225382877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-35/0.0.1366.728@0.0.1366.728" timestamp="1614905300234" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-4" timestamp="1614907226824">
+    <state x="78" y="294" width="263" height="174" key="dock-window-38/0.0.1366.728@0.0.1366.728" timestamp="1615225382877" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-39" timestamp="1615225382877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-4/0.0.1366.728@0.0.1366.728" timestamp="1614907226824" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-5" timestamp="1614907226824">
+    <state x="78" y="294" width="263" height="174" key="dock-window-39/0.0.1366.728@0.0.1366.728" timestamp="1615225382877" />
+    <state x="73" y="294" width="248" height="174" key="dock-window-4" timestamp="1615228322405">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="73" y="294" width="248" height="174" key="dock-window-4/0.0.1280.728@0.0.1280.728" timestamp="1615228322405" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-4/0.0.1366.728@0.0.1366.728" timestamp="1615220834745" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-40" timestamp="1615225382877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-5/0.0.1366.728@0.0.1366.728" timestamp="1614907226824" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-6" timestamp="1614907226824">
+    <state x="78" y="294" width="263" height="174" key="dock-window-40/0.0.1366.728@0.0.1366.728" timestamp="1615225382877" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-41" timestamp="1615145162639">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-6/0.0.1366.728@0.0.1366.728" timestamp="1614907226824" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-7" timestamp="1614907300721">
+    <state x="78" y="294" width="263" height="174" key="dock-window-41/0.0.1366.728@0.0.1366.728" timestamp="1615145162639" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-42" timestamp="1615088655073">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-7/0.0.1366.728@0.0.1366.728" timestamp="1614907300721" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-8" timestamp="1614909580778">
+    <state x="78" y="294" width="263" height="174" key="dock-window-42/0.0.1366.728@0.0.1366.728" timestamp="1615088655073" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-43" timestamp="1615088655073">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-8/0.0.1366.728@0.0.1366.728" timestamp="1614909580778" />
-    <state x="78" y="294" width="263" height="174" key="dock-window-9" timestamp="1614914502648">
+    <state x="78" y="294" width="263" height="174" key="dock-window-43/0.0.1366.728@0.0.1366.728" timestamp="1615088655073" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-44" timestamp="1615088655073">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="294" width="263" height="174" key="dock-window-9/0.0.1366.728@0.0.1366.728" timestamp="1614914502648" />
-    <state x="380" y="67" width="873" height="592" key="find.popup" timestamp="1614894249826">
+    <state x="78" y="294" width="263" height="174" key="dock-window-44/0.0.1366.728@0.0.1366.728" timestamp="1615088655073" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-45" timestamp="1615088655074">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="380" y="67" width="873" height="592" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1614894249826" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-45/0.0.1366.728@0.0.1366.728" timestamp="1615088655074" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-46" timestamp="1615088655074">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-46/0.0.1366.728@0.0.1366.728" timestamp="1615088655074" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-47" timestamp="1615088655074">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-47/0.0.1366.728@0.0.1366.728" timestamp="1615088655074" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-48" timestamp="1615088655074">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-48/0.0.1366.728@0.0.1366.728" timestamp="1615088655074" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-49" timestamp="1615088655074">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-49/0.0.1366.728@0.0.1366.728" timestamp="1615088655074" />
+    <state x="73" y="294" width="248" height="174" key="dock-window-5" timestamp="1615228322405">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="73" y="294" width="248" height="174" key="dock-window-5/0.0.1280.728@0.0.1280.728" timestamp="1615228322405" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-5/0.0.1366.728@0.0.1366.728" timestamp="1615221342276" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-50" timestamp="1615088655074">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-50/0.0.1366.728@0.0.1366.728" timestamp="1615088655074" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-51" timestamp="1615088655075">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-51/0.0.1366.728@0.0.1366.728" timestamp="1615088655075" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-52" timestamp="1615088655075">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-52/0.0.1366.728@0.0.1366.728" timestamp="1615088655075" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-53" timestamp="1615088655075">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-53/0.0.1366.728@0.0.1366.728" timestamp="1615088655075" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-54" timestamp="1615088655075">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-54/0.0.1366.728@0.0.1366.728" timestamp="1615088655075" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-55" timestamp="1615088655075">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-55/0.0.1366.728@0.0.1366.728" timestamp="1615088655075" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-56" timestamp="1615088655075">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-56/0.0.1366.728@0.0.1366.728" timestamp="1615088655075" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-57" timestamp="1615088655076">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-57/0.0.1366.728@0.0.1366.728" timestamp="1615088655076" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-58" timestamp="1615088655076">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-58/0.0.1366.728@0.0.1366.728" timestamp="1615088655076" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-59" timestamp="1615088655076">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-59/0.0.1366.728@0.0.1366.728" timestamp="1615088655076" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-6" timestamp="1615221342276">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-6/0.0.1366.728@0.0.1366.728" timestamp="1615221342276" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-60" timestamp="1615088655076">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-60/0.0.1366.728@0.0.1366.728" timestamp="1615088655076" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-61" timestamp="1615088655076">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-61/0.0.1366.728@0.0.1366.728" timestamp="1615088655076" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-62" timestamp="1615089791255">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-62/0.0.1366.728@0.0.1366.728" timestamp="1615089791255" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-63" timestamp="1615089791255">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-63/0.0.1366.728@0.0.1366.728" timestamp="1615089791255" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-64" timestamp="1615090445579">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-64/0.0.1366.728@0.0.1366.728" timestamp="1615090445579" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-65" timestamp="1615090445579">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-65/0.0.1366.728@0.0.1366.728" timestamp="1615090445579" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-66" timestamp="1615090445579">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-66/0.0.1366.728@0.0.1366.728" timestamp="1615090445579" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-7" timestamp="1615221425968">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-7/0.0.1366.728@0.0.1366.728" timestamp="1615221425968" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-8" timestamp="1615221836884">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-8/0.0.1366.728@0.0.1366.728" timestamp="1615221836884" />
+    <state x="78" y="294" width="263" height="174" key="dock-window-9" timestamp="1615221836884">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="294" width="263" height="174" key="dock-window-9/0.0.1366.728@0.0.1366.728" timestamp="1615221836884" />
+    <state x="380" y="67" width="873" height="592" key="find.popup" timestamp="1615224856720">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="380" y="67" width="873" height="592" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1615224856720" />
     <state x="329" y="164" width="672" height="677" key="run.anything.popup" timestamp="1614893432084">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -1870,7 +1753,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/game/div/cookiecounter/MainMenuScene.java</url>
-          <line>1839</line>
+          <line>1885</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>

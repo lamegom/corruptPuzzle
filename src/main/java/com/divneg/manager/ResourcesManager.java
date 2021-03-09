@@ -48,7 +48,7 @@ public class ResourcesManager {
 	private BuildableBitmapTextureAtlas menuTextureAtlas;
 	private BuildableBitmapTextureAtlas conveyorSprite;
 	private BitmapTextureAtlas splashTextureAtlas, boxsetAtlas;
-	public Music music, burger_sound, finish;
+	public Music music, burger_sound, finish, intro;
 
 	// ---------------------------------------------
 	// VARIABLES
@@ -238,7 +238,7 @@ public class ResourcesManager {
 		}
 	}
 
-	private void loadMenuAudio() {
+	public void loadMenuAudio() {
 		try {
 
 			music = MusicFactory.createMusicFromAsset(engine.getMusicManager(),
@@ -256,6 +256,9 @@ public class ResourcesManager {
 			menu = MusicFactory.createMusicFromAsset(engine.getMusicManager(),
 					activity, "sound/menu.ogg");
 			menu.setLooping(false);
+			intro = MusicFactory.createMusicFromAsset(engine.getMusicManager(),
+					activity, "sound/good-life.ogg");
+			intro.setLooping(false);
 
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -312,6 +315,8 @@ public class ResourcesManager {
 	}
 
 	public void loadSplashScreen() {
+
+
 		BitmapTextureAtlasTextureRegionFactory.setAssetBasePath("gfx/");
 		splashTextureAtlas = new BitmapTextureAtlas(
 				activity.getTextureManager(), 300, 152, TextureOptions.BILINEAR);

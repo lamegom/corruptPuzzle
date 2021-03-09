@@ -1,6 +1,7 @@
 package game.div.cookiecounter;
 import static org.andengine.extension.physics.box2d.util.constants.PhysicsConstants.PIXEL_TO_METER_RATIO_DEFAULT;
 
+import org.andengine.audio.music.Music;
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.options.EngineOptions;
 import org.andengine.engine.options.ScreenOrientation;
@@ -32,6 +33,7 @@ import org.andengine.util.debug.Debug;
 
 import android.content.Intent;
 import android.hardware.SensorManager;
+import android.os.Bundle;
 import android.util.Log;
 import android.view.Display;
 
@@ -42,6 +44,7 @@ import com.badlogic.gdx.physics.box2d.Body;
 import com.badlogic.gdx.physics.box2d.BodyDef.BodyType;
 import com.badlogic.gdx.physics.box2d.FixtureDef;
 import com.badlogic.gdx.physics.box2d.PolygonShape;
+import com.divneg.manager.ResourcesManager;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.tasks.OnCompleteListener;

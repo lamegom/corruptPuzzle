@@ -1,5 +1,6 @@
 package game.div.cookiecounter;
 
+import com.divneg.manager.ResourcesManager;
 import com.facebook.android.friendsmash.FriendSmashApplication;
 //import com.parse.ParseUser;
 
@@ -17,14 +18,19 @@ import android.widget.TextView;
 //import com.facebook.android.friendsmash.FriendSmashApplication;
 //import com.facebook.model.GraphUser;
 //import com.facebook.widget.LoginButton;
+import org.andengine.audio.music.Music;
+
 import game.div.corruptpuzzle.R;
 
 public class LoginActivity extends Activity {
 //    CallbackManager callbackManager;
 
+
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+
 //		
 //		FacebookSdk.sdkInitialize(this.getApplicationContext());
 //		Log.d("MyApp", "Loggin out...");

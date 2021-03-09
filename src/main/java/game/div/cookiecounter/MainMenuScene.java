@@ -3,6 +3,7 @@ package game.div.cookiecounter;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.ArrayList;
+import java.util.Map;
 import java.util.Random;
 
 /* ... */
@@ -75,6 +76,7 @@ import com.divneg.manager.ResourcesManager;
 import com.divneg.manager.SceneManager;
 import com.divneg.manager.SceneManager.SceneType;
 import com.divneg.storage.Config;
+import com.divneg.storage.NumberNames;
 import com.facebook.android.friendsmash.FriendSmashApplication;
 
 import android.app.Activity;
@@ -242,7 +244,6 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 	private void createPhysics() {
 
 
-
 		physicsWorld = new FixedStepPhysicsWorld(60, new Vector2(0,
 
 		SensorManager.GRAVITY_EARTH), false, 3, 2);
@@ -388,6 +389,8 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 					cookiCount = application.getBombs();
 
 
+
+
 					Log.i("cookiecount", cookiCount + "");
 					Log.i("cookierate", application.getCoins() + "");
 
@@ -395,17 +398,77 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 					BigDecimal ratio = BigDecimal.ZERO;
 					try {
 
-						ratio = new BigDecimal(60).divide(new BigDecimal(application.getCoins()), 8, RoundingMode.DOWN);
+						BigDecimal income = new BigDecimal(cookiCount).setScale(4, RoundingMode.HALF_DOWN);
+						BigDecimal tax = new BigDecimal(application.getCoins()).setScale(4, RoundingMode.HALF_DOWN);
+
+						BigDecimal n = new BigDecimal(60*60*60);
+
+						Map.Entry<BigDecimal, String> entry = NumberNames.MAP.floorEntry(income);
+						if (entry == null)
+						{
+							if(income.doubleValue() == 0 && tax.doubleValue() == 0.50){
+								income = tax;
+								n = BigDecimal.ONE;
+							}
+
+						} else {
+							BigDecimal key = entry.getKey();
+							BigDecimal d = key.divide(NumberNames.THOUSAND, 8, RoundingMode.DOWN);
+
+							int razao = (int) Math.log(d.doubleValue());
+
+							int factor = razao;
+
+							if (razao > 12) {
+								razao = 12;
+							}
+
+							switch (razao) {
+								case 6:
+									n = n.multiply(new BigDecimal(24 )); //segundos por dia
+									break;
+								case 9:
+									n = n.multiply(new BigDecimal(24 * 30)); //segundos por mes
+									break;
+								case 12:
+
+									//int meses = factor / 2;
+
+									n = n.multiply(new BigDecimal(24 * factor *6)); //segundos por trimestre
+									break;
+								default:
+									n = new BigDecimal(60 * 60 * 60); // segundos por hora
+									break;
+
+							}
+
+						}
+
+						ratio = income.multiply(tax).divide(n, 4, RoundingMode.DOWN);
+
+						if(ratio.doubleValue() > cookiCount) {
+
+							ratio = ratio.subtract(new BigDecimal(cookiCount));
+						}
+
+						if(ratio.intValue() == 0){
+
+							ratio = new BigDecimal(0.01d);
+						}
+
+//						ratio = new BigDecimal(application.getCoins()).multiply(new BigDecimal(60));
+//						ratio = new BigDecimal(5598720000d).divide(new BigDecimal(application.getCoins()), 8, RoundingMode.DOWN);// seconds for 3 years
 						Log.i("ratio", ratio + "");
 					}catch (Exception e){
-
+							e.printStackTrace();
 					}
 
 
-					cookiCount += ratio.doubleValue();
-
+					cookiCount += ratio.setScale(4, RoundingMode.HALF_DOWN).doubleValue();
 
 					Log.i("total", cookiCount + "");
+
+					//cookiCount = 0;
 
 					application.setBombs(cookiCount);
 
@@ -445,6 +508,7 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 							}
 
 							cloudList.clear();
+
 
 						}
 
@@ -539,7 +603,7 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 						cookieRate.setText(Common.milTrilConverter(
 								application.getCoins(), false)
-								+ " mortes/min");
+								+ " $$$/hora");
 
 						String milkHeight = application.getBombs() + "";
 						milk.setHeight(GameActivity.CAMERA_HEIGHT
@@ -571,9 +635,24 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 					heliDis += 1;
 
 					cookieRate.setText("Distance : " + heliDis + "m");
-
-
 				}
+
+				if(!startGame && loop == 1) {
+//					GameActivity.getInstance().runOnUpdateThread(new Runnable() {
+//
+//						@Override
+//						public void run() {
+
+							GameActivity.getInstance().startSignInIntent();
+
+							Music intro = ResourcesManager.getInstance().intro;
+							intro.play();
+//
+//						}
+//
+//					});
+				}
+
 
 				if (fly && heli_body != null && startGame) {
 
@@ -585,7 +664,7 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 						&& cloud_body != null
 
-						&& cloud_body.getPosition().x < (GameActivity.CAMERA_WIDTH) * 1 / 100) {
+						&& cloud_body.getPosition().x < (GameActivity.CAMERA_WIDTH) / 100) {
 
 					createClouds();
 
@@ -595,39 +674,7 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 
 			}
-			
-			public int round(double value, int places) {
-				if (places < 0) {
-					throw new IllegalArgumentException();
-				}
-				long factor = (long) Math.pow(10.0d, (double) places);
-				return (int)(((double) Math.round(value * ((double) factor))) / ((double) factor));
-			}
 
-
-			private void initUserAnalytics() {
-				// if(getmGoogleApi().isConnected()){
-				// Player player =
-				// Games.Players.getCurrentPlayer(getmGoogleApi());
-				//
-				// Infinario infinario = infinario =
-				// Infinario.getInstance(GameActivity.getInstance(),
-				// "9dc60216-fefd-11e4-9e41-b083fedeed2e");
-				//
-				// Map<String, Object> attributes = new HashMap<>();
-				// attributes.put("country", "USA");
-				// attributes.put("gender", "male");
-				// attributes.put("googlePlayPlayer", player);
-				// attributes.put("playerId", player.getPlayerId());
-				// attributes.put("displayName", player.getDisplayName());
-				// // attributes.put("campaign ID", "101");
-				// attributes.put("source", "Google Games");
-				// // attributes.put("birthday", "654868800");
-				// attributes.put("acquisition cost", 1.2);
-				// infinario.track("registration", attributes);
-				// }
-
-			}
 
 			private void deleteBody() {
 
@@ -693,6 +740,7 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 	private void writeCookieMusic() {
 
 		burgerSound = ResourcesManager.getInstance().blade;
+
 	}
 
 	// SKUs for our products: the premium upgrade (non-consumable) and gas
@@ -706,7 +754,7 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 	// static final String SKU_INFINITE_GAS = "infinite_gas";;
 
-	static final String SKU_INFINITE_GAS = "android.test.purchased";;
+	static final String SKU_INFINITE_GAS = "android.test.purchased";
 
 	// Debug tag, for logging
 
@@ -1623,6 +1671,7 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 		// writeDistance();
 
+
 	}
 
 	// modules are here -->
@@ -1794,7 +1843,7 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 				} else if (pSceneTouchEvent.isActionUp()) {
 
 					
-					postMessageInThread("This is my score in SUPEPR Peste : '" + cookieCount.getText() + "'. Do you think you can beat me!");
+					postMessageInThread("This is my score in Mony Mony : '" + cookieCount.getText() + "'. Do you think you can beat me!");
 					
 					
 					 showLeaderboard();
@@ -2343,6 +2392,16 @@ private void showLeaderboard() {
 
 	}
 
+	public void moveText(float x, final float y, String diamondValue) {
+
+		text = new Text(x, y, resourcesManager.bigFont, diamondValue, vbom);
+
+		attachChild(text);
+
+		delMoveText.add(new MoveText(text, y));
+
+	}
+
 	public void createCookie() {
 
 		final IEaseFunction[] currentEaseFunctionsSet = EASEFUNCTIONS[3];
@@ -2366,22 +2425,60 @@ private void showLeaderboard() {
 
 				if (pSceneTouchEvent.isActionDown()) {
 
-					burgerSound.play();
+					//burgerSound.play();
 
 					this.setScale(0.95f);
 
-					cookiCount = (int) application.getBombs();
-					;
+					int diamondValue = 0;
+
+					Map.Entry<BigDecimal, String> entry = NumberNames.MAP.floorEntry(new BigDecimal(application.getBombs()));
+					if (entry == null)
+					{
+						diamondValue = 1;
+
+					} else {
+						BigDecimal key = entry.getKey();
+						BigDecimal d = key.divide(NumberNames.THOUSAND, 8, RoundingMode.DOWN);
+
+						int razao = (int) Math.log(d.doubleValue());
+
+						if (razao > 12) razao = 12;
+
+						switch (razao) {
+							case 6:
+								diamondValue = 1000;
+								break;
+							case 9:
+								diamondValue = 100000;
+								break;
+							case 12:
+								diamondValue = 1000000;
+								break;
+							default:
+								diamondValue = 100;
+								break;
+
+						}
+
+					}
+
+					application.setBombs( application.getBombs() + diamondValue );
+
+					if(application.getCoins() == 0.0) {
+
+						cookiCount = application.getBombs();
+					}
 
 					// if(application.isLoggedIn()){
 
-					cookiCount += 1;
+
+
 					// }
 
-					application.setBombs(cookiCount);
+					//application.setBombs(cookiCount);
+					String diamondStringValue = "+" + diamondValue;
 
-
-					moveText(pSceneTouchEvent.getX(), pSceneTouchEvent.getY());
+					moveText(pSceneTouchEvent.getX(), pSceneTouchEvent.getY(),diamondStringValue);
 
 				} else if (pSceneTouchEvent.isActionUp()) {
 
@@ -2578,7 +2675,7 @@ private void showLeaderboard() {
 
 					"Resume Game First", Toast.LENGTH_SHORT).show();
 
-                    GameActivity.getInstance().startSignInIntent();
+//                    GameActivity.getInstance().startSignInIntent();
 
 				}
 
@@ -2635,18 +2732,23 @@ private void showLeaderboard() {
 
 				// tapPlay.setIgnoreUpdate(true);
 
-				GameActivity.getInstance().runOnUpdateThread(new Runnable() {
-
-					@Override
-					public void run() {
-
-						// detachChild(tapPlay);
-
-						// unregisterTouchArea(tapPlay);
-
-					}
-
-				});
+//				GameActivity.getInstance().runOnUpdateThread(new Runnable() {
+//
+//					@Override
+//					public void run() {
+//
+//						// detachChild(tapPlay);
+//
+//						// unregisterTouchArea(tapPlay);
+//
+//						GameActivity.getInstance().startSignInIntent();
+//
+//						Music intro = ResourcesManager.getInstance().intro;
+//						intro.play();
+//
+//					}
+//
+//				});
 
 				// unregisterTouchArea(this);
 

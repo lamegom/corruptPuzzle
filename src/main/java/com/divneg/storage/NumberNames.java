@@ -1,9 +1,11 @@
 package com.divneg.storage;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.Map.Entry;
 import java.util.NavigableMap;
 import java.util.TreeMap;
+import java.text.DecimalFormat;
 
 public class NumberNames
 {
@@ -55,8 +57,8 @@ public class NumberNames
             "Novemdecillhão",
             "Vigintillhão",
     };
-    private static final BigDecimal THOUSAND = BigDecimal.valueOf(1000);
-    private static final NavigableMap<BigDecimal, String> MAP;
+    public static final BigDecimal THOUSAND = BigDecimal.valueOf(1000);
+    public static final NavigableMap<BigDecimal, String> MAP;
     static
     {
         MAP = new TreeMap<BigDecimal, String>();
@@ -74,14 +76,16 @@ public class NumberNames
             return number + "";
         }
         BigDecimal key = entry.getKey();
-        BigDecimal d = key.divide(THOUSAND);
-        BigDecimal m = number.divide(d);
+        BigDecimal d = key.divide(THOUSAND, 8, RoundingMode.DOWN);
+        BigDecimal m = number.divide(d, 8, RoundingMode.DOWN);
+        m = m.setScale(2, RoundingMode.DOWN);
         float f = m.floatValue() / 1000.0f;
         float rounded = ((int)(f * 100.0))/100.0f;
-        if (rounded % 1 == 0)
-        {
-            return ((int)rounded) + " "+entry.getValue();
-        }
-        return rounded+" "+entry.getValue();
+        BigDecimal banana = new BigDecimal(rounded);
+        banana = banana.setScale(2, RoundingMode.DOWN);
+		
+		DecimalFormat formatter = new DecimalFormat("###,###,###.00");
+
+        return formatter.format(banana.doubleValue()) + " " + entry.getValue();
     }
 }

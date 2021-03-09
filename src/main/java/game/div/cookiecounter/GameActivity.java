@@ -4,6 +4,7 @@ package game.div.cookiecounter;
 
 import java.io.IOException;
 
+import org.andengine.audio.music.Music;
 import org.andengine.engine.Engine;
 import org.andengine.engine.LimitedFPSEngine;
 import org.andengine.engine.camera.Camera;
@@ -115,16 +116,20 @@ public class GameActivity extends LayoutGameActivity {//implements AdColonyAdAva
 
 
 
+
 	protected static final String LEADERBOARD_ID = "CgkIzdSliMYeEAIQEw";
 
 	private GoogleSignInClient mGoogleSignInClient;
 	private static final int RC_SIGN_IN = 9001;
+
+
 
 	@Override
 
 	public Engine onCreateEngine(EngineOptions pEngineOptions) {
 
 		_instance = this;
+
 
 		return new LimitedFPSEngine(pEngineOptions, 60);
 
@@ -195,8 +200,10 @@ public class GameActivity extends LayoutGameActivity {//implements AdColonyAdAva
 	 *    their score and complete the game over process, otherwise show an error if there is one
 	 *    
 	 */
+//	@Override
 //	public void onActivityResult(int requestCode, int resultCode, Intent data) {
 //		super.onActivityResult(requestCode, resultCode, data);
+//
 ////		  ParseFacebookUtils.onActivityResult(requestCode, resultCode, data);
 ////		  callbackManager.onActivityResult(requestCode, resultCode, data);
 //		
@@ -373,7 +380,8 @@ public class GameActivity extends LayoutGameActivity {//implements AdColonyAdAva
 //    	FacebookSdk.sdkInitialize(getApplication().getApplicationContext());
     	super.onCreate(savedInstanceState);
     	Log.d("DEBUG", "onCreate : " );
-    	
+
+
     	/* callbackManager = CallbackManager.Factory.create();
         shareDialog = new ShareDialog(this);
         // this part is optional
@@ -565,6 +573,9 @@ public class GameActivity extends LayoutGameActivity {//implements AdColonyAdAva
 
 		mfont.load();
 
+
+
+
 	}
 
 
@@ -592,6 +603,7 @@ public class GameActivity extends LayoutGameActivity {//implements AdColonyAdAva
 						 */
 
 						SceneManager.getInstance().createMenuScene();
+
 
 					}
 
@@ -693,7 +705,9 @@ public class GameActivity extends LayoutGameActivity {//implements AdColonyAdAva
 
 
 		super.onSetContentView();
-		startSignInIntent();
+
+
+
 
 //		 FriendSmashApplication application = (FriendSmashApplication) getApplication().getApplicationContext();
 //		if(application.getCurrentFBUser()!=null){
@@ -766,6 +780,7 @@ public class GameActivity extends LayoutGameActivity {//implements AdColonyAdAva
              
               MainMenuScene.mms.createScene();;
 
+
 		  }
 		  
 
@@ -815,6 +830,7 @@ public class GameActivity extends LayoutGameActivity {//implements AdColonyAdAva
 
 		mGoogleSignInClient = GoogleSignIn.getClient(this,
 				new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_GAMES_SIGN_IN).build());
+
 
 
 	}

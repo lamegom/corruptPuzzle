@@ -1,9 +1,11 @@
 package game.div.cookiecounter;
+import org.andengine.audio.music.Music;
 import org.andengine.engine.camera.Camera;
 import org.andengine.entity.sprite.Sprite;
 import org.andengine.opengl.util.GLState;
 
 import com.divneg.base.BaseScene;
+import com.divneg.manager.ResourcesManager;
 import com.divneg.manager.SceneManager.SceneType;
 
 /**
@@ -17,7 +19,8 @@ public class SplashScene extends BaseScene
     @Override
     public void createScene()
     {
-    	splash = new Sprite(0, 0, resourcesManager.splash_region, vbom)
+
+        splash = new Sprite(0, 0, resourcesManager.splash_region, vbom)
     	{
     	    @Override
     	    protected void preDraw(GLState pGLState, Camera pCamera) 
@@ -30,6 +33,7 @@ public class SplashScene extends BaseScene
     	splash.setScale(1.2f);
     	splash.setPosition((GameActivity.CAMERA_WIDTH-splash.getWidth())/2, (GameActivity.CAMERA_HEIGHT-splash.getHeight())/2);
     	attachChild(splash);
+
     }
 
     @Override

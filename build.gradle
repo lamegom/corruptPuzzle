@@ -35,11 +35,11 @@ android {
 	ndkVersion "23.0.7123448"
 
     defaultConfig {
-        applicationId "game.div.superpeste"
+        applicationId "game.div.monymony"
         minSdkVersion 16
         targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "3.0"
         multiDexEnabled true
 		
 
@@ -76,7 +76,7 @@ android {
 
 
     signingConfigs {
-        //"%JAVA_HOME%\bin\keytool" -genkey -v -keystore superpeste.keystore -alias coronavirus -keyalg RSA -keysize 2048 -validity 10000
+        //"%JAVA_HOME%\bin\keytool" -genkey -v -keystore monymony.keystore -alias diamante -keyalg RSA -keysize 2048 -validity 10000
         // gradle assembleRelease
 
         release {

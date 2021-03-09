@@ -41,6 +41,10 @@ public class ShopList extends AppCompatActivity  {
 	ListView shopList;
 	ItemAdapter adapter;
 	ArrayList<ShopItem> shopData;
+
+	Toast toast;
+	
+
 	
 //	public static ShopList getInstance(){
 //		return _instance;
@@ -103,7 +107,6 @@ public class ShopList extends AppCompatActivity  {
 			
 //		_instance = this;
 	}
-	
 	public void showToast(String msg){
 		 LayoutInflater inflater = getLayoutInflater();
 		 View layout = inflater.inflate(R.layout.toast_layout,
@@ -116,11 +119,16 @@ public class ShopList extends AppCompatActivity  {
 		 TextView text = (TextView) layout.findViewById(R.id.text);
 		 text.setText(msg);
 
-		 Toast toast = new Toast(getApplicationContext());
+		 if( toast != null) {
+			toast.cancel();
+		}
+		 toast = new Toast(getApplicationContext());
 		 toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
 		 toast.setDuration(Toast.LENGTH_SHORT);
 		 toast.setView(layout);
+
 		 toast.show();
+
 	}
 
 
@@ -227,7 +235,7 @@ public class ShopList extends AppCompatActivity  {
 
 	private class OnItemClickListener implements OnClickListener {
 		private int mPosition;
-		private static final String NOT_ENOUGH = "Você precisa de mais pessoas mortas para ir neste local";
+		private static final String NOT_ENOUGH = "Você não tem $$$ suficiente para enriquecere desta forma.";
 
 		OnItemClickListener(int position) {
 			mPosition = position;
@@ -470,7 +478,7 @@ public class ShopList extends AppCompatActivity  {
 				application.setBombs(application.getBombs() - Config.getCost("ITEM1COST")) ;
 				//Config.ITEM1COST = String.valueOf(Config.cumulativeCost(Config.ITEM1COST, Config.ITEM1NUM));
 
-				double Newrate = application.getCoins() + 0.1;
+				double Newrate = application.getCoins() + 0.5;
 				application.setCoins(Newrate);
 
 				return true;
@@ -486,7 +494,7 @@ public class ShopList extends AppCompatActivity  {
 				application.setBombs(application.getBombs() - Config.getCost("ITEM2COST"));
 				//Config.ITEM2COST = String.valueOf(Config.cumulativeCost(Config.ITEM2COST, Config.ITEM2NUM));
 
-				double Newrate = application.getCoins() + 1;
+				double Newrate = application.getCoins() + 2;
 				application.setCoins(Newrate);
 
 					return true;
@@ -501,7 +509,7 @@ public class ShopList extends AppCompatActivity  {
 				application.setBombs(application.getBombs() - Config.getCost("ITEM3COST"));
 				//Config.ITEM3COST = String.valueOf(Config.cumulativeCost(Config.ITEM3COST, Config.ITEM3NUM));
 
-				double Newrate = application.getCoins() + 8;
+				double Newrate = application.getCoins() + 20;
 				application.setCoins(Newrate);
 
 					return true;

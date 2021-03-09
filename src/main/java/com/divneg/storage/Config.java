@@ -20,15 +20,16 @@ public class Config {
 //	public static double COOKIES = Double.MIN_VALUE;
 	
 	// The Item Names
-	public static String 	ITEM1 = "CASA";
-   public static String      ITEM2 = "VIA PÚBLICA";
-   public static String      ITEM3 = "DROGARIA";
-   public static String      ITEM4 = "ACADEMIA";
-	public static String 	ITEM5 = "CINEMA";
-    public static String     ITEM6 = "ELEVADOR";
-    public static String     ITEM7 = "BANCO";
-	public static String 	ITEM8 = "TRASPORTE PÚBLICO";
-	public static String 	ITEM9 = "HOSPITAL";
+	public static String 	ITEM1 = "Arrumar um trabalho";
+   public static String      ITEM2 = "Fazer Faculdade";
+   public static String      ITEM3 = "Abrir um negócio";
+   public static String      ITEM4 = "Ser o Diretor de Multinacional";
+	public static String 	ITEM5 = "Investir no Mercado Fianceiro";
+    public static String     ITEM6 = "Abrir uma rede supercamercado";
+    public static String     ITEM7 = "Ser o Dono de uma Rede Social";
+	public static String 	ITEM8 = "Ser o dono de um Banco Mundial";
+	public static String 	ITEM9 = "Ser o CEO de um empresa de Tecnologia / TI";
+
 //	public static String      ITEM10 = "2011.Escândalo no Esporte";
 //	public static String      ITEM11 = "2011.Escândalo em Cidades";
 //	public static String     ITEM12 = "2011.Escândalo no Turismo";

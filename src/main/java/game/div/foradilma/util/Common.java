@@ -33,7 +33,7 @@ public class Common {
 	public static String milTrilConverter(double output, boolean currency) {
 
 		BigDecimal number = new BigDecimal(output);
-		return NumberNames.createString(number);
+		return NumberNames.createString(number.setScale(2, RoundingMode.DOWN));
 
 	}
 
