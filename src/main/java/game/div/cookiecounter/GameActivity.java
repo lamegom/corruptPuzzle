@@ -34,6 +34,8 @@ import com.google.android.gms.games.PlayersClient;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.gms.common.Scopes;
+import com.google.android.gms.common.api.Scope;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -52,7 +54,7 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
-import game.div.corruptpuzzle.R;
+import game.div.monymony.R;
 
 
 //import com.gameanalytics.android.GameAnalytics;import game.div.cookiecounter.MyApplication.TrackerName;
@@ -379,8 +381,16 @@ public class GameActivity extends LayoutGameActivity {//implements AdColonyAdAva
     public void onCreate(Bundle savedInstanceState) {
 //    	FacebookSdk.sdkInitialize(getApplication().getApplicationContext());
     	super.onCreate(savedInstanceState);
-    	Log.d("DEBUG", "onCreate : " );
+    	Log.e("DEBUG", "onCreate : " );
 
+						
+
+					
+			/*Toast toast = Toast.makeText(application.getApplicationContext(), "Is Signed?: " + isSignedIn(), Toast.LENGTH_LONG);
+			toast.setGravity(Gravity.BOTTOM, 0, 0);
+			View view = toast.getView();
+			TextView text = (TextView) view.findViewById(android.R.id.message);
+			toast.show();*/
 
     	/* callbackManager = CallbackManager.Factory.create();
         shareDialog = new ShareDialog(this);
@@ -827,10 +837,7 @@ public class GameActivity extends LayoutGameActivity {//implements AdColonyAdAva
 	public void onGameCreated() {
 
 		super.onGameCreated();
-
-		mGoogleSignInClient = GoogleSignIn.getClient(this,
-				new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_GAMES_SIGN_IN).build());
-
+		
 
 
 	}
@@ -844,6 +851,7 @@ public class GameActivity extends LayoutGameActivity {//implements AdColonyAdAva
 		mScene = new Scene();
 
 		SceneManager.getInstance().createSplashScene(pOnCreateSceneCallback);
+
 
 
 
@@ -915,23 +923,34 @@ public class GameActivity extends LayoutGameActivity {//implements AdColonyAdAva
 
 
 
-	public void submitScore(int score){
+	public void submitScore(double score){
 		if(isSignedIn()) {
-			mLeaderboardsClient.submitScore(getString(R.string.leaderboard_id), score);
+			
+			GoogleSignInAccount googleSignInAccount = GoogleSignIn.getLastSignedInAccount(this);
+			
+			mLeaderboardsClient = Games.getLeaderboardsClient(this, googleSignInAccount);
+			
+			mLeaderboardsClient.submitScore(String.valueOf(R.string.leaderboard_seja_rico_ou_morra_tentando), (int) score);
 		}
 	}
 
 
 	public boolean isSignedIn() {
-		return GoogleSignIn.getLastSignedInAccount(this) != null;
+
+		FriendSmashApplication application = (FriendSmashApplication) getApplication();
+		
+		boolean isSignedIn = GoogleSignIn.getLastSignedInAccount(application.getApplicationContext()) != null;
+		
+		Log.e("DEBUG", "isSignedIn : "+ isSignedIn);
+
+
+		return isSignedIn;
 	}
 
 	private void signInSilently() {
+		createGoogleSignInClient();
 
-		mGoogleSignInClient = GoogleSignIn.getClient(this,
-				new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_GAMES_SIGN_IN).build());
-
-		mGoogleSignInClient.silentSignIn().addOnCompleteListener(GameActivity.getInstance(),
+		mGoogleSignInClient.silentSignIn().addOnCompleteListener(this,
 				new OnCompleteListener<GoogleSignInAccount>() {
 					@Override
 					public void onComplete(@NonNull Task<GoogleSignInAccount> task) {
@@ -982,11 +1001,21 @@ public class GameActivity extends LayoutGameActivity {//implements AdColonyAdAva
 
 
 	public void showLeaderBoard() {
+
+		
+
 		if(isSignedIn()) {
-			mLeaderboardsClient.getLeaderboardIntent(getString(R.string.leaderboard_id))
+			
+			GoogleSignInAccount googleSignInAccount = GoogleSignIn.getLastSignedInAccount(this);
+			
+			mLeaderboardsClient = Games.getLeaderboardsClient(this, googleSignInAccount);
+
+
+			mLeaderboardsClient.getLeaderboardIntent(String.valueOf(R.string.leaderboard_seja_rico_ou_morra_tentando))
 					.addOnSuccessListener(new OnSuccessListener<Intent>() {
 						@Override
 						public void onSuccess(Intent intent) {
+
 							startActivityForResult(intent, RC_LEADERBOARD_UI);
 						}
 					});
@@ -1001,11 +1030,27 @@ public class GameActivity extends LayoutGameActivity {//implements AdColonyAdAva
 
 	public void startSignInIntent() {
 
-		mGoogleSignInClient = GoogleSignIn.getClient(this,
-				new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_GAMES_SIGN_IN).build());
+
+		createGoogleSignInClient();
 
 
 		startActivityForResult(mGoogleSignInClient.getSignInIntent(), RC_SIGN_IN);
+	}
+
+	private void createGoogleSignInClient() {
+
+		FriendSmashApplication application = (FriendSmashApplication) getApplication();
+
+		if(mGoogleSignInClient == null) {
+			mGoogleSignInClient = GoogleSignIn.getClient(application.getApplicationContext(),
+					new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_GAMES_SIGN_IN)
+							.requestIdToken("666941046576-ac2f9nqpo3vtgdh75mei65l7cvoopjfl.apps.googleusercontent.com")
+							//.requestIdToken("666941046576-f4mhh4t5jnprgu5q7jupd29ufo9rdt1j.apps.googleusercontent.com")
+							//.requestServerAuthCode("666941046576-bc6v0u6tf5e4bmfifge46kfn48dne3l8.apps.googleusercontent.com")
+							//.requestScopes(new Scope(Scopes.GAMES))
+							.requestEmail()
+							.build());
+		}
 	}
 
 	private static final int RC_UNUSED = 5001;
@@ -1016,6 +1061,41 @@ public class GameActivity extends LayoutGameActivity {//implements AdColonyAdAva
 
 	private LeaderboardsClient mLeaderboardsClient;
 	private PlayersClient mPlayersClient;
+
+	private static final int RC_ACHIEVEMENT_UI = 9003;
+
+	public void showAchievements() {
+
+		if(isSignedIn()) {
+
+
+			Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this))
+					.getAchievementsIntent()
+					.addOnSuccessListener(new OnSuccessListener<Intent>() {
+						@Override
+						public void onSuccess(Intent intent) {
+							startActivityForResult(intent, RC_ACHIEVEMENT_UI);
+						}
+					});
+
+		}else {
+
+				signInSilently();
+			}
+	}
+
+	public void unlockAchievement(String conquista) {
+
+
+		if(isSignedIn()){
+		Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this))
+				.unlock(conquista);
+		}else {
+
+			signInSilently();
+		}
+
+	}
 
 }
 

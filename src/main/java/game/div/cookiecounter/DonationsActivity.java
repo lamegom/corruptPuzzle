@@ -22,7 +22,7 @@
 //import android.support.v4.app.FragmentActivity;
 //import android.support.v4.app.FragmentManager;
 //import android.support.v4.app.FragmentTransaction;
-//import game.div.corruptpuzzle.R;
+//import game.div.monymony.R;
 //
 //public class DonationsActivity extends FragmentActivity {
 //

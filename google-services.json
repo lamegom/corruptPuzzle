@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "822308880119",
-    "project_id": "super-peste-37463790",
-    "storage_bucket": "super-peste-37463790.appspot.com"
+    "project_number": "666941046576",
+    "project_id": "mony-mony-43752848",
+    "storage_bucket": "mony-mony-43752848.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:822308880119:android:a9ca20eb1666344c8d9df2",
+        "mobilesdk_app_id": "1:666941046576:android:1e691546b3c9125847d2f5",
         "android_client_info": {
           "package_name": "game.div.monymony"
         }
       },
       "oauth_client": [
         {
-          "client_id": "822308880119-tcsna4nm9ik8nb4kol4pbad86lmjnj5r.apps.googleusercontent.com",
+          "client_id": "666941046576-bkq1bom0nugv17jspqtqtveqeig4l3p0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "game.div.monymony",
+            "certificate_hash": "b0a6af775df6eff5f9b55dc284a85d04832d3cdc"
+          }
+        },
+        {
+          "client_id": "666941046576-ac2f9nqpo3vtgdh75mei65l7cvoopjfl.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAUZOkmbHVTOHyDRY1HJ8Pxm3mPsKhWPKU"
+          "current_key": "AIzaSyAa9Rx02AlPDWnNKOUU2QAE9WvyT5tB_u0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "822308880119-tcsna4nm9ik8nb4kol4pbad86lmjnj5r.apps.googleusercontent.com",
+              "client_id": "666941046576-ac2f9nqpo3vtgdh75mei65l7cvoopjfl.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

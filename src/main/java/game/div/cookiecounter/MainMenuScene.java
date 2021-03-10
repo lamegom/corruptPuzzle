@@ -94,7 +94,9 @@ import android.os.Vibrator;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
-import game.div.corruptpuzzle.R;
+import android.view.Gravity;
+import android.widget.TextView;
+import game.div.monymony.R;
 import game.div.foradilma.util.Common;
 import game.div.foradilma.util.IabHelper;
 import game.div.foradilma.util.IabResult;
@@ -472,7 +474,7 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 					application.setBombs(cookiCount);
 
-
+					GameActivity.getInstance().submitScore(application.getBombs());
 
 				}
 
@@ -1065,7 +1067,7 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 		Log.e(TAG, "**** Purchase Error: " + message);
 
-		alert("Error: " + message);
+		alert( message);
 
 	}
 
@@ -1262,7 +1264,7 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 		// Get a handler that can be used to post to the main thread
 
-		Handler mainHandler = new Handler(MyApplication.getAppContext()
+		Handler mainHandler = new Handler(context
 				.getMainLooper());
 
 		Runnable myRunnable = new Runnable() {
@@ -1270,7 +1272,7 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 			@Override
 			public void run() {
 
-				AlertDialog.Builder bld = new AlertDialog.Builder(
+				/*AlertDialog.Builder bld = new AlertDialog.Builder(
 						(Activity) GameActivity.getInstance());
 
 				bld.setMessage(message);
@@ -1279,7 +1281,14 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 
 				Log.d(TAG, "Showing alert dialog: " + message);
 
-				bld.create().show();
+				bld.create().show();*/
+				
+				
+				Toast toast = Toast.makeText(context, message, Toast.LENGTH_LONG);
+				toast.setGravity(Gravity.BOTTOM, 0, 0);
+				View view = toast.getView();
+				TextView text = (TextView) view.findViewById(android.R.id.message);
+				toast.show();
 
 			}
 
@@ -1624,7 +1633,7 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 				case TouchEvent.ACTION_UP:
 
 					// uped = false;
-
+					
 					this.setScale(1.0f);
 
 					break;
@@ -1808,7 +1817,19 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 		Thread t = new Thread() {
 			public void run() {
 //				try {
-////					GameActivity.getInstance().share(msg);
+					Toast toast = Toast.makeText(GameActivity.getInstance(), msg, Toast.LENGTH_LONG);
+					//View toastView = toast.getView(); // This'll return the default View of the Toast.
+
+					/* And now you can get the TextView of the default View of the Toast. 
+					TextView toastMessage = (TextView) toastView.findViewById(android.R.id.message);
+					toastMessage.setTextSize(25);
+					toastMessage.setTextColor(Color.RED);
+					toastMessage.setCompoundDrawablesWithIntrinsicBounds(R.mipmap.ic_fly, 0, 0, 0);
+					toastMessage.setGravity(Gravity.CENTER);
+					toastMessage.setCompoundDrawablePadding(16);
+					toastView.setBackgroundColor(Color.CYAN);
+					*/
+					toast.show();
 //
 //				} catch (Exception ex) {
 //					ex.printStackTrace();
@@ -1843,10 +1864,12 @@ IOnMenuItemClickListener, IOnSceneTouchListener {
 				} else if (pSceneTouchEvent.isActionUp()) {
 
 					
-					postMessageInThread("This is my score in Mony Mony : '" + cookieCount.getText() + "'. Do you think you can beat me!");
+					complain("This is my score in Mony Mony : '" + cookieCount.getText() + "'. Do you think you can beat me!");
+					
+					showLeaderboard();
+
 					
 					
-					 showLeaderboard();
 
 					this.setScale(1.0f);
 
@@ -2471,6 +2494,7 @@ private void showLeaderboard() {
 
 					// if(application.isLoggedIn()){
 
+					GameActivity.getInstance().submitScore(application.getBombs());
 
 
 					// }

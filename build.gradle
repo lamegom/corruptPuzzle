@@ -22,10 +22,15 @@ allprojects {
 
 }
 
-apply plugin: 'com.android.application'
-apply plugin: 'com.google.gms.google-services'
 apply plugin: 'idea'
+apply plugin: 'com.android.application'
 
+
+/*configurations.all {
+		exclude group: 'com.google.firebase', module: 'firebase-analytics-impl'
+		exclude group: 'com.google.android.gms', module: 'play-services-basement'
+
+}*/
 
 
 android {
@@ -38,8 +43,8 @@ android {
         applicationId "game.div.monymony"
         minSdkVersion 16
         targetSdkVersion 30
-        versionCode 3
-        versionName "3.0"
+        versionCode 53
+        versionName "53.0"
         multiDexEnabled true
 		
 
@@ -99,7 +104,11 @@ android {
 			signingConfig signingConfigs.release
 
         }
-    }
+		
+		debug {
+			signingConfig signingConfigs.release
+		}
+	}
 
     sourceSets {
         main {
@@ -137,14 +146,21 @@ dependencies {
    // implementation 'com.android.support:support-v4:26.0.1'
     implementation "androidx.multidex:multidex:2.0.1"
 	//implementation 'com.facebook.android:facebook-login:8.1.0'
+	//implementation 'com.google.android.gms:play-services:12.0.1'
 	implementation 'com.google.android.gms:play-services-auth:12.0.1'
 	implementation 'com.google.android.gms:play-services-ads:12.0.1'
 	implementation 'com.google.android.gms:play-services-games:12.0.1'
 	implementation 'com.google.android.gms:play-services-tasks:12.0.1'
     implementation 'org.jetbrains:annotations-java5:15.0'
+	implementation platform('com.google.firebase:firebase-bom:26.6.0')
+	//implementation ('com.google.firebase:firebase-analytics')
 
 }
 
 task wrapper2(type: Wrapper) {
     gradleVersion = '6.8.3' //version required
 }
+
+
+apply plugin: 'com.google.gms.google-services'
+

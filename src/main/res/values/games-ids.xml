@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-Google Play game services IDs.
-Save this file as res/values/games-ids.xml in your project.
--->
+<!--Google Play game services IDs. Save this file as res/values/games-ids.xml in your project.-->
 <resources>
-  <string name="app_id">666941046576</string>
-  <string name="achievement_parabns_mais_um_foradilma">CgkIzdSliMYeEAIQAA</string>
-  <string name="achievement_fique_sabendo_dos_escndalos">CgkIzdSliMYeEAIQAQ</string>
-  <string name="achievement_graa_foxter">CgkIzdSliMYeEAIQAg</string>
-  <string name="achievement_the_fcking_channel_rede_globo">CgkIzdSliMYeEAIQAw</string>
-  <string name="achievement_acredite_nisso">CgkIzdSliMYeEAIQBA</string>
-  <string name="achievement_ajustes_aps_posse_dia_112015">CgkIzdSliMYeEAIQCA</string>
-  <string name="achievement_fora_tia_">CgkIzdSliMYeEAIQCg</string>
-  <string name="achievement_ixi__sempre_assim_...">CgkIzdSliMYeEAIQDQ</string>
-  <string name="achievement_que_pass_">CgkIzdSliMYeEAIQDg</string>
-  <string name="achievement_e_agora_que_t_tudo_igual_">CgkIzdSliMYeEAIQDw</string>
-  <string name="achievement_aaand_now_">CgkIzdSliMYeEAIQEA</string>
-  <string name="achievement_truco_">CgkIzdSliMYeEAIQEQ</string>
-  <string name="achievement_ixi">CgkIzdSliMYeEAIQEg</string>
-  <string name="leaderboard_os_que_tiram_a_dilma_do_poder">CgkIzdSliMYeEAIQEw</string>
-  <string name="event_banner">CgkIzdSliMYeEAIQCQ</string>
-  <string name="event_banner_5">CgkIzdSliMYeEAIQFA</string>
-  <string name="event_banner_11">CgkIzdSliMYeEAIQFQ</string>
-  <string name="event_banner_200">CgkIzdSliMYeEAIQFg</string>
-  <string name="event_banner_1000">CgkIzdSliMYeEAIQFw</string>
+  <!--app_id-->
+  <string name="app_id" translatable="false">666941046576</string>
+  <!--package_name-->
+  <string name="package_name" translatable="false">game.div.monymony</string>
+  <!--achievement Nível 1 - Aqui começa a sua história de uma pessoa com muito $$$-->
+  <string name="achievement_nvel_1__aqui_comea_a_sua_histria_de_uma_pessoa_com_muito" translatable="false">CgkIsP6ixrQTEAIQAw</string>
+  <!--leaderboard Seja rico ou morra tentando-->
+  <string name="leaderboard_seja_rico_ou_morra_tentando" translatable="false">CgkIsP6ixrQTEAIQAA</string>
 </resources>

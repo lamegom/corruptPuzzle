@@ -20,7 +20,7 @@ import android.widget.TextView;
 //import com.facebook.widget.LoginButton;
 import org.andengine.audio.music.Music;
 
-import game.div.corruptpuzzle.R;
+import game.div.monymony.R;
 
 public class LoginActivity extends Activity {
 //    CallbackManager callbackManager;

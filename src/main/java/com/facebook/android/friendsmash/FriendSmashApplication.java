@@ -64,7 +64,7 @@ import androidx.annotation.NonNull;
 
 import game.div.cookiecounter.AndroidLauncher;
 import game.div.cookiecounter.GameActivity;
-import game.div.corruptpuzzle.R;
+import game.div.monymony.R;
 
 /**
  *  Use a custom Application class to pass state data between Activities.

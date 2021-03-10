@@ -34,7 +34,7 @@ import org.andengine.ui.activity.LayoutGameActivity;
 
 import java.util.concurrent.Executor;
 
-import game.div.corruptpuzzle.R;
+import game.div.monymony.R;
 
 public class AndroidLauncher extends Activity implements MyServices {
 

@@ -1,6 +1,7 @@
 package game.div.cookiecounter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -33,8 +34,14 @@ import com.facebook.android.friendsmash.FriendSmashApplication;
 import java.util.ArrayList;
 import java.util.List;
 
-import game.div.corruptpuzzle.R;
+import game.div.monymony.R;
 import game.div.foradilma.util.Common;
+import android.content.SharedPreferences;
+
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.games.Games;
+import com.google.android.gms.tasks.OnSuccessListener;
+
 
 public class ShopList extends AppCompatActivity  {
 //	private static ShopList _instance;
@@ -60,12 +67,30 @@ public class ShopList extends AppCompatActivity  {
 	@Override
 	  public boolean onOptionsItemSelected(MenuItem item) {
 	    switch (item.getItemId()) {
-	    // action with ID action_refresh was selected
-//	    case R.id.action_refresh:
-//	      Toast.makeText(this, "To be implemented. Please support us to new enhancements !!", Toast.LENGTH_SHORT)
-//	          .show();
-//	      break;
-	    case android.R.id.home:
+	    case R.id.login:
+		
+			SharedPreferences prefs = GameActivity.getInstance()
+				.getSharedPreferences(
+						GameActivity.getInstance().getApplicationContext()
+								.getPackageName(), Context.MODE_PRIVATE);
+
+				SharedPreferences.Editor editor = prefs.edit();
+				editor.clear();
+				editor.commit(); // commit changes
+
+	      Toast.makeText(this, "$$$ Zerados!!", Toast.LENGTH_SHORT)
+	          .show();
+			  
+			  				Config.updateQtd();
+
+				fillArray(new Config());
+
+				adapter.notifyDataSetChanged();
+	      break;
+		case R.id.conquistas:
+			GameActivity.getInstance().showAchievements();
+			break;
+		case android.R.id.home:
             NavUtils.navigateUpFromSameTask(this);
             return true;
 	    default:
@@ -73,8 +98,8 @@ public class ShopList extends AppCompatActivity  {
 	    }
 
 	    return true;
-	  } 
-	
+	  }
+
 	
 	
 	@Override
@@ -475,11 +500,17 @@ public class ShopList extends AppCompatActivity  {
 			
 			if(application.getBombs() >= Config.getCost("ITEM1COST")){
 
+                if(application.getBombs() >= Config.ITEM1COSTINITIAL && (Config.getCost("ITEM1COST") == Config.ITEM1COSTINITIAL)){
+                    GameActivity.getInstance().unlockAchievement(String.valueOf(R.string.achievement_nvel_1__aqui_comea_a_sua_histria_de_uma_pessoa_com_muito));
+                }
+
 				application.setBombs(application.getBombs() - Config.getCost("ITEM1COST")) ;
 				//Config.ITEM1COST = String.valueOf(Config.cumulativeCost(Config.ITEM1COST, Config.ITEM1NUM));
 
 				double Newrate = application.getCoins() + 0.5;
 				application.setCoins(Newrate);
+				
+
 
 				return true;
 

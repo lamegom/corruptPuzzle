@@ -18,7 +18,7 @@
 //import java.io.InputStream;
 //import java.util.List;
 //
-//import game.div.corruptpuzzle.R;
+//import game.div.monymony.R;
 //
 //public class InviteUserArrayAdapter extends ArrayAdapter<JSONObject> {
 //	private final Context context;

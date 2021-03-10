@@ -1,6 +1,6 @@
 package game.div.cookiecounter;
 
-import game.div.corruptpuzzle.R;
+import game.div.monymony.R;
 
 import java.util.HashMap;
 
