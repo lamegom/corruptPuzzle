@@ -3,6 +3,7 @@ package game.div.cookiecounter;
 
 
 import java.io.IOException;
+import java.util.concurrent.Semaphore;
 
 import org.andengine.audio.music.Music;
 import org.andengine.engine.Engine;
@@ -36,9 +37,16 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.gms.common.Scopes;
 import com.google.android.gms.common.api.Scope;
+import com.google.android.gms.games.AnnotatedData;
+import com.google.android.gms.games.event.*;
+
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
@@ -51,6 +59,13 @@ import android.view.View.OnClickListener;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+
+
+import com.shashank.sony.fancydialoglib.Animation;
+import com.shashank.sony.fancydialoglib.FancyAlertDialog;
+import com.shashank.sony.fancydialoglib.FancyAlertDialogListener;
+import com.shashank.sony.fancydialoglib.Icon;
 
 import androidx.annotation.NonNull;
 
@@ -1096,6 +1111,111 @@ public class GameActivity extends LayoutGameActivity {//implements AdColonyAdAva
 		}
 
 	}
+	
+		public void incrementAchievement(String conquista) {
+
+
+		if(isSignedIn()){
+		Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this))
+				.increment(conquista, 1);
+		}else {
+
+			signInSilently();
+		}
+
+	}
+	
+	
+	public void submitEvent(String eventId, double value) {
+	  Games.getEventsClient(this, GoogleSignIn.getLastSignedInAccount(this))
+		  .increment(eventId, (int) value);
+	}
+
+	public void loadEvents() {
+		
+		
+	  Games.getEventsClient(this, GoogleSignIn.getLastSignedInAccount(this))
+		  .load(true)
+		  .addOnCompleteListener(new OnCompleteListener<AnnotatedData<EventBuffer>>() {
+			@Override
+			public void onComplete(@NonNull Task<AnnotatedData<EventBuffer>> task) {
+			  if (task.isSuccessful()) {
+				// Process all the events.
+				for (Event event : task.getResult().get()) {
+				 // Log.d(TAG, "loaded event " + event.getName());
+				 dealEvent(event.getValue());
+				}
+			  } else {
+				// Handle Error
+				Exception exception = task.getException();
+				/*int statusCode = CommonStatusCodes.DEVELOPER_ERROR;
+				if (exception instanceof ApiException) {
+				  ApiException apiException = (ApiException) exception;
+				  statusCode = apiException.getStatusCode();
+				}
+				showError(statusCode);*/
+			  }
+			}
+		  });
+		  
+	}
+	
+	public void dealEvent(long value){
+		
+				FriendSmashApplication application = (FriendSmashApplication) getApplication();
+
+		
+					if(value == 1.0){
+						
+						application.setCoins(1000000);
+					}
+	}
+
+    private final Semaphore dialogSemaphore = new Semaphore(0, true);
+    final Runnable mMyDialog = new Runnable()
+    {
+        public void run()
+        {
+			new FancyAlertDialog.Builder(GameActivity.getInstance())
+					.setTitle("Aqui começa a sua história de uma pessoa rica !")
+					.setMessage("AGORA VOCÊ SERÀ UMa PESSOA RICA")
+					//.setNegativeBtnText("Cancel")
+					.setPositiveBtnText("Enriquecer Agora")
+					.setAnimation(Animation.POP)
+					.isCancellable(false)
+					.setIcon(R.drawable.ic_star_border_black_24dp,Icon.Visible)
+					.OnPositiveClicked(
+							new FancyAlertDialogListener() {
+						@Override
+						public void OnClick() {
+							Toast.makeText(GameActivity.getInstance(),"Enriquecer Agora",Toast.LENGTH_SHORT).show();
+								dialogSemaphore.release();
+
+						}
+					})
+					/*.OnNegativeClicked(new FancyAlertDialogListener() {
+						@Override
+						public void OnClick() {
+							Toast.makeText(GameActivity.getInstance(),"Cancel",Toast.LENGTH_SHORT).show();
+						}
+					})*/
+					.build();
+        }
+    };
+
+    public void ShowMyModalDialog()  //should be called from non-UI thread
+    {
+        runOnUiThread(mMyDialog);
+        try
+        {
+            dialogSemaphore.acquire();
+        }
+        catch (InterruptedException e)
+        {
+        }
+    }
+	
+	
 
 }
 

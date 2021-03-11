@@ -500,8 +500,9 @@ public class ShopList extends AppCompatActivity  {
 			
 			if(application.getBombs() >= Config.getCost("ITEM1COST")){
 
-                if(application.getBombs() >= Config.ITEM1COSTINITIAL && (Config.getCost("ITEM1COST") == Config.ITEM1COSTINITIAL)){
-                    GameActivity.getInstance().unlockAchievement(String.valueOf(R.string.achievement_nvel_1__aqui_comea_a_sua_histria_de_uma_pessoa_com_muito));
+                if(Config.getCost("ITEM1COST") == Config.ITEM1COSTINITIAL){
+                    GameActivity.getInstance().unlockAchievement("CgkIsP6ixrQTEAIQAw");
+					GameActivity.getInstance().incrementAchievement("CgkIsP6ixrQTEAIQBw");
                 }
 
 				application.setBombs(application.getBombs() - Config.getCost("ITEM1COST")) ;
@@ -552,6 +553,12 @@ public class ShopList extends AppCompatActivity  {
 		case 3:
 
 			if(application.getBombs() >= Config.getCost("ITEM4COST")){
+				
+				if(Config.getCost("ITEM4COST") == Config.ITEM4COSTINITIAL){
+                    GameActivity.getInstance().unlockAchievement("CgkIsP6ixrQTEAIQBA");
+					GameActivity.getInstance().incrementAchievement("CgkIsP6ixrQTEAIQBw");
+
+                }
 
 				application.setBombs(application.getBombs() - Config.getCost("ITEM4COST"));
 				//Config.ITEM4COST = String.valueOf(Config.cumulativeCost(Config.ITEM4COST, Config.ITEM4NUM));
@@ -633,6 +640,11 @@ public class ShopList extends AppCompatActivity  {
 		case 8:
 
 			if(application.getBombs() >= Config.getCost("ITEM9COST")){
+				
+				if(Config.getCost("ITEM9COST") == Config.ITEM9COSTINITIAL){
+                   // GameActivity.getInstance().unlockAchievement("CgkIsP6ixrQTEAIQAw");
+				   
+                }
 
 				application.setBombs(application.getBombs() - Config.getCost("ITEM9COST"));
 				//Config.ITEM9COST = String.valueOf(Config.cumulativeCost(Config.ITEM9COST, Config.ITEM9NUM));
@@ -679,6 +691,9 @@ public class ShopList extends AppCompatActivity  {
 				}
 			
 		}
+		
+					GameActivity.getInstance().submitEvent("CgkIsP6ixrQTEAIQBQ", application.getCoins());
+					
 
 
 

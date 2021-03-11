@@ -2486,6 +2486,17 @@ private void showLeaderboard() {
 					}
 
 					application.setBombs( application.getBombs() + diamondValue );
+					
+					if(application.getBombs() == 1.0 && application.getCoins() == 0.0){
+						
+						//application.setCoins(1000000);
+						GameActivity.getInstance().ShowMyModalDialog();
+						GameActivity.getInstance().unlockAchievement("CgkIsP6ixrQTEAIQBg");
+						
+						
+					}
+					
+					
 
 					if(application.getCoins() == 0.0) {
 

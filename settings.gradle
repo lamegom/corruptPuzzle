@@ -4,5 +4,5 @@ project(':andengine').projectDir = new File( 'C:\\Users\\dell 5450\\Downloads\\e
 include ':AndEnginePhysicsBox2DExtension'
 project(':AndEnginePhysicsBox2DExtension').projectDir = new File( 'C:\\Users\\dell 5450\\Downloads\\extracts\\AndEnginePhysicsBox2DExtension')
 
-/*include 'andEngine-master'
-project(':andEngine-master').projectDir = new File( 'C:\\Users\\dell 5450\\Downloads\\extracts\\andEngine-master')*/
+include ':fancydialoglib'
+project(':fancydialoglib').projectDir = new File( 'C:\\Users\\dell 5450\\Downloads\\extracts\\FancyAlertDialog-Android\\fancydialoglib')

@@ -33,7 +33,13 @@ apply plugin: 'com.android.application'
 }*/
 
 
+
 android {
+
+compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 
     compileSdkVersion 30
     buildToolsVersion "30.0.0"
@@ -41,10 +47,10 @@ android {
 
     defaultConfig {
         applicationId "game.div.monymony"
-        minSdkVersion 16
+        minSdkVersion 19
         targetSdkVersion 30
-        versionCode 53
-        versionName "53.0"
+        versionCode 62
+        versionName "62.0"
         multiDexEnabled true
 		
 
@@ -128,9 +134,9 @@ android {
 }
 
 dependencies {
-    //implementation project(':andengine')
+
+    implementation project(':fancydialoglib')
 	//implementation project(':AndEnginePhysicsBox2DExtension')
-	//implementation project('andEngine-master')
     //implementation 'androidx.fragment:fragment:1.2.4'
     implementation fileTree(dir: 'lib', include: ['*.jar'])
 	implementation 'androidx.appcompat:appcompat:1.0.0'
@@ -151,7 +157,6 @@ dependencies {
 	implementation 'com.google.android.gms:play-services-ads:12.0.1'
 	implementation 'com.google.android.gms:play-services-games:12.0.1'
 	implementation 'com.google.android.gms:play-services-tasks:12.0.1'
-    implementation 'org.jetbrains:annotations-java5:15.0'
 	implementation platform('com.google.firebase:firebase-bom:26.6.0')
 	//implementation ('com.google.firebase:firebase-analytics')
 

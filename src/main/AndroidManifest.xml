@@ -7,8 +7,8 @@
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.VIBRATE" />
-	<uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/>
-	<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
 
 
@@ -16,12 +16,12 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" 
+        android:theme="@style/AppTheme"
         android:name="com.facebook.android.friendsmash.FriendSmashApplication">
 
 
 
-       <activity
+        <activity
             android:name="game.div.cookiecounter.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
@@ -35,7 +35,7 @@
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-				
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -46,28 +46,28 @@
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-<!-- <activity android:name="com.facebook.FacebookActivity"
-    android:configChanges=
-        "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-    android:theme="@android:style/Theme.Translucent.NoTitleBar"
-    android:label="@string/app_name" />
-
-
-  <provider android:authorities="com.facebook.app.FacebookContentProvider1534336870138799"
-          android:name="com.facebook.FacebookContentProvider"
-          android:exported="true"/>      
-                <activity
-            android:name="game.div.cookiecounter.DonationsActivity"
-            android:label="Donations">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> -->
+        </activity>
+        <!-- <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="@string/app_name" />
+
+
+          <provider android:authorities="com.facebook.app.FacebookContentProvider1534336870138799"
+                  android:name="com.facebook.FacebookContentProvider"
+                  android:exported="true"/>
+                        <activity
+                    android:name="game.div.cookiecounter.DonationsActivity"
+                    android:label="Donations">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN" />
+
+                        <category android:name="android.intent.category.LAUNCHER" />
+                    </intent-filter>
+                </activity> -->
         <activity
             android:name="game.div.cookiecounter.Pp"
             android:label="@string/app_name" >
@@ -86,13 +86,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-         <activity
+        <activity
             android:name="game.div.cookiecounter.ShopList"
             android:label="@string/app_name"
             android:theme="@style/Theme.AppCompat.Light">
             <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value="game.div.cookiecounter.MainActivity" />
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="game.div.cookiecounter.MainActivity" />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -118,7 +118,7 @@
 
         <meta-data android:name="com.google.android.gms.games.APP_ID"
             android:value="@string/app_id" />
-		<meta-data
+        <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 

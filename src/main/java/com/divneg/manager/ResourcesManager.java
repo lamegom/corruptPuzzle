@@ -257,7 +257,7 @@ public class ResourcesManager {
 					activity, "sound/menu.ogg");
 			menu.setLooping(false);
 			intro = MusicFactory.createMusicFromAsset(engine.getMusicManager(),
-					activity, "sound/good-life.ogg");
+					activity, "sound/get-rich.wav");
 			intro.setLooping(false);
 
 		} catch (IOException e) {

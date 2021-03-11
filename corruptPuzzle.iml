@@ -48,8 +48,8 @@
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.0.0" level="project" />
     <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.0.0" level="project" />
     <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.0.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains:annotations-java5:15.0" level="project" />
     <orderEntry type="library" name="Gradle: androidx.multidex:multidex:2.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.cardview:cardview:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-auth:12.0.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads:12.0.1@aar" level="project" />
@@ -89,5 +89,6 @@
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
+    <orderEntry type="module" module-name="com.github.Shashank02051997.corruptPuzzle.fancydialoglib" />
   </component>
 </module>
